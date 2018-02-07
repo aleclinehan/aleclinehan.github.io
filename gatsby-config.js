@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    url: 'https://lumen.netlify.com/',
-    title: 'Blog by John Doe',
-    subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    url: 'https://robotbrain.media',
+    title: 'Robot Brain Media',
+    subtitle: 'Robot Brain Media helps established brands fuel, curate and explore their virtual presence ',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     menu: [
@@ -20,7 +20,7 @@ module.exports = {
       }
     ],
     author: {
-      name: 'John Doe',
+      name: '',
       email: '#',
       telegram: '#',
       twitter: '#',
