@@ -3,6 +3,7 @@
   "name": "gatsby-starter-lumen",
   "description": "Simple starter for Gatsby",
   "main": "n/a",
+  "homepage": "https://<github-username>.github.io/<project-repo>",
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
@@ -10,7 +11,7 @@
     "clean": "npm run clean:public",
     "lint": "./node_modules/.bin/eslint --cache --ext .js,.jsx --ignore-pattern public .",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gatsby build --prefix-links && gh-pages -d public"
+    "deploy": "gatsby build && gh-pages -b master -d public"
   },
   "repository": "git+https://github.com/alxshelepenok/gatsby-starter-lumen.git",
   "keywords": [
