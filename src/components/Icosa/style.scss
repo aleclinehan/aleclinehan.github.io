@@ -1,0 +1,15 @@
+
+@import "../../assets/scss/variables";
+@import "../../assets/scss/mixins";
+
+
+
+.icosa {
+  width: 80%;
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: -9999;
+}
+

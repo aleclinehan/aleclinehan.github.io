@@ -1,13 +1,23 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "updatedAt": 1518075124472,
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "680415d38e6962ca74de1d35bb7e9b49",
         "owner": "internal-data-bridge"
       }
     },
@@ -1585,7 +1595,7 @@
       "resolve": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "0faf2df93d4c1bcc60d167b13a860c8e",
+      "version": "67a272c8694a819306799fc60e6837a0",
       "pluginOptions": {
         "plugins": []
       },
@@ -1596,8 +1606,8 @@
       ],
       "pluginFilepath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io",
       "packageJson": {
-        "name": "gatsby-starter-lumen",
-        "description": "Simple starter for Gatsby",
+        "name": "robot-brain-media",
+        "description": "Robot Brain Media",
         "version": "2.0.2",
         "main": "n/a",
         "keywords": [
@@ -1610,6 +1620,10 @@
         "author": "Alexander Shelepenok <alxshelepenok@gmail.com>",
         "license": "MIT",
         "dependencies": [
+          {
+            "name": "bluebird",
+            "version": "^3.5.1"
+          },
           {
             "name": "gatsby",
             "version": "^1.9.164"
@@ -1629,6 +1643,10 @@
           {
             "name": "gatsby-plugin-google-analytics",
             "version": "^1.0.15"
+          },
+          {
+            "name": "gatsby-plugin-google-fonts",
+            "version": "latest"
           },
           {
             "name": "gatsby-plugin-offline",
@@ -1687,11 +1705,15 @@
             "version": "^4.17.4"
           },
           {
-            "name": "bluebird",
-            "version": "^3.5.1"
+            "name": "react",
+            "version": "^15.6.1"
           },
           {
-            "name": "react",
+            "name": "react-disqus-comments",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "react-dom",
             "version": "^15.6.1"
           },
           {
@@ -1699,12 +1721,12 @@
             "version": "^5.2.0"
           },
           {
-            "name": "react-disqus-comments",
-            "version": "^1.1.1"
+            "name": "react-three-renderer",
+            "version": "^3.2.3"
           },
           {
-            "name": "gatsby-plugin-google-fonts",
-            "version": "latest"
+            "name": "three",
+            "version": "^0.86.0"
           }
         ],
         "devDependencies": [
@@ -1756,7 +1778,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "43c67b646dd7d6368f3e8b83660aa5f2",
+        "contentDigest": "5e014785d68fd00a57eb9464fe755dc9",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1765,7 +1787,7 @@
       "siteMetadata": {
         "url": "https://robotbrain.media",
         "title": "Robot Brain Media",
-        "subtitle": "Helps established brands fuel, curate and explore their virtual presence ",
+        "subtitle": "Robot Brain Media helps established brands fuel, curate and explore their virtual presence ",
         "copyright": "© All rights reserved.",
         "disqusShortname": "",
         "menu": [
@@ -1783,7 +1805,7 @@
           }
         ],
         "author": {
-          "name": "Robot Brain Media",
+          "name": "",
           "email": "#",
           "telegram": "#",
           "twitter": "#",
@@ -1792,14 +1814,16 @@
           "vk": "#"
         }
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-02-07T07:45:02.526Z",
+      "buildTime": "2018-02-08T07:31:57.919Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "b4a113f75cddeb411ded5e87004c9fe0",
+        "contentDigest": "ef04d54c4b4c8697043733fcd9480480",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1809,7 +1833,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "310a74e984075c33e46ddb62238e1635",
+        "contentDigest": "2c8b0ef1c18bb5d8d2e18a4b2f8eb9af",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1819,10 +1843,10 @@
       "extension": "",
       "size": 288,
       "prettySize": "288 B",
-      "modifiedTime": "2018-02-07T05:47:09.903Z",
-      "accessTime": "2018-02-07T07:45:06.428Z",
-      "changeTime": "2018-02-07T06:56:37.942Z",
-      "birthTime": "2018-02-07T05:47:09.792Z",
+      "modifiedTime": "2018-02-07T05:48:06.000Z",
+      "accessTime": "2018-02-08T07:32:03.752Z",
+      "changeTime": "2018-02-07T08:19:53.520Z",
+      "birthTime": "2018-02-07T05:48:06.000Z",
       "root": "/",
       "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src",
       "base": "pages",
@@ -1836,23 +1860,23 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8592223498,
+      "ino": 8592385660,
       "blocks": 0,
-      "atimeMs": 1517989506428.2358,
-      "mtimeMs": 1517982429902.7874,
-      "ctimeMs": 1517986597942.049,
-      "birthtimeMs": 1517982429791.5137,
-      "atime": "2018-02-07T07:45:06.428Z",
-      "mtime": "2018-02-07T05:47:09.903Z",
-      "ctime": "2018-02-07T06:56:37.942Z",
-      "birthtime": "2018-02-07T05:47:09.792Z"
+      "atimeMs": 1518075123751.723,
+      "mtimeMs": 1517982486000,
+      "ctimeMs": 1517991593520.454,
+      "birthtimeMs": 1517982486000,
+      "atime": "2018-02-08T07:32:03.752Z",
+      "mtime": "2018-02-07T05:48:06.000Z",
+      "ctime": "2018-02-07T08:19:53.520Z",
+      "birthtime": "2018-02-07T05:48:06.000Z"
     },
     "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles absPath of file": {
       "id": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "da4d1d9ee670ba9dd416be532b1d6160",
+        "contentDigest": "0f6227b374531e1f7940480a34a852b6",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1862,10 +1886,10 @@
       "extension": "",
       "size": 224,
       "prettySize": "224 B",
-      "modifiedTime": "2018-02-07T05:47:09.854Z",
-      "accessTime": "2018-02-07T07:45:06.431Z",
-      "changeTime": "2018-02-07T06:56:37.933Z",
-      "birthTime": "2018-02-07T05:47:09.792Z",
+      "modifiedTime": "2018-02-07T05:48:06.000Z",
+      "accessTime": "2018-02-08T07:32:03.755Z",
+      "changeTime": "2018-02-07T08:19:53.515Z",
+      "birthTime": "2018-02-07T05:48:06.000Z",
       "root": "/",
       "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages",
       "base": "articles",
@@ -1879,23 +1903,23 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8592223501,
+      "ino": 8592385663,
       "blocks": 0,
-      "atimeMs": 1517989506430.6694,
-      "mtimeMs": 1517982429854.3123,
-      "ctimeMs": 1517986597932.7224,
-      "birthtimeMs": 1517982429791.9973,
-      "atime": "2018-02-07T07:45:06.431Z",
-      "mtime": "2018-02-07T05:47:09.854Z",
-      "ctime": "2018-02-07T06:56:37.933Z",
-      "birthtime": "2018-02-07T05:47:09.792Z"
+      "atimeMs": 1518075123755.1504,
+      "mtimeMs": 1517982486000,
+      "ctimeMs": 1517991593515.287,
+      "birthtimeMs": 1517982486000,
+      "atime": "2018-02-08T07:32:03.755Z",
+      "mtime": "2018-02-07T05:48:06.000Z",
+      "ctime": "2018-02-07T08:19:53.515Z",
+      "birthtime": "2018-02-07T05:48:06.000Z"
     },
     "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/pages absPath of file": {
       "id": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/pages absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "f87bb69a95afff55cf0774be64fc21d2",
+        "contentDigest": "cd764700f3485b69d1ec8476340865a8",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1905,10 +1929,10 @@
       "extension": "",
       "size": 128,
       "prettySize": "128 B",
-      "modifiedTime": "2018-02-07T05:47:09.895Z",
-      "accessTime": "2018-02-07T07:45:06.431Z",
-      "changeTime": "2018-02-07T06:56:37.942Z",
-      "birthTime": "2018-02-07T05:47:09.867Z",
+      "modifiedTime": "2018-02-07T05:48:06.000Z",
+      "accessTime": "2018-02-08T07:32:03.755Z",
+      "changeTime": "2018-02-07T08:19:53.520Z",
+      "birthTime": "2018-02-07T05:48:06.000Z",
       "root": "/",
       "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages",
       "base": "pages",
@@ -1922,23 +1946,23 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8592223523,
+      "ino": 8592385685,
       "blocks": 0,
-      "atimeMs": 1517989506430.732,
-      "mtimeMs": 1517982429895.23,
-      "ctimeMs": 1517986597941.9749,
-      "birthtimeMs": 1517982429867.082,
-      "atime": "2018-02-07T07:45:06.431Z",
-      "mtime": "2018-02-07T05:47:09.895Z",
-      "ctime": "2018-02-07T06:56:37.942Z",
-      "birthtime": "2018-02-07T05:47:09.867Z"
+      "atimeMs": 1518075123755.2937,
+      "mtimeMs": 1517982486000,
+      "ctimeMs": 1517991593520.3777,
+      "birthtimeMs": 1517982486000,
+      "atime": "2018-02-08T07:32:03.755Z",
+      "mtime": "2018-02-07T05:48:06.000Z",
+      "ctime": "2018-02-07T08:19:53.520Z",
+      "birthtime": "2018-02-07T05:48:06.000Z"
     },
     "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2016-01-09---Perfecting-the-Art-of-Perfection absPath of file": {
       "id": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2016-01-09---Perfecting-the-Art-of-Perfection absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "7f28e98952bbb725a9e2d685734eaa34",
+        "contentDigest": "073bdba8919195d0728e48621a6d07a2",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1948,10 +1972,10 @@
       "extension": "",
       "size": 128,
       "prettySize": "128 B",
-      "modifiedTime": "2018-02-07T05:47:09.806Z",
-      "accessTime": "2018-02-07T07:45:06.433Z",
-      "changeTime": "2018-02-07T06:56:37.920Z",
-      "birthTime": "2018-02-07T05:47:09.792Z",
+      "modifiedTime": "2018-02-07T05:48:06.000Z",
+      "accessTime": "2018-02-08T07:32:03.758Z",
+      "changeTime": "2018-02-07T08:19:53.508Z",
+      "birthTime": "2018-02-07T05:48:06.000Z",
       "root": "/",
       "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles",
       "base": "2016-01-09---Perfecting-the-Art-of-Perfection",
@@ -1965,23 +1989,23 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8592223505,
+      "ino": 8592385667,
       "blocks": 0,
-      "atimeMs": 1517989506432.6816,
-      "mtimeMs": 1517982429806.315,
-      "ctimeMs": 1517986597920.2725,
-      "birthtimeMs": 1517982429792.1045,
-      "atime": "2018-02-07T07:45:06.433Z",
-      "mtime": "2018-02-07T05:47:09.806Z",
-      "ctime": "2018-02-07T06:56:37.920Z",
-      "birthtime": "2018-02-07T05:47:09.792Z"
+      "atimeMs": 1518075123758.2493,
+      "mtimeMs": 1517982486000,
+      "ctimeMs": 1517991593507.8625,
+      "birthtimeMs": 1517982486000,
+      "atime": "2018-02-08T07:32:03.758Z",
+      "mtime": "2018-02-07T05:48:06.000Z",
+      "ctime": "2018-02-07T08:19:53.508Z",
+      "birthtime": "2018-02-07T05:48:06.000Z"
     },
     "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2016-01-12---The-Origins-of-Social-Stationery-Lettering absPath of file": {
       "id": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2016-01-12---The-Origins-of-Social-Stationery-Lettering absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "b587be2fe2a005480c4a31eac30a9d5e",
+        "contentDigest": "bbd340041f1f706a43a5c7104b516270",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1991,10 +2015,10 @@
       "extension": "",
       "size": 128,
       "prettySize": "128 B",
-      "modifiedTime": "2018-02-07T05:47:09.816Z",
-      "accessTime": "2018-02-07T07:45:06.433Z",
-      "changeTime": "2018-02-07T06:56:37.918Z",
-      "birthTime": "2018-02-07T05:47:09.807Z",
+      "modifiedTime": "2018-02-07T05:48:06.000Z",
+      "accessTime": "2018-02-08T07:32:03.758Z",
+      "changeTime": "2018-02-07T08:19:53.506Z",
+      "birthTime": "2018-02-07T05:48:06.000Z",
       "root": "/",
       "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles",
       "base": "2016-01-12---The-Origins-of-Social-Stationery-Lettering",
@@ -2008,23 +2032,23 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8592223502,
+      "ino": 8592385664,
       "blocks": 0,
-      "atimeMs": 1517989506432.7654,
-      "mtimeMs": 1517982429815.9097,
-      "ctimeMs": 1517986597917.5945,
-      "birthtimeMs": 1517982429806.7878,
-      "atime": "2018-02-07T07:45:06.433Z",
-      "mtime": "2018-02-07T05:47:09.816Z",
-      "ctime": "2018-02-07T06:56:37.918Z",
-      "birthtime": "2018-02-07T05:47:09.807Z"
+      "atimeMs": 1518075123758.2673,
+      "mtimeMs": 1517982486000,
+      "ctimeMs": 1517991593506.2268,
+      "birthtimeMs": 1517982486000,
+      "atime": "2018-02-08T07:32:03.758Z",
+      "mtime": "2018-02-07T05:48:06.000Z",
+      "ctime": "2018-02-07T08:19:53.506Z",
+      "birthtime": "2018-02-07T05:48:06.000Z"
     },
     "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2016-02-02---A-Brief-History-of-Typography absPath of file": {
       "id": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2016-02-02---A-Brief-History-of-Typography absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "30a6ace65c8e98ce414b0cdeeb542a21",
+        "contentDigest": "ec098f22eaee6f8f883972661c5537ac",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -2034,10 +2058,10 @@
       "extension": "",
       "size": 128,
       "prettySize": "128 B",
-      "modifiedTime": "2018-02-07T05:47:09.836Z",
-      "accessTime": "2018-02-07T07:45:06.433Z",
-      "changeTime": "2018-02-07T06:56:37.933Z",
-      "birthTime": "2018-02-07T05:47:09.816Z",
+      "modifiedTime": "2018-02-07T05:48:06.000Z",
+      "accessTime": "2018-02-08T07:32:03.758Z",
+      "changeTime": "2018-02-07T08:19:53.515Z",
+      "birthTime": "2018-02-07T05:48:06.000Z",
       "root": "/",
       "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles",
       "base": "2016-02-02---A-Brief-History-of-Typography",
@@ -2051,23 +2075,23 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8592223517,
+      "ino": 8592385679,
       "blocks": 0,
-      "atimeMs": 1517989506432.7437,
-      "mtimeMs": 1517982429835.8833,
-      "ctimeMs": 1517986597932.6458,
-      "birthtimeMs": 1517982429816.411,
-      "atime": "2018-02-07T07:45:06.433Z",
-      "mtime": "2018-02-07T05:47:09.836Z",
-      "ctime": "2018-02-07T06:56:37.933Z",
-      "birthtime": "2018-02-07T05:47:09.816Z"
+      "atimeMs": 1518075123758.324,
+      "mtimeMs": 1517982486000,
+      "ctimeMs": 1517991593515.1228,
+      "birthtimeMs": 1517982486000,
+      "atime": "2018-02-08T07:32:03.758Z",
+      "mtime": "2018-02-07T05:48:06.000Z",
+      "ctime": "2018-02-07T08:19:53.515Z",
+      "birthtime": "2018-02-07T05:48:06.000Z"
     },
     "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-18-08---The-Birth-of-Movable-Type absPath of file": {
       "id": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-18-08---The-Birth-of-Movable-Type absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "650b7d81a9729ec01de012b71713ec18",
+        "contentDigest": "ed231028a14ec2bf54ab6e437f023cc9",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -2077,10 +2101,10 @@
       "extension": "",
       "size": 192,
       "prettySize": "192 B",
-      "modifiedTime": "2018-02-07T05:47:09.845Z",
-      "accessTime": "2018-02-07T07:45:06.433Z",
-      "changeTime": "2018-02-07T06:56:37.926Z",
-      "birthTime": "2018-02-07T05:47:09.836Z",
+      "modifiedTime": "2018-02-07T05:48:06.000Z",
+      "accessTime": "2018-02-08T07:32:03.758Z",
+      "changeTime": "2018-02-07T08:19:53.511Z",
+      "birthTime": "2018-02-07T05:48:06.000Z",
       "root": "/",
       "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles",
       "base": "2017-18-08---The-Birth-of-Movable-Type",
@@ -2094,23 +2118,23 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8592223508,
+      "ino": 8592385670,
       "blocks": 0,
-      "atimeMs": 1517989506432.7654,
-      "mtimeMs": 1517982429845.2217,
-      "ctimeMs": 1517986597925.7827,
-      "birthtimeMs": 1517982429836.289,
-      "atime": "2018-02-07T07:45:06.433Z",
-      "mtime": "2018-02-07T05:47:09.845Z",
-      "ctime": "2018-02-07T06:56:37.926Z",
-      "birthtime": "2018-02-07T05:47:09.836Z"
+      "atimeMs": 1518075123758.3574,
+      "mtimeMs": 1517982486000,
+      "ctimeMs": 1517991593510.9827,
+      "birthtimeMs": 1517982486000,
+      "atime": "2018-02-08T07:32:03.758Z",
+      "mtime": "2018-02-07T05:48:06.000Z",
+      "ctime": "2018-02-07T08:19:53.511Z",
+      "birthtime": "2018-02-07T05:48:06.000Z"
     },
     "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-19-08---Humane-Typography-in-the-Digital-Age absPath of file": {
       "id": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-19-08---Humane-Typography-in-the-Digital-Age absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "bca855307148d9062f488afaeaf99db6",
+        "contentDigest": "76c4bd7d02bbb9fcff5ebb7290f902f6",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -2120,10 +2144,10 @@
       "extension": "",
       "size": 160,
       "prettySize": "160 B",
-      "modifiedTime": "2018-02-07T05:47:09.864Z",
-      "accessTime": "2018-02-07T07:45:06.433Z",
-      "changeTime": "2018-02-07T06:56:37.930Z",
-      "birthTime": "2018-02-07T05:47:09.854Z",
+      "modifiedTime": "2018-02-07T05:48:06.000Z",
+      "accessTime": "2018-02-08T07:32:03.758Z",
+      "changeTime": "2018-02-07T08:19:53.513Z",
+      "birthTime": "2018-02-07T05:48:06.000Z",
       "root": "/",
       "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles",
       "base": "2017-19-08---Humane-Typography-in-the-Digital-Age",
@@ -2137,23 +2161,23 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8592223513,
+      "ino": 8592385675,
       "blocks": 0,
-      "atimeMs": 1517989506432.785,
-      "mtimeMs": 1517982429863.987,
-      "ctimeMs": 1517986597929.882,
-      "birthtimeMs": 1517982429854.2925,
-      "atime": "2018-02-07T07:45:06.433Z",
-      "mtime": "2018-02-07T05:47:09.864Z",
-      "ctime": "2018-02-07T06:56:37.930Z",
-      "birthtime": "2018-02-07T05:47:09.854Z"
+      "atimeMs": 1518075123758.3794,
+      "mtimeMs": 1517982486000,
+      "ctimeMs": 1517991593513.1052,
+      "birthtimeMs": 1517982486000,
+      "atime": "2018-02-08T07:32:03.758Z",
+      "mtime": "2018-02-07T05:48:06.000Z",
+      "ctime": "2018-02-07T08:19:53.513Z",
+      "birthtime": "2018-02-07T05:48:06.000Z"
     },
     "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/pages/2015-05-01---about absPath of file": {
       "id": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/pages/2015-05-01---about absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "a5a76f6c92315128b04da9ee289c4aa0",
+        "contentDigest": "1118937bb5e1f5613a23aa6cb8faa04f",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -2163,10 +2187,10 @@
       "extension": "",
       "size": 128,
       "prettySize": "128 B",
-      "modifiedTime": "2018-02-07T05:47:09.895Z",
-      "accessTime": "2018-02-07T07:45:06.433Z",
-      "changeTime": "2018-02-07T06:56:37.942Z",
-      "birthTime": "2018-02-07T05:47:09.867Z",
+      "modifiedTime": "2018-02-07T05:48:06.000Z",
+      "accessTime": "2018-02-08T07:32:03.758Z",
+      "changeTime": "2018-02-07T08:19:53.520Z",
+      "birthTime": "2018-02-07T05:48:06.000Z",
       "root": "/",
       "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/pages",
       "base": "2015-05-01---about",
@@ -2180,23 +2204,23 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8592223527,
+      "ino": 8592385689,
       "blocks": 0,
-      "atimeMs": 1517989506432.8564,
-      "mtimeMs": 1517982429894.6938,
-      "ctimeMs": 1517986597941.9019,
-      "birthtimeMs": 1517982429867.2458,
-      "atime": "2018-02-07T07:45:06.433Z",
-      "mtime": "2018-02-07T05:47:09.895Z",
-      "ctime": "2018-02-07T06:56:37.942Z",
-      "birthtime": "2018-02-07T05:47:09.867Z"
+      "atimeMs": 1518075123758.4004,
+      "mtimeMs": 1517982486000,
+      "ctimeMs": 1517991593520.2622,
+      "birthtimeMs": 1517982486000,
+      "atime": "2018-02-08T07:32:03.758Z",
+      "mtime": "2018-02-07T05:48:06.000Z",
+      "ctime": "2018-02-07T08:19:53.520Z",
+      "birthtime": "2018-02-07T05:48:06.000Z"
     },
     "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/pages/2015-05-01---contact absPath of file": {
       "id": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/pages/2015-05-01---contact absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "1b724c202967157e9cb059f40c54e92c",
+        "contentDigest": "ae5003912c03c4dbf10f26a35a7084e0",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -2206,10 +2230,10 @@
       "extension": "",
       "size": 128,
       "prettySize": "128 B",
-      "modifiedTime": "2018-02-07T05:47:09.902Z",
-      "accessTime": "2018-02-07T07:45:06.433Z",
-      "changeTime": "2018-02-07T06:56:37.939Z",
-      "birthTime": "2018-02-07T05:47:09.895Z",
+      "modifiedTime": "2018-02-07T05:48:06.000Z",
+      "accessTime": "2018-02-08T07:32:03.758Z",
+      "changeTime": "2018-02-07T08:19:53.519Z",
+      "birthTime": "2018-02-07T05:48:06.000Z",
       "root": "/",
       "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/pages",
       "base": "2015-05-01---contact",
@@ -2223,16 +2247,166 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8592223524,
+      "ino": 8592385686,
       "blocks": 0,
-      "atimeMs": 1517989506432.875,
-      "mtimeMs": 1517982429901.6404,
-      "ctimeMs": 1517986597939.184,
-      "birthtimeMs": 1517982429895.212,
-      "atime": "2018-02-07T07:45:06.433Z",
-      "mtime": "2018-02-07T05:47:09.902Z",
-      "ctime": "2018-02-07T06:56:37.939Z",
-      "birthtime": "2018-02-07T05:47:09.895Z"
+      "atimeMs": 1518075123758.4197,
+      "mtimeMs": 1517982486000,
+      "ctimeMs": 1517991593518.7742,
+      "birthtimeMs": 1517982486000,
+      "atime": "2018-02-08T07:32:03.758Z",
+      "mtime": "2018-02-07T05:48:06.000Z",
+      "ctime": "2018-02-07T08:19:53.519Z",
+      "birthtime": "2018-02-07T05:48:06.000Z"
+    },
+    "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/categories.jsx absPath of file": {
+      "id": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/categories.jsx absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a4ac3acb0e3c97348c0cb4b5e8258ba4",
+        "mediaType": "text/jsx",
+        "type": "File",
+        "owner": "gatsby-source-filesystem",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/categories.jsx",
+      "relativePath": "categories.jsx",
+      "extension": "jsx",
+      "size": 2044,
+      "prettySize": "2.04 kB",
+      "modifiedTime": "2018-02-08T09:37:23.071Z",
+      "accessTime": "2018-02-08T09:36:53.302Z",
+      "changeTime": "2018-02-08T09:37:23.071Z",
+      "birthTime": "2018-02-07T05:48:06.000Z",
+      "root": "/",
+      "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages",
+      "base": "categories.jsx",
+      "ext": ".jsx",
+      "name": "categories",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8592385662,
+      "blocks": 8,
+      "atimeMs": 1518082613302.0417,
+      "mtimeMs": 1518082643070.5415,
+      "ctimeMs": 1518082643070.5415,
+      "birthtimeMs": 1517982486000,
+      "atime": "2018-02-08T09:36:53.302Z",
+      "mtime": "2018-02-08T09:37:23.071Z",
+      "ctime": "2018-02-08T09:37:23.071Z",
+      "birthtime": "2018-02-07T05:48:06.000Z",
+      "fields": {
+        "slug": "/undefined/"
+      }
+    },
+    "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/404.jsx absPath of file": {
+      "id": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/404.jsx absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "59211e192cfbeb0a5491c0f80648450b",
+        "mediaType": "text/jsx",
+        "type": "File",
+        "owner": "gatsby-source-filesystem",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/404.jsx",
+      "relativePath": "404.jsx",
+      "extension": "jsx",
+      "size": 1048,
+      "prettySize": "1.05 kB",
+      "modifiedTime": "2018-02-08T09:37:26.726Z",
+      "accessTime": "2018-02-08T09:37:23.817Z",
+      "changeTime": "2018-02-08T09:37:26.726Z",
+      "birthTime": "2018-02-07T05:48:06.000Z",
+      "root": "/",
+      "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages",
+      "base": "404.jsx",
+      "ext": ".jsx",
+      "name": "404",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8592385683,
+      "blocks": 8,
+      "atimeMs": 1518082643817.4348,
+      "mtimeMs": 1518082646725.8691,
+      "ctimeMs": 1518082646725.8691,
+      "birthtimeMs": 1517982486000,
+      "atime": "2018-02-08T09:37:23.817Z",
+      "mtime": "2018-02-08T09:37:26.726Z",
+      "ctime": "2018-02-08T09:37:26.726Z",
+      "birthtime": "2018-02-07T05:48:06.000Z",
+      "fields": {
+        "slug": "/undefined/"
+      }
+    },
+    "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/index.jsx absPath of file": {
+      "id": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/index.jsx absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ae80907c9447427081f61a8dd004fe1c",
+        "mediaType": "text/jsx",
+        "type": "File",
+        "owner": "gatsby-source-filesystem",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/index.jsx",
+      "relativePath": "index.jsx",
+      "extension": "jsx",
+      "size": 1694,
+      "prettySize": "1.69 kB",
+      "modifiedTime": "2018-02-08T08:15:42.080Z",
+      "accessTime": "2018-02-08T08:15:42.080Z",
+      "changeTime": "2018-02-08T08:15:42.080Z",
+      "birthTime": "2018-02-07T05:48:06.000Z",
+      "root": "/",
+      "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages",
+      "base": "index.jsx",
+      "ext": ".jsx",
+      "name": "index",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8592385684,
+      "blocks": 8,
+      "atimeMs": 1518077742080.0508,
+      "mtimeMs": 1518077742080.389,
+      "ctimeMs": 1518077742080.389,
+      "birthtimeMs": 1517982486000,
+      "atime": "2018-02-08T08:15:42.080Z",
+      "mtime": "2018-02-08T08:15:42.080Z",
+      "ctime": "2018-02-08T08:15:42.080Z",
+      "birthtime": "2018-02-07T05:48:06.000Z",
+      "fields": {
+        "slug": "/undefined/"
+      }
     },
     "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/photo.jpg absPath of file": {
       "id": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/photo.jpg absPath of file",
@@ -2255,10 +2429,10 @@
       "extension": "jpg",
       "size": 4372,
       "prettySize": "4.37 kB",
-      "modifiedTime": "2018-02-07T05:47:09.903Z",
-      "accessTime": "2018-02-07T07:28:15.115Z",
-      "changeTime": "2018-02-07T06:56:37.934Z",
-      "birthTime": "2018-02-07T05:47:09.902Z",
+      "modifiedTime": "2018-02-07T05:48:06.000Z",
+      "accessTime": "2018-02-08T06:55:45.614Z",
+      "changeTime": "2018-02-07T08:19:53.516Z",
+      "birthTime": "2018-02-07T05:48:06.000Z",
       "root": "/",
       "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages",
       "base": "photo.jpg",
@@ -2266,72 +2440,22 @@
       "name": "photo",
       "relativeDirectory": "",
       "dev": 16777220,
-      "mode": 33188,
+      "mode": 33261,
       "nlink": 1,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8592223520,
+      "ino": 8592385682,
       "blocks": 16,
-      "atimeMs": 1517988495115.195,
-      "mtimeMs": 1517982429902.558,
-      "ctimeMs": 1517986597933.7964,
-      "birthtimeMs": 1517982429902.3457,
-      "atime": "2018-02-07T07:28:15.115Z",
-      "mtime": "2018-02-07T05:47:09.903Z",
-      "ctime": "2018-02-07T06:56:37.934Z",
-      "birthtime": "2018-02-07T05:47:09.902Z",
-      "fields": {
-        "slug": "/undefined/"
-      }
-    },
-    "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/404.jsx absPath of file": {
-      "id": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/404.jsx absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "b32ddb0a02aa0657e89ebf16eb7d8a8f",
-        "mediaType": "text/jsx",
-        "type": "File",
-        "owner": "gatsby-source-filesystem",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/404.jsx",
-      "relativePath": "404.jsx",
-      "extension": "jsx",
-      "size": 973,
-      "prettySize": "973 B",
-      "modifiedTime": "2018-02-07T05:47:09.792Z",
-      "accessTime": "2018-02-07T07:38:24.612Z",
-      "changeTime": "2018-02-07T06:56:37.935Z",
-      "birthTime": "2018-02-07T05:47:09.792Z",
-      "root": "/",
-      "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages",
-      "base": "404.jsx",
-      "ext": ".jsx",
-      "name": "404",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8592223521,
-      "blocks": 8,
-      "atimeMs": 1517989104611.6746,
-      "mtimeMs": 1517982429791.8079,
-      "ctimeMs": 1517986597934.9211,
-      "birthtimeMs": 1517982429791.6245,
-      "atime": "2018-02-07T07:38:24.612Z",
-      "mtime": "2018-02-07T05:47:09.792Z",
-      "ctime": "2018-02-07T06:56:37.935Z",
-      "birthtime": "2018-02-07T05:47:09.792Z",
+      "atimeMs": 1518072945614.0996,
+      "mtimeMs": 1517982486000,
+      "ctimeMs": 1517991593515.952,
+      "birthtimeMs": 1517982486000,
+      "atime": "2018-02-08T06:55:45.614Z",
+      "mtime": "2018-02-07T05:48:06.000Z",
+      "ctime": "2018-02-07T08:19:53.516Z",
+      "birthtime": "2018-02-07T05:48:06.000Z",
       "fields": {
         "slug": "/undefined/"
       }
@@ -2341,7 +2465,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "91f48f06eab29bde3fb9f056467b5094",
+        "contentDigest": "9370bd58ccbebedf02ffb36d9fcbc7f8",
         "mediaType": "text/jsx",
         "type": "File",
         "owner": "gatsby-source-filesystem",
@@ -2353,12 +2477,12 @@
       "absolutePath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/tags.jsx",
       "relativePath": "tags.jsx",
       "extension": "jsx",
-      "size": 1868,
-      "prettySize": "1.87 kB",
-      "modifiedTime": "2018-02-07T05:47:09.903Z",
-      "accessTime": "2018-02-07T07:38:24.612Z",
-      "changeTime": "2018-02-07T06:56:37.913Z",
-      "birthTime": "2018-02-07T05:47:09.903Z",
+      "size": 1943,
+      "prettySize": "1.94 kB",
+      "modifiedTime": "2018-02-08T09:37:36.289Z",
+      "accessTime": "2018-02-08T09:37:36.289Z",
+      "changeTime": "2018-02-08T09:37:36.289Z",
+      "birthTime": "2018-02-07T05:48:06.000Z",
       "root": "/",
       "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages",
       "base": "tags.jsx",
@@ -2366,122 +2490,22 @@
       "name": "tags",
       "relativeDirectory": "",
       "dev": 16777220,
-      "mode": 33188,
+      "mode": 33261,
       "nlink": 1,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8592223499,
+      "ino": 8592385661,
       "blocks": 8,
-      "atimeMs": 1517989104611.823,
-      "mtimeMs": 1517982429902.884,
-      "ctimeMs": 1517986597912.9277,
-      "birthtimeMs": 1517982429902.7683,
-      "atime": "2018-02-07T07:38:24.612Z",
-      "mtime": "2018-02-07T05:47:09.903Z",
-      "ctime": "2018-02-07T06:56:37.913Z",
-      "birthtime": "2018-02-07T05:47:09.903Z",
-      "fields": {
-        "slug": "/undefined/"
-      }
-    },
-    "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/categories.jsx absPath of file": {
-      "id": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/categories.jsx absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "a28203331f396563d3aef95803b999c1",
-        "mediaType": "text/jsx",
-        "type": "File",
-        "owner": "gatsby-source-filesystem",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/categories.jsx",
-      "relativePath": "categories.jsx",
-      "extension": "jsx",
-      "size": 1969,
-      "prettySize": "1.97 kB",
-      "modifiedTime": "2018-02-07T05:47:09.866Z",
-      "accessTime": "2018-02-07T07:38:24.612Z",
-      "changeTime": "2018-02-07T06:56:37.914Z",
-      "birthTime": "2018-02-07T05:47:09.866Z",
-      "root": "/",
-      "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages",
-      "base": "categories.jsx",
-      "ext": ".jsx",
-      "name": "categories",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8592223500,
-      "blocks": 8,
-      "atimeMs": 1517989104611.775,
-      "mtimeMs": 1517982429866.385,
-      "ctimeMs": 1517986597914.1143,
-      "birthtimeMs": 1517982429866.1775,
-      "atime": "2018-02-07T07:38:24.612Z",
-      "mtime": "2018-02-07T05:47:09.866Z",
-      "ctime": "2018-02-07T06:56:37.914Z",
-      "birthtime": "2018-02-07T05:47:09.866Z",
-      "fields": {
-        "slug": "/undefined/"
-      }
-    },
-    "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/index.jsx absPath of file": {
-      "id": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/index.jsx absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "52db30302f3524d862b987fb01c721ec",
-        "mediaType": "text/jsx",
-        "type": "File",
-        "owner": "gatsby-source-filesystem",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/index.jsx",
-      "relativePath": "index.jsx",
-      "extension": "jsx",
-      "size": 1617,
-      "prettySize": "1.62 kB",
-      "modifiedTime": "2018-02-07T05:47:09.867Z",
-      "accessTime": "2018-02-07T07:38:24.612Z",
-      "changeTime": "2018-02-07T06:56:37.936Z",
-      "birthTime": "2018-02-07T05:47:09.867Z",
-      "root": "/",
-      "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages",
-      "base": "index.jsx",
-      "ext": ".jsx",
-      "name": "index",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8592223522,
-      "blocks": 8,
-      "atimeMs": 1517989104611.7798,
-      "mtimeMs": 1517982429866.8167,
-      "ctimeMs": 1517986597936.1233,
-      "birthtimeMs": 1517982429866.663,
-      "atime": "2018-02-07T07:38:24.612Z",
-      "mtime": "2018-02-07T05:47:09.867Z",
-      "ctime": "2018-02-07T06:56:37.936Z",
-      "birthtime": "2018-02-07T05:47:09.867Z",
+      "atimeMs": 1518082656289.008,
+      "mtimeMs": 1518082656289.3518,
+      "ctimeMs": 1518082656289.3518,
+      "birthtimeMs": 1517982486000,
+      "atime": "2018-02-08T09:37:36.289Z",
+      "mtime": "2018-02-08T09:37:36.289Z",
+      "ctime": "2018-02-08T09:37:36.289Z",
+      "birthtime": "2018-02-07T05:48:06.000Z",
       "fields": {
         "slug": "/undefined/"
       }
@@ -2507,10 +2531,10 @@
       "extension": "md",
       "size": 1727,
       "prettySize": "1.73 kB",
-      "modifiedTime": "2018-02-07T05:47:09.807Z",
-      "accessTime": "2018-02-07T07:26:20.476Z",
-      "changeTime": "2018-02-07T06:56:37.919Z",
-      "birthTime": "2018-02-07T05:47:09.806Z",
+      "modifiedTime": "2018-02-07T05:48:06.000Z",
+      "accessTime": "2018-02-07T08:19:57.597Z",
+      "changeTime": "2018-02-07T08:19:53.507Z",
+      "birthTime": "2018-02-07T05:48:06.000Z",
       "root": "/",
       "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2016-01-09---Perfecting-the-Art-of-Perfection",
       "base": "index.md",
@@ -2518,76 +2542,24 @@
       "name": "index",
       "relativeDirectory": "articles/2016-01-09---Perfecting-the-Art-of-Perfection",
       "dev": 16777220,
-      "mode": 33188,
+      "mode": 33261,
       "nlink": 1,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8592223506,
+      "ino": 8592385668,
       "blocks": 8,
-      "atimeMs": 1517988380475.955,
-      "mtimeMs": 1517982429806.558,
-      "ctimeMs": 1517986597919.0742,
-      "birthtimeMs": 1517982429806.2817,
-      "atime": "2018-02-07T07:26:20.476Z",
-      "mtime": "2018-02-07T05:47:09.807Z",
-      "ctime": "2018-02-07T06:56:37.919Z",
-      "birthtime": "2018-02-07T05:47:09.806Z",
+      "atimeMs": 1517991597596.8196,
+      "mtimeMs": 1517982486000,
+      "ctimeMs": 1517991593507.0352,
+      "birthtimeMs": 1517982486000,
+      "atime": "2018-02-07T08:19:57.597Z",
+      "mtime": "2018-02-07T05:48:06.000Z",
+      "ctime": "2018-02-07T08:19:53.507Z",
+      "birthtime": "2018-02-07T05:48:06.000Z",
       "fields": {
         "slug": "/Perfecting-the-Art-of-Perfection/"
-      }
-    },
-    "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2016-02-02---A-Brief-History-of-Typography/index.md absPath of file": {
-      "id": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2016-02-02---A-Brief-History-of-Typography/index.md absPath of file",
-      "children": [
-        "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2016-02-02---A-Brief-History-of-Typography/index.md absPath of file >>> MarkdownRemark"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "344ebc439a94c07483f6ee64e172fb81",
-        "mediaType": "text/markdown",
-        "type": "File",
-        "owner": "gatsby-source-filesystem",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2016-02-02---A-Brief-History-of-Typography/index.md",
-      "relativePath": "articles/2016-02-02---A-Brief-History-of-Typography/index.md",
-      "extension": "md",
-      "size": 2803,
-      "prettySize": "2.8 kB",
-      "modifiedTime": "2018-02-07T05:47:09.836Z",
-      "accessTime": "2018-02-07T07:26:20.477Z",
-      "changeTime": "2018-02-07T06:56:37.931Z",
-      "birthTime": "2018-02-07T05:47:09.836Z",
-      "root": "/",
-      "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2016-02-02---A-Brief-History-of-Typography",
-      "base": "index.md",
-      "ext": ".md",
-      "name": "index",
-      "relativeDirectory": "articles/2016-02-02---A-Brief-History-of-Typography",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8592223518,
-      "blocks": 8,
-      "atimeMs": 1517988380477.4072,
-      "mtimeMs": 1517982429835.988,
-      "ctimeMs": 1517986597931.306,
-      "birthtimeMs": 1517982429835.8684,
-      "atime": "2018-02-07T07:26:20.477Z",
-      "mtime": "2018-02-07T05:47:09.836Z",
-      "ctime": "2018-02-07T06:56:37.931Z",
-      "birthtime": "2018-02-07T05:47:09.836Z",
-      "fields": {
-        "slug": "/A-Brief-History-of-Typography/"
       }
     },
     "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2016-01-12---The-Origins-of-Social-Stationery-Lettering/index.md absPath of file": {
@@ -2611,10 +2583,10 @@
       "extension": "md",
       "size": 2833,
       "prettySize": "2.83 kB",
-      "modifiedTime": "2018-02-07T05:47:09.816Z",
-      "accessTime": "2018-02-07T07:26:20.476Z",
-      "changeTime": "2018-02-07T06:56:37.916Z",
-      "birthTime": "2018-02-07T05:47:09.816Z",
+      "modifiedTime": "2018-02-07T05:48:06.000Z",
+      "accessTime": "2018-02-07T08:23:19.007Z",
+      "changeTime": "2018-02-07T08:19:53.505Z",
+      "birthTime": "2018-02-07T05:48:06.000Z",
       "root": "/",
       "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2016-01-12---The-Origins-of-Social-Stationery-Lettering",
       "base": "index.md",
@@ -2622,24 +2594,76 @@
       "name": "index",
       "relativeDirectory": "articles/2016-01-12---The-Origins-of-Social-Stationery-Lettering",
       "dev": 16777220,
-      "mode": 33188,
+      "mode": 33261,
       "nlink": 1,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8592223503,
+      "ino": 8592385665,
       "blocks": 8,
-      "atimeMs": 1517988380476.1506,
-      "mtimeMs": 1517982429816.0618,
-      "ctimeMs": 1517986597916.287,
-      "birthtimeMs": 1517982429815.8884,
-      "atime": "2018-02-07T07:26:20.476Z",
-      "mtime": "2018-02-07T05:47:09.816Z",
-      "ctime": "2018-02-07T06:56:37.916Z",
-      "birthtime": "2018-02-07T05:47:09.816Z",
+      "atimeMs": 1517991799006.6968,
+      "mtimeMs": 1517982486000,
+      "ctimeMs": 1517991593505.491,
+      "birthtimeMs": 1517982486000,
+      "atime": "2018-02-07T08:23:19.007Z",
+      "mtime": "2018-02-07T05:48:06.000Z",
+      "ctime": "2018-02-07T08:19:53.505Z",
+      "birthtime": "2018-02-07T05:48:06.000Z",
       "fields": {
         "slug": "/The-Origins-of-Social-Stationery-Lettering/"
+      }
+    },
+    "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2016-02-02---A-Brief-History-of-Typography/index.md absPath of file": {
+      "id": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2016-02-02---A-Brief-History-of-Typography/index.md absPath of file",
+      "children": [
+        "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2016-02-02---A-Brief-History-of-Typography/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "344ebc439a94c07483f6ee64e172fb81",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2016-02-02---A-Brief-History-of-Typography/index.md",
+      "relativePath": "articles/2016-02-02---A-Brief-History-of-Typography/index.md",
+      "extension": "md",
+      "size": 2803,
+      "prettySize": "2.8 kB",
+      "modifiedTime": "2018-02-07T05:48:06.000Z",
+      "accessTime": "2018-02-07T08:23:19.007Z",
+      "changeTime": "2018-02-07T08:19:53.514Z",
+      "birthTime": "2018-02-07T05:48:06.000Z",
+      "root": "/",
+      "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2016-02-02---A-Brief-History-of-Typography",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "articles/2016-02-02---A-Brief-History-of-Typography",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8592385680,
+      "blocks": 8,
+      "atimeMs": 1517991799006.896,
+      "mtimeMs": 1517982486000,
+      "ctimeMs": 1517991593513.823,
+      "birthtimeMs": 1517982486000,
+      "atime": "2018-02-07T08:23:19.007Z",
+      "mtime": "2018-02-07T05:48:06.000Z",
+      "ctime": "2018-02-07T08:19:53.514Z",
+      "birthtime": "2018-02-07T05:48:06.000Z",
+      "fields": {
+        "slug": "/A-Brief-History-of-Typography/"
       }
     },
     "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-18-08---The-Birth-of-Movable-Type/index.md absPath of file": {
@@ -2663,10 +2687,10 @@
       "extension": "md",
       "size": 16080,
       "prettySize": "16.1 kB",
-      "modifiedTime": "2018-02-07T05:47:09.845Z",
-      "accessTime": "2018-02-07T07:26:20.478Z",
-      "changeTime": "2018-02-07T06:56:37.924Z",
-      "birthTime": "2018-02-07T05:47:09.842Z",
+      "modifiedTime": "2018-02-07T05:48:06.000Z",
+      "accessTime": "2018-02-07T08:19:57.746Z",
+      "changeTime": "2018-02-07T08:19:53.510Z",
+      "birthTime": "2018-02-07T05:48:06.000Z",
       "root": "/",
       "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-18-08---The-Birth-of-Movable-Type",
       "base": "index.md",
@@ -2674,22 +2698,22 @@
       "name": "index",
       "relativeDirectory": "articles/2017-18-08---The-Birth-of-Movable-Type",
       "dev": 16777220,
-      "mode": 33188,
+      "mode": 33261,
       "nlink": 1,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8592223511,
+      "ino": 8592385673,
       "blocks": 32,
-      "atimeMs": 1517988380477.61,
-      "mtimeMs": 1517982429844.7698,
-      "ctimeMs": 1517986597924.4304,
-      "birthtimeMs": 1517982429842.254,
-      "atime": "2018-02-07T07:26:20.478Z",
-      "mtime": "2018-02-07T05:47:09.845Z",
-      "ctime": "2018-02-07T06:56:37.924Z",
-      "birthtime": "2018-02-07T05:47:09.842Z",
+      "atimeMs": 1517991597746.3494,
+      "mtimeMs": 1517982486000,
+      "ctimeMs": 1517991593510.291,
+      "birthtimeMs": 1517982486000,
+      "atime": "2018-02-07T08:19:57.746Z",
+      "mtime": "2018-02-07T05:48:06.000Z",
+      "ctime": "2018-02-07T08:19:53.510Z",
+      "birthtime": "2018-02-07T05:48:06.000Z",
       "fields": {
         "slug": "/The-Birth-of-Movable-Type/"
       }
@@ -2715,10 +2739,10 @@
       "extension": "md",
       "size": 7279,
       "prettySize": "7.28 kB",
-      "modifiedTime": "2018-02-07T05:47:09.863Z",
-      "accessTime": "2018-02-07T07:26:20.478Z",
-      "changeTime": "2018-02-07T06:56:37.929Z",
-      "birthTime": "2018-02-07T05:47:09.863Z",
+      "modifiedTime": "2018-02-07T05:48:06.000Z",
+      "accessTime": "2018-02-07T08:23:19.007Z",
+      "changeTime": "2018-02-07T08:19:53.512Z",
+      "birthTime": "2018-02-07T05:48:06.000Z",
       "root": "/",
       "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-19-08---Humane-Typography-in-the-Digital-Age",
       "base": "index.md",
@@ -2726,22 +2750,22 @@
       "name": "index",
       "relativeDirectory": "articles/2017-19-08---Humane-Typography-in-the-Digital-Age",
       "dev": 16777220,
-      "mode": 33188,
+      "mode": 33261,
       "nlink": 1,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8592223515,
+      "ino": 8592385677,
       "blocks": 16,
-      "atimeMs": 1517988380477.8013,
-      "mtimeMs": 1517982429863.4978,
-      "ctimeMs": 1517986597928.5132,
-      "birthtimeMs": 1517982429863.1233,
-      "atime": "2018-02-07T07:26:20.478Z",
-      "mtime": "2018-02-07T05:47:09.863Z",
-      "ctime": "2018-02-07T06:56:37.929Z",
-      "birthtime": "2018-02-07T05:47:09.863Z",
+      "atimeMs": 1517991799007.437,
+      "mtimeMs": 1517982486000,
+      "ctimeMs": 1517991593512.4065,
+      "birthtimeMs": 1517982486000,
+      "atime": "2018-02-07T08:23:19.007Z",
+      "mtime": "2018-02-07T05:48:06.000Z",
+      "ctime": "2018-02-07T08:19:53.512Z",
+      "birthtime": "2018-02-07T05:48:06.000Z",
       "fields": {
         "slug": "/Humane-Typography-in-the-Digital-Age/"
       }
@@ -2767,10 +2791,10 @@
       "extension": "md",
       "size": 1082,
       "prettySize": "1.08 kB",
-      "modifiedTime": "2018-02-07T05:47:09.895Z",
-      "accessTime": "2018-02-07T07:26:20.476Z",
-      "changeTime": "2018-02-07T06:56:37.941Z",
-      "birthTime": "2018-02-07T05:47:09.895Z",
+      "modifiedTime": "2018-02-07T05:48:06.000Z",
+      "accessTime": "2018-02-07T08:23:19.008Z",
+      "changeTime": "2018-02-07T08:19:53.520Z",
+      "birthTime": "2018-02-07T05:48:06.000Z",
       "root": "/",
       "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/pages/2015-05-01---about",
       "base": "index.md",
@@ -2778,22 +2802,22 @@
       "name": "index",
       "relativeDirectory": "pages/2015-05-01---about",
       "dev": 16777220,
-      "mode": 33188,
+      "mode": 33261,
       "nlink": 1,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8592223528,
+      "ino": 8592385690,
       "blocks": 8,
-      "atimeMs": 1517988380475.6082,
-      "mtimeMs": 1517982429894.8765,
-      "ctimeMs": 1517986597940.5813,
-      "birthtimeMs": 1517982429894.6743,
-      "atime": "2018-02-07T07:26:20.476Z",
-      "mtime": "2018-02-07T05:47:09.895Z",
-      "ctime": "2018-02-07T06:56:37.941Z",
-      "birthtime": "2018-02-07T05:47:09.895Z",
+      "atimeMs": 1517991799007.6506,
+      "mtimeMs": 1517982486000,
+      "ctimeMs": 1517991593519.5269,
+      "birthtimeMs": 1517982486000,
+      "atime": "2018-02-07T08:23:19.008Z",
+      "mtime": "2018-02-07T05:48:06.000Z",
+      "ctime": "2018-02-07T08:19:53.520Z",
+      "birthtime": "2018-02-07T05:48:06.000Z",
       "fields": {
         "slug": "/about/"
       }
@@ -2819,10 +2843,10 @@
       "extension": "md",
       "size": 1799,
       "prettySize": "1.8 kB",
-      "modifiedTime": "2018-02-07T05:47:09.902Z",
-      "accessTime": "2018-02-07T07:26:20.476Z",
-      "changeTime": "2018-02-07T06:56:37.938Z",
-      "birthTime": "2018-02-07T05:47:09.902Z",
+      "modifiedTime": "2018-02-07T05:48:06.000Z",
+      "accessTime": "2018-02-07T08:23:19.008Z",
+      "changeTime": "2018-02-07T08:19:53.518Z",
+      "birthTime": "2018-02-07T05:48:06.000Z",
       "root": "/",
       "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/pages/2015-05-01---contact",
       "base": "index.md",
@@ -2830,34 +2854,24 @@
       "name": "index",
       "relativeDirectory": "pages/2015-05-01---contact",
       "dev": 16777220,
-      "mode": 33188,
+      "mode": 33261,
       "nlink": 1,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8592223525,
+      "ino": 8592385687,
       "blocks": 8,
-      "atimeMs": 1517988380475.7737,
-      "mtimeMs": 1517982429901.9546,
-      "ctimeMs": 1517986597937.925,
-      "birthtimeMs": 1517982429901.6199,
-      "atime": "2018-02-07T07:26:20.476Z",
-      "mtime": "2018-02-07T05:47:09.902Z",
-      "ctime": "2018-02-07T06:56:37.938Z",
-      "birthtime": "2018-02-07T05:47:09.902Z",
+      "atimeMs": 1517991799007.7869,
+      "mtimeMs": 1517982486000,
+      "ctimeMs": 1517991593518.1,
+      "birthtimeMs": 1517982486000,
+      "atime": "2018-02-07T08:23:19.008Z",
+      "mtime": "2018-02-07T05:48:06.000Z",
+      "ctime": "2018-02-07T08:19:53.518Z",
+      "birthtime": "2018-02-07T05:48:06.000Z",
       "fields": {
         "slug": "/contact/"
-      }
-    },
-    "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/photo.jpg absPath of file >> ImageSharp": {
-      "id": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/photo.jpg absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/photo.jpg absPath of file",
-      "internal": {
-        "contentDigest": "0c8fafc8bef8cc5e681b4713fc1affdb",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
       }
     },
     "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-19-08---Humane-Typography-in-the-Digital-Age/type-through-time.jpg absPath of file": {
@@ -2881,10 +2895,10 @@
       "extension": "jpg",
       "size": 117689,
       "prettySize": "118 kB",
-      "modifiedTime": "2018-02-07T05:47:09.866Z",
-      "accessTime": "2018-02-07T07:26:20.478Z",
-      "changeTime": "2018-02-07T06:56:37.930Z",
-      "birthTime": "2018-02-07T05:47:09.864Z",
+      "modifiedTime": "2018-02-07T05:48:06.000Z",
+      "accessTime": "2018-02-08T07:32:03.759Z",
+      "changeTime": "2018-02-07T08:19:53.513Z",
+      "birthTime": "2018-02-07T05:48:06.000Z",
       "root": "/",
       "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-19-08---Humane-Typography-in-the-Digital-Age",
       "base": "type-through-time.jpg",
@@ -2892,24 +2906,34 @@
       "name": "type-through-time",
       "relativeDirectory": "articles/2017-19-08---Humane-Typography-in-the-Digital-Age",
       "dev": 16777220,
-      "mode": 33188,
+      "mode": 33261,
       "nlink": 1,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8592223516,
+      "ino": 8592385678,
       "blocks": 232,
-      "atimeMs": 1517988380477.8323,
-      "mtimeMs": 1517982429865.8977,
-      "ctimeMs": 1517986597929.7961,
-      "birthtimeMs": 1517982429863.9346,
-      "atime": "2018-02-07T07:26:20.478Z",
-      "mtime": "2018-02-07T05:47:09.866Z",
-      "ctime": "2018-02-07T06:56:37.930Z",
-      "birthtime": "2018-02-07T05:47:09.864Z",
+      "atimeMs": 1518075123758.8328,
+      "mtimeMs": 1517982486000,
+      "ctimeMs": 1517991593513.024,
+      "birthtimeMs": 1517982486000,
+      "atime": "2018-02-08T07:32:03.759Z",
+      "mtime": "2018-02-07T05:48:06.000Z",
+      "ctime": "2018-02-07T08:19:53.513Z",
+      "birthtime": "2018-02-07T05:48:06.000Z",
       "fields": {
         "slug": "/Humane-Typography-in-the-Digital-Age/"
+      }
+    },
+    "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/photo.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/photo.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/photo.jpg absPath of file",
+      "internal": {
+        "contentDigest": "0c8fafc8bef8cc5e681b4713fc1affdb",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
       }
     },
     "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-18-08---The-Birth-of-Movable-Type/Gutenberg.jpg absPath of file": {
@@ -2933,10 +2957,10 @@
       "extension": "jpg",
       "size": 155002,
       "prettySize": "155 kB",
-      "modifiedTime": "2018-02-07T05:47:09.839Z",
-      "accessTime": "2018-02-07T07:26:20.478Z",
-      "changeTime": "2018-02-07T06:56:37.922Z",
-      "birthTime": "2018-02-07T05:47:09.836Z",
+      "modifiedTime": "2018-02-07T05:48:06.000Z",
+      "accessTime": "2018-02-07T09:40:33.836Z",
+      "changeTime": "2018-02-07T08:19:53.509Z",
+      "birthTime": "2018-02-07T05:48:06.000Z",
       "root": "/",
       "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-18-08---The-Birth-of-Movable-Type",
       "base": "Gutenberg.jpg",
@@ -2944,22 +2968,22 @@
       "name": "Gutenberg",
       "relativeDirectory": "articles/2017-18-08---The-Birth-of-Movable-Type",
       "dev": 16777220,
-      "mode": 33188,
+      "mode": 33261,
       "nlink": 1,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8592223509,
+      "ino": 8592385671,
       "blocks": 304,
-      "atimeMs": 1517988380477.5352,
-      "mtimeMs": 1517982429838.5613,
-      "ctimeMs": 1517986597921.9932,
-      "birthtimeMs": 1517982429836.449,
-      "atime": "2018-02-07T07:26:20.478Z",
-      "mtime": "2018-02-07T05:47:09.839Z",
-      "ctime": "2018-02-07T06:56:37.922Z",
-      "birthtime": "2018-02-07T05:47:09.836Z",
+      "atimeMs": 1517996433836.3923,
+      "mtimeMs": 1517982486000,
+      "ctimeMs": 1517991593508.6643,
+      "birthtimeMs": 1517982486000,
+      "atime": "2018-02-07T09:40:33.836Z",
+      "mtime": "2018-02-07T05:48:06.000Z",
+      "ctime": "2018-02-07T08:19:53.509Z",
+      "birthtime": "2018-02-07T05:48:06.000Z",
       "fields": {
         "slug": "/The-Birth-of-Movable-Type/"
       }
@@ -2982,6 +3006,58 @@
         "contentDigest": "3e20438298edd3a3fa746766d803f379",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-18-08---The-Birth-of-Movable-Type/Printing-press.png absPath of file": {
+      "id": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-18-08---The-Birth-of-Movable-Type/Printing-press.png absPath of file",
+      "children": [
+        "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-18-08---The-Birth-of-Movable-Type/Printing-press.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9ec265253f068855f00558a9be7f3e03",
+        "mediaType": "image/png",
+        "type": "File",
+        "owner": "gatsby-source-filesystem",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-18-08---The-Birth-of-Movable-Type/Printing-press.png",
+      "relativePath": "articles/2017-18-08---The-Birth-of-Movable-Type/Printing-press.png",
+      "extension": "png",
+      "size": 326701,
+      "prettySize": "327 kB",
+      "modifiedTime": "2018-02-07T05:48:06.000Z",
+      "accessTime": "2018-02-08T07:32:03.759Z",
+      "changeTime": "2018-02-07T08:19:53.510Z",
+      "birthTime": "2018-02-07T05:48:06.000Z",
+      "root": "/",
+      "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-18-08---The-Birth-of-Movable-Type",
+      "base": "Printing-press.png",
+      "ext": ".png",
+      "name": "Printing-press",
+      "relativeDirectory": "articles/2017-18-08---The-Birth-of-Movable-Type",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8592385672,
+      "blocks": 640,
+      "atimeMs": 1518075123758.6873,
+      "mtimeMs": 1517982486000,
+      "ctimeMs": 1517991593509.7283,
+      "birthtimeMs": 1517982486000,
+      "atime": "2018-02-08T07:32:03.759Z",
+      "mtime": "2018-02-07T05:48:06.000Z",
+      "ctime": "2018-02-07T08:19:53.510Z",
+      "birthtime": "2018-02-07T05:48:06.000Z",
+      "fields": {
+        "slug": "/The-Birth-of-Movable-Type/"
       }
     },
     "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2016-01-09---Perfecting-the-Art-of-Perfection/index.md absPath of file >>> MarkdownRemark": {
@@ -3023,6 +3099,49 @@
           "/tags/learning-to-write/"
         ],
         "categorySlug": "/categories/design-inspiration/"
+      }
+    },
+    "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2016-01-12---The-Origins-of-Social-Stationery-Lettering/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2016-01-12---The-Origins-of-Social-Stationery-Lettering/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2016-01-12---The-Origins-of-Social-Stationery-Lettering/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: The Origins of Social Stationery Lettering\ndate: \"2016-12-01T22:40:32.169Z\"\nlayout: post\ndraft: false\npath: \"/posts/the-origins-of-social-stationery-lettering\"\ncategory: \"Design Culture\"\ntags:\n  - \"Typefaces\"\n  - \"Lettering\"\n  - \"History\"\ndescription: \"Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.\"\n---\n\n**Pellentesque habitant morbi tristique** senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. *Aenean ultricies mi vitae est.* Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. \n\nVestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.  [Donec non enim](#) in turpis pulvinar facilisis.\n\n![Nulla faucibus vestibulum eros in tempus. Vestibulum tempor imperdiet velit nec dapibus](./1.jpg)\n\n## Header Level 2\n\n+ Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n+ Aliquam tincidunt mauris eu risus.\n\nDonec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. \n\n<figure>\n\t<blockquote>\n\t\t<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p>\n\t\t<footer>\n\t\t\t<cite>— Aliquam tincidunt mauris eu risus.</cite>\n\t\t</footer>\n\t</blockquote>\n</figure>\n\n### Header Level 3\n\n+ Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n+ Aliquam tincidunt mauris eu risus.\n\nPellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.\n\n```css\n#header h1 a {\n  display: block;\n  width: 300px;\n  height: 80px;\n}\n```\n\nVestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.",
+        "contentDigest": "7376244eee056f3025a9f53c11224333",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin",
+          "tagSlugs": "default-site-plugin",
+          "categorySlug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "The Origins of Social Stationery Lettering",
+        "date": "2016-12-01T22:40:32.169Z",
+        "layout": "post",
+        "draft": false,
+        "path": "/posts/the-origins-of-social-stationery-lettering",
+        "category": "Design Culture",
+        "tags": [
+          "Typefaces",
+          "Lettering",
+          "History"
+        ],
+        "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.",
+        "_PARENT": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2016-01-12---The-Origins-of-Social-Stationery-Lettering/index.md absPath of file",
+        "parent": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2016-01-12---The-Origins-of-Social-Stationery-Lettering/index.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2016-01-12---The-Origins-of-Social-Stationery-Lettering/index.md",
+      "fields": {
+        "slug": "/posts/the-origins-of-social-stationery-lettering",
+        "tagSlugs": [
+          "/tags/typefaces/",
+          "/tags/lettering/",
+          "/tags/history/"
+        ],
+        "categorySlug": "/categories/design-culture/"
       }
     },
     "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2016-02-02---A-Brief-History-of-Typography/index.md absPath of file >>> MarkdownRemark": {
@@ -3070,65 +3189,13 @@
         "categorySlug": "/categories/design-inspiration/"
       }
     },
-    "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-18-08---The-Birth-of-Movable-Type/Printing-press.png absPath of file": {
-      "id": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-18-08---The-Birth-of-Movable-Type/Printing-press.png absPath of file",
-      "children": [
-        "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-18-08---The-Birth-of-Movable-Type/Printing-press.png absPath of file >> ImageSharp"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "9ec265253f068855f00558a9be7f3e03",
-        "mediaType": "image/png",
-        "type": "File",
-        "owner": "gatsby-source-filesystem",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-18-08---The-Birth-of-Movable-Type/Printing-press.png",
-      "relativePath": "articles/2017-18-08---The-Birth-of-Movable-Type/Printing-press.png",
-      "extension": "png",
-      "size": 326701,
-      "prettySize": "327 kB",
-      "modifiedTime": "2018-02-07T05:47:09.842Z",
-      "accessTime": "2018-02-07T07:26:20.478Z",
-      "changeTime": "2018-02-07T06:56:37.923Z",
-      "birthTime": "2018-02-07T05:47:09.839Z",
-      "root": "/",
-      "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-18-08---The-Birth-of-Movable-Type",
-      "base": "Printing-press.png",
-      "ext": ".png",
-      "name": "Printing-press",
-      "relativeDirectory": "articles/2017-18-08---The-Birth-of-Movable-Type",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8592223510,
-      "blocks": 640,
-      "atimeMs": 1517988380477.5378,
-      "mtimeMs": 1517982429841.881,
-      "ctimeMs": 1517986597923.3992,
-      "birthtimeMs": 1517982429838.908,
-      "atime": "2018-02-07T07:26:20.478Z",
-      "mtime": "2018-02-07T05:47:09.842Z",
-      "ctime": "2018-02-07T06:56:37.923Z",
-      "birthtime": "2018-02-07T05:47:09.839Z",
-      "fields": {
-        "slug": "/The-Birth-of-Movable-Type/"
-      }
-    },
-    "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2016-01-12---The-Origins-of-Social-Stationery-Lettering/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2016-01-12---The-Origins-of-Social-Stationery-Lettering/index.md absPath of file >>> MarkdownRemark",
+    "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-18-08---The-Birth-of-Movable-Type/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-18-08---The-Birth-of-Movable-Type/index.md absPath of file >>> MarkdownRemark",
       "children": [],
-      "parent": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2016-01-12---The-Origins-of-Social-Stationery-Lettering/index.md absPath of file",
+      "parent": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-18-08---The-Birth-of-Movable-Type/index.md absPath of file",
       "internal": {
-        "content": "---\ntitle: The Origins of Social Stationery Lettering\ndate: \"2016-12-01T22:40:32.169Z\"\nlayout: post\ndraft: false\npath: \"/posts/the-origins-of-social-stationery-lettering\"\ncategory: \"Design Culture\"\ntags:\n  - \"Typefaces\"\n  - \"Lettering\"\n  - \"History\"\ndescription: \"Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.\"\n---\n\n**Pellentesque habitant morbi tristique** senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. *Aenean ultricies mi vitae est.* Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. \n\nVestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.  [Donec non enim](#) in turpis pulvinar facilisis.\n\n![Nulla faucibus vestibulum eros in tempus. Vestibulum tempor imperdiet velit nec dapibus](./1.jpg)\n\n## Header Level 2\n\n+ Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n+ Aliquam tincidunt mauris eu risus.\n\nDonec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. \n\n<figure>\n\t<blockquote>\n\t\t<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p>\n\t\t<footer>\n\t\t\t<cite>— Aliquam tincidunt mauris eu risus.</cite>\n\t\t</footer>\n\t</blockquote>\n</figure>\n\n### Header Level 3\n\n+ Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n+ Aliquam tincidunt mauris eu risus.\n\nPellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.\n\n```css\n#header h1 a {\n  display: block;\n  width: 300px;\n  height: 80px;\n}\n```\n\nVestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.",
-        "contentDigest": "7376244eee056f3025a9f53c11224333",
+        "content": "---\ntitle: \"Johannes Gutenberg: The Birth of Movable Type\"\ndate: \"2017-08-18T22:12:03.284Z\"\nlayout: post\ndraft: false\npath: \"/posts/the-birth-of-movable-type/\"\ncategory: \"Typography\"\ntags:\n  - \"Open source\"\n  - \"Gatsby\"\n  - \"Typography\"\ndescription: \"German inventor Johannes Gutenberg developed a method of movable type and used it to create one of the western world’s first major printed books, the “Forty–Two–Line” Bible.\"\n---\n\nGerman inventor Johannes Gutenberg developed a method of movable type and used it to create one of the western world’s first major printed books, the “Forty–Two–Line” Bible.\n\n**Johannes Gensfleisch zur Laden zum Gutenberg** (c. 1398 – 1468) was a German blacksmith, goldsmith, printer, and publisher who introduced printing to Europe. His invention of mechanical movable type printing started the Printing Revolution and is widely regarded as the most important event of the modern period. It played a key role in the development of the Renaissance, Reformation, the Age of Enlightenment, and the Scientific revolution and laid the material basis for the modern knowledge-based economy and the spread of learning to the masses.\n\n<figure class=\"float-right\" style=\"width: 240px\">\n\t<img src=\"./Gutenberg.jpg\" alt=\"Gutenberg\">\n\t<figcaption>Johannes Gutenberg</figcaption>\n</figure>\n\nWith his invention of the printing press, Gutenberg was the first European to use movable type printing, in around 1439. Among his many contributions to printing are: the invention of a process for mass-producing movable type; the use of oil-based ink; and the use of a wooden printing press similar to the agricultural screw presses of the period. His truly epochal invention was the combination of these elements into a practical system that allowed the mass production of printed books and was economically viable for printers and readers alike. Gutenberg's method for making type is traditionally considered to have included a type metal alloy and a hand mould for casting type. The alloy was a mixture of lead, tin, and antimony that melted at a relatively low temperature for faster and more economical casting, cast well, and created a durable type.\n\nIn Renaissance Europe, the arrival of mechanical movable type printing introduced the era of mass communication which permanently altered the structure of society. The relatively unrestricted circulation of information — including revolutionary ideas — transcended borders, captured the masses in the Reformation and threatened the power of political and religious authorities; the sharp increase in literacy broke the monopoly of the literate elite on education and learning and bolstered the emerging middle class. Across Europe, the increasing cultural self-awareness of its people led to the rise of proto-nationalism, accelerated by the flowering of the European vernacular languages to the detriment of Latin's status as lingua franca. In the 19th century, the replacement of the hand-operated Gutenberg-style press by steam-powered rotary presses allowed printing on an industrial scale, while Western-style printing was adopted all over the world, becoming practically the sole medium for modern bulk printing.\n\nThe use of movable type was a marked improvement on the handwritten manuscript, which was the existing method of book production in Europe, and upon woodblock printing, and revolutionized European book-making. Gutenberg's printing technology spread rapidly throughout Europe and later the world.\n\nHis major work, the Gutenberg Bible (also known as the 42-line Bible), has been acclaimed for its high aesthetic and technical quality.\n\n## Printing Press\n\nAround 1439, Gutenberg was involved in a financial misadventure making polished metal mirrors (which were believed to capture holy light from religious relics) for sale to pilgrims to Aachen: in 1439 the city was planning to exhibit its collection of relics from Emperor Charlemagne but the event was delayed by one year due to a severe flood and the capital already spent could not be repaid. When the question of satisfying the investors came up, Gutenberg is said to have promised to share a “secret”. It has been widely speculated that this secret may have been the idea of printing with movable type. Also around 1439–1440, the Dutch Laurens Janszoon Coster came up with the idea of printing. Legend has it that the idea came to him “like a ray of light”.\n\n<figure class=\"float-left\" style=\"width: 240px\">\n\t<img src=\"./Printing-press.png\" alt=\"Early Printing Press\">\n\t<figcaption>Early wooden printing press as depicted in 1568.</figcaption>\n</figure>\n\nUntil at least 1444 he lived in Strasbourg, most likely in the St. Arbogast parish. It was in Strasbourg in 1440 that Gutenberg is said to have perfected and unveiled the secret of printing based on his research, mysteriously entitled Kunst und Aventur (art and enterprise). It is not clear what work he was engaged in, or whether some early trials with printing from movable type may have been conducted there. After this, there is a gap of four years in the record. In 1448, he was back in Mainz, where he took out a loan from his brother-in-law Arnold Gelthus, quite possibly for a printing press or related paraphernalia. By this date, Gutenberg may have been familiar with intaglio printing; it is claimed that he had worked on copper engravings with an artist known as the Master of Playing Cards.\n\nBy 1450, the press was in operation, and a German poem had been printed, possibly the first item to be printed there. Gutenberg was able to convince the wealthy moneylender Johann Fust for a loan of 800 guilders. Peter Schöffer, who became Fust’s son-in-law, also joined the enterprise. Schöffer had worked as a scribe in Paris and is believed to have designed some of the first typefaces.\n\n<figure>\n\t<blockquote>\n\t\t<p>All that has been written to me about that marvelous man seen at Frankfurt is true. I have not seen complete Bibles but only a number of quires of various books of the Bible. The script was very neat and legible, not at all difficult to follow—your grace would be able to read it without effort, and indeed without glasses.</p>\n\t\t<footer>\n\t\t\t<cite>—Future pope Pius II in a letter to Cardinal Carvajal, March 1455</cite>\n\t\t</footer>\n\t</blockquote>\n</figure>\n\nGutenberg's workshop was set up at Hof Humbrecht, a property belonging to a distant relative. It is not clear when Gutenberg conceived the Bible project, but for this he borrowed another 800 guilders from Fust, and work commenced in 1452. At the same time, the press was also printing other, more lucrative texts (possibly Latin grammars). There is also some speculation that there may have been two presses, one for the pedestrian texts, and one for the Bible. One of the profit-making enterprises of the new press was the printing of thousands of indulgences for the church, documented from 1454–55.\n\nIn 1455 Gutenberg completed his 42-line Bible, known as the Gutenberg Bible. About 180 copies were printed, most on paper and some on vellum.\n\n## Court Case\n\nSome time in 1456, there was a dispute between Gutenberg and Fust, and Fust demanded his money back, accusing Gutenberg of misusing the funds. Meanwhile the expenses of the Bible project had proliferated, and Gutenberg's debt now exceeded 20,000 guilders. Fust sued at the archbishop's court. A November 1455 legal document records that there was a partnership for a \"project of the books,\" the funds for which Gutenberg had used for other purposes, according to Fust. The court decided in favor of Fust, giving him control over the Bible printing workshop and half of all printed Bibles.\n\nThus Gutenberg was effectively bankrupt, but it appears he retained (or re-started) a small printing shop, and participated in the printing of a Bible in the town of Bamberg around 1459, for which he seems at least to have supplied the type. But since his printed books never carry his name or a date, it is difficult to be certain, and there is consequently a considerable scholarly debate on this subject. It is also possible that the large Catholicon dictionary, 300 copies of 754 pages, printed in Mainz in 1460, may have been executed in his workshop.\n\nMeanwhile, the Fust–Schöffer shop was the first in Europe to bring out a book with the printer's name and date, the Mainz Psalter of August 1457, and while proudly proclaiming the mechanical process by which it had been produced, it made no mention of Gutenberg.\n\n## Later Life\n\nIn 1462, during a conflict between two archbishops, Mainz was sacked by archbishop Adolph von Nassau, and Gutenberg was exiled. An old man by now, he moved to Eltville where he may have initiated and supervised a new printing press belonging to the brothers Bechtermünze.\n\nIn January 1465, Gutenberg's achievements were recognized and he was given the title Hofmann (gentleman of the court) by von Nassau. This honor included a stipend, an annual court outfit, as well as 2,180 litres of grain and 2,000 litres of wine tax-free. It is believed he may have moved back to Mainz around this time, but this is not certain.\n\n***\n\nGutenberg died in 1468 and was buried in the Franciscan church at Mainz, his contributions largely unknown. This church and the cemetery were later destroyed, and Gutenberg's grave is now lost.\n\nIn 1504, he was mentioned as the inventor of typography in a book by Professor Ivo Wittig. It was not until 1567 that the first portrait of Gutenberg, almost certainly an imaginary reconstruction, appeared in Heinrich Pantaleon's biography of famous Germans.\n\n## Printing Method With Movable Type\n\nGutenberg's early printing process, and what tests he may have made with movable type, are not known in great detail. His later Bibles were printed in such a way as to have required large quantities of type, some estimates suggesting as many as 100,000 individual sorts. Setting each page would take, perhaps, half a day, and considering all the work in loading the press, inking the type, pulling the impressions, hanging up the sheets, distributing the type, etc., it is thought that the Gutenberg–Fust shop might have employed as many as 25 craftsmen.\n\n![Movable metal type, and composing stick, descended from Gutenberg's press. Photo by Willi Heidelbach. Licensed under CC BY 2.5](./movable-type.jpg)\n\n*Movable metal type, and composing stick, descended from Gutenberg's press. Photo by Willi Heidelbach. Licensed under CC BY 2.5*\n\nGutenberg's technique of making movable type remains unclear. In the following decades, punches and copper matrices became standardized in the rapidly disseminating printing presses across Europe. Whether Gutenberg used this sophisticated technique or a somewhat primitive version has been the subject of considerable debate.\n\nIn the standard process of making type, a hard metal punch (made by punchcutting, with the letter carved back to front) is hammered into a softer copper bar, creating a matrix. This is then placed into a hand-held mould and a piece of type, or \"sort\", is cast by filling the mould with molten type-metal; this cools almost at once, and the resulting piece of type can be removed from the mould. The matrix can be reused to create hundreds, or thousands, of identical sorts so that the same character appearing anywhere within the book will appear very uniform, giving rise, over time, to the development of distinct styles of typefaces or fonts. After casting, the sorts are arranged into type-cases, and used to make up pages which are inked and printed, a procedure which can be repeated hundreds, or thousands, of times. The sorts can be reused in any combination, earning the process the name of “movable type”.\n\nThe invention of the making of types with punch, matrix and mold has been widely attributed to Gutenberg. However, recent evidence suggests that Gutenberg's process was somewhat different. If he used the punch and matrix approach, all his letters should have been nearly identical, with some variations due to miscasting and inking. However, the type used in Gutenberg's earliest work shows other variations.\n\n<figure>\n\t<blockquote>\n\t\t<p>It is a press, certainly, but a press from which shall flow in inexhaustible streams… Through it, god will spread his word.</p>\n\t\t<footer>\n\t\t\t<cite>—Johannes Gutenberg</cite>\n\t\t</footer>\n\t</blockquote>\n</figure>\n\nIn 2001, the physicist Blaise Agüera y Arcas and Princeton librarian Paul Needham, used digital scans of a Papal bull in the Scheide Library, Princeton, to carefully compare the same letters (types) appearing in different parts of the printed text. The irregularities in Gutenberg's type, particularly in simple characters such as the hyphen, suggested that the variations could not have come from either ink smear or from wear and damage on the pieces of metal on the types themselves. While some identical types are clearly used on other pages, other variations, subjected to detailed image analysis, suggested that they could not have been produced from the same matrix. Transmitted light pictures of the page also appeared to reveal substructures in the type that could not arise from traditional punchcutting techniques. They hypothesized that the method may have involved impressing simple shapes to create alphabets in “cuneiform” style in a matrix made of some soft material, perhaps sand. Casting the type would destroy the mould, and the matrix would need to be recreated to make each additional sort. This could explain the variations in the type, as well as the substructures observed in the printed images.\n\nThus, they feel that “the decisive factor for the birth of typography”, the use of reusable moulds for casting type, might have been a more progressive process than was previously thought. They suggest that the additional step of using the punch to create a mould that could be reused many times was not taken until twenty years later, in the 1470s. Others have not accepted some or all of their suggestions, and have interpreted the evidence in other ways, and the truth of the matter remains very uncertain.\n\nA 1568 history by Hadrianus Junius of Holland claims that the basic idea of the movable type came to Gutenberg from Laurens Janszoon Coster via Fust, who was apprenticed to Coster in the 1430s and may have brought some of his equipment from Haarlem to Mainz. While Coster appears to have experimented with moulds and castable metal type, there is no evidence that he had actually printed anything with this technology. He was an inventor and a goldsmith. However, there is one indirect supporter of the claim that Coster might be the inventor. The author of the Cologne Chronicle of 1499 quotes Ulrich Zell, the first printer of Cologne, that printing was performed in Mainz in 1450, but that some type of printing of lower quality had previously occurred in the Netherlands. However, the chronicle does not mention the name of Coster, while it actually credits Gutenberg as the \"first inventor of printing\" in the very same passage (fol. 312). The first securely dated book by Dutch printers is from 1471, and the Coster connection is today regarded as a mere legend.\n\nThe 19th century printer and typefounder Fournier Le Jeune suggested that Gutenberg might not have been using type cast with a reusable matrix, but possibly wooden types that were carved individually. A similar suggestion was made by Nash in 2004. This remains possible, albeit entirely unproven.\n\nIt has also been questioned whether Gutenberg used movable types at all. In 2004, Italian professor Bruno Fabbiani claimed that examination of the 42-line Bible revealed an overlapping of letters, suggesting that Gutenberg did not in fact use movable type (individual cast characters) but rather used whole plates made from a system somewhat like a modern typewriter, whereby the letters were stamped successively into the plate and then printed. However, most specialists regard the occasional overlapping of type as caused by paper movement over pieces of type of slightly unequal height.",
+        "contentDigest": "a2371b7db72b73efdd62225c6bb0c9af",
         "type": "MarkdownRemark",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
@@ -3138,31 +3205,31 @@
         }
       },
       "frontmatter": {
-        "title": "The Origins of Social Stationery Lettering",
-        "date": "2016-12-01T22:40:32.169Z",
+        "title": "Johannes Gutenberg: The Birth of Movable Type",
+        "date": "2017-08-18T22:12:03.284Z",
         "layout": "post",
         "draft": false,
-        "path": "/posts/the-origins-of-social-stationery-lettering",
-        "category": "Design Culture",
+        "path": "/posts/the-birth-of-movable-type/",
+        "category": "Typography",
         "tags": [
-          "Typefaces",
-          "Lettering",
-          "History"
+          "Open source",
+          "Gatsby",
+          "Typography"
         ],
-        "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.",
-        "_PARENT": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2016-01-12---The-Origins-of-Social-Stationery-Lettering/index.md absPath of file",
-        "parent": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2016-01-12---The-Origins-of-Social-Stationery-Lettering/index.md absPath of file"
+        "description": "German inventor Johannes Gutenberg developed a method of movable type and used it to create one of the western world’s first major printed books, the “Forty–Two–Line” Bible.",
+        "_PARENT": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-18-08---The-Birth-of-Movable-Type/index.md absPath of file",
+        "parent": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-18-08---The-Birth-of-Movable-Type/index.md absPath of file"
       },
       "excerpt": "",
-      "fileAbsolutePath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2016-01-12---The-Origins-of-Social-Stationery-Lettering/index.md",
+      "fileAbsolutePath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-18-08---The-Birth-of-Movable-Type/index.md",
       "fields": {
-        "slug": "/posts/the-origins-of-social-stationery-lettering",
+        "slug": "/posts/the-birth-of-movable-type/",
         "tagSlugs": [
-          "/tags/typefaces/",
-          "/tags/lettering/",
-          "/tags/history/"
+          "/tags/open-source/",
+          "/tags/gatsby/",
+          "/tags/typography/"
         ],
-        "categorySlug": "/categories/design-culture/"
+        "categorySlug": "/categories/typography/"
       }
     },
     "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-19-08---Humane-Typography-in-the-Digital-Age/index.md absPath of file >>> MarkdownRemark": {
@@ -3204,49 +3271,6 @@
           "/tags/design/",
           "/tags/typography/",
           "/tags/web-development/"
-        ],
-        "categorySlug": "/categories/typography/"
-      }
-    },
-    "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-18-08---The-Birth-of-Movable-Type/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-18-08---The-Birth-of-Movable-Type/index.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-18-08---The-Birth-of-Movable-Type/index.md absPath of file",
-      "internal": {
-        "content": "---\ntitle: \"Johannes Gutenberg: The Birth of Movable Type\"\ndate: \"2017-08-18T22:12:03.284Z\"\nlayout: post\ndraft: false\npath: \"/posts/the-birth-of-movable-type/\"\ncategory: \"Typography\"\ntags:\n  - \"Open source\"\n  - \"Gatsby\"\n  - \"Typography\"\ndescription: \"German inventor Johannes Gutenberg developed a method of movable type and used it to create one of the western world’s first major printed books, the “Forty–Two–Line” Bible.\"\n---\n\nGerman inventor Johannes Gutenberg developed a method of movable type and used it to create one of the western world’s first major printed books, the “Forty–Two–Line” Bible.\n\n**Johannes Gensfleisch zur Laden zum Gutenberg** (c. 1398 – 1468) was a German blacksmith, goldsmith, printer, and publisher who introduced printing to Europe. His invention of mechanical movable type printing started the Printing Revolution and is widely regarded as the most important event of the modern period. It played a key role in the development of the Renaissance, Reformation, the Age of Enlightenment, and the Scientific revolution and laid the material basis for the modern knowledge-based economy and the spread of learning to the masses.\n\n<figure class=\"float-right\" style=\"width: 240px\">\n\t<img src=\"./Gutenberg.jpg\" alt=\"Gutenberg\">\n\t<figcaption>Johannes Gutenberg</figcaption>\n</figure>\n\nWith his invention of the printing press, Gutenberg was the first European to use movable type printing, in around 1439. Among his many contributions to printing are: the invention of a process for mass-producing movable type; the use of oil-based ink; and the use of a wooden printing press similar to the agricultural screw presses of the period. His truly epochal invention was the combination of these elements into a practical system that allowed the mass production of printed books and was economically viable for printers and readers alike. Gutenberg's method for making type is traditionally considered to have included a type metal alloy and a hand mould for casting type. The alloy was a mixture of lead, tin, and antimony that melted at a relatively low temperature for faster and more economical casting, cast well, and created a durable type.\n\nIn Renaissance Europe, the arrival of mechanical movable type printing introduced the era of mass communication which permanently altered the structure of society. The relatively unrestricted circulation of information — including revolutionary ideas — transcended borders, captured the masses in the Reformation and threatened the power of political and religious authorities; the sharp increase in literacy broke the monopoly of the literate elite on education and learning and bolstered the emerging middle class. Across Europe, the increasing cultural self-awareness of its people led to the rise of proto-nationalism, accelerated by the flowering of the European vernacular languages to the detriment of Latin's status as lingua franca. In the 19th century, the replacement of the hand-operated Gutenberg-style press by steam-powered rotary presses allowed printing on an industrial scale, while Western-style printing was adopted all over the world, becoming practically the sole medium for modern bulk printing.\n\nThe use of movable type was a marked improvement on the handwritten manuscript, which was the existing method of book production in Europe, and upon woodblock printing, and revolutionized European book-making. Gutenberg's printing technology spread rapidly throughout Europe and later the world.\n\nHis major work, the Gutenberg Bible (also known as the 42-line Bible), has been acclaimed for its high aesthetic and technical quality.\n\n## Printing Press\n\nAround 1439, Gutenberg was involved in a financial misadventure making polished metal mirrors (which were believed to capture holy light from religious relics) for sale to pilgrims to Aachen: in 1439 the city was planning to exhibit its collection of relics from Emperor Charlemagne but the event was delayed by one year due to a severe flood and the capital already spent could not be repaid. When the question of satisfying the investors came up, Gutenberg is said to have promised to share a “secret”. It has been widely speculated that this secret may have been the idea of printing with movable type. Also around 1439–1440, the Dutch Laurens Janszoon Coster came up with the idea of printing. Legend has it that the idea came to him “like a ray of light”.\n\n<figure class=\"float-left\" style=\"width: 240px\">\n\t<img src=\"./Printing-press.png\" alt=\"Early Printing Press\">\n\t<figcaption>Early wooden printing press as depicted in 1568.</figcaption>\n</figure>\n\nUntil at least 1444 he lived in Strasbourg, most likely in the St. Arbogast parish. It was in Strasbourg in 1440 that Gutenberg is said to have perfected and unveiled the secret of printing based on his research, mysteriously entitled Kunst und Aventur (art and enterprise). It is not clear what work he was engaged in, or whether some early trials with printing from movable type may have been conducted there. After this, there is a gap of four years in the record. In 1448, he was back in Mainz, where he took out a loan from his brother-in-law Arnold Gelthus, quite possibly for a printing press or related paraphernalia. By this date, Gutenberg may have been familiar with intaglio printing; it is claimed that he had worked on copper engravings with an artist known as the Master of Playing Cards.\n\nBy 1450, the press was in operation, and a German poem had been printed, possibly the first item to be printed there. Gutenberg was able to convince the wealthy moneylender Johann Fust for a loan of 800 guilders. Peter Schöffer, who became Fust’s son-in-law, also joined the enterprise. Schöffer had worked as a scribe in Paris and is believed to have designed some of the first typefaces.\n\n<figure>\n\t<blockquote>\n\t\t<p>All that has been written to me about that marvelous man seen at Frankfurt is true. I have not seen complete Bibles but only a number of quires of various books of the Bible. The script was very neat and legible, not at all difficult to follow—your grace would be able to read it without effort, and indeed without glasses.</p>\n\t\t<footer>\n\t\t\t<cite>—Future pope Pius II in a letter to Cardinal Carvajal, March 1455</cite>\n\t\t</footer>\n\t</blockquote>\n</figure>\n\nGutenberg's workshop was set up at Hof Humbrecht, a property belonging to a distant relative. It is not clear when Gutenberg conceived the Bible project, but for this he borrowed another 800 guilders from Fust, and work commenced in 1452. At the same time, the press was also printing other, more lucrative texts (possibly Latin grammars). There is also some speculation that there may have been two presses, one for the pedestrian texts, and one for the Bible. One of the profit-making enterprises of the new press was the printing of thousands of indulgences for the church, documented from 1454–55.\n\nIn 1455 Gutenberg completed his 42-line Bible, known as the Gutenberg Bible. About 180 copies were printed, most on paper and some on vellum.\n\n## Court Case\n\nSome time in 1456, there was a dispute between Gutenberg and Fust, and Fust demanded his money back, accusing Gutenberg of misusing the funds. Meanwhile the expenses of the Bible project had proliferated, and Gutenberg's debt now exceeded 20,000 guilders. Fust sued at the archbishop's court. A November 1455 legal document records that there was a partnership for a \"project of the books,\" the funds for which Gutenberg had used for other purposes, according to Fust. The court decided in favor of Fust, giving him control over the Bible printing workshop and half of all printed Bibles.\n\nThus Gutenberg was effectively bankrupt, but it appears he retained (or re-started) a small printing shop, and participated in the printing of a Bible in the town of Bamberg around 1459, for which he seems at least to have supplied the type. But since his printed books never carry his name or a date, it is difficult to be certain, and there is consequently a considerable scholarly debate on this subject. It is also possible that the large Catholicon dictionary, 300 copies of 754 pages, printed in Mainz in 1460, may have been executed in his workshop.\n\nMeanwhile, the Fust–Schöffer shop was the first in Europe to bring out a book with the printer's name and date, the Mainz Psalter of August 1457, and while proudly proclaiming the mechanical process by which it had been produced, it made no mention of Gutenberg.\n\n## Later Life\n\nIn 1462, during a conflict between two archbishops, Mainz was sacked by archbishop Adolph von Nassau, and Gutenberg was exiled. An old man by now, he moved to Eltville where he may have initiated and supervised a new printing press belonging to the brothers Bechtermünze.\n\nIn January 1465, Gutenberg's achievements were recognized and he was given the title Hofmann (gentleman of the court) by von Nassau. This honor included a stipend, an annual court outfit, as well as 2,180 litres of grain and 2,000 litres of wine tax-free. It is believed he may have moved back to Mainz around this time, but this is not certain.\n\n***\n\nGutenberg died in 1468 and was buried in the Franciscan church at Mainz, his contributions largely unknown. This church and the cemetery were later destroyed, and Gutenberg's grave is now lost.\n\nIn 1504, he was mentioned as the inventor of typography in a book by Professor Ivo Wittig. It was not until 1567 that the first portrait of Gutenberg, almost certainly an imaginary reconstruction, appeared in Heinrich Pantaleon's biography of famous Germans.\n\n## Printing Method With Movable Type\n\nGutenberg's early printing process, and what tests he may have made with movable type, are not known in great detail. His later Bibles were printed in such a way as to have required large quantities of type, some estimates suggesting as many as 100,000 individual sorts. Setting each page would take, perhaps, half a day, and considering all the work in loading the press, inking the type, pulling the impressions, hanging up the sheets, distributing the type, etc., it is thought that the Gutenberg–Fust shop might have employed as many as 25 craftsmen.\n\n![Movable metal type, and composing stick, descended from Gutenberg's press. Photo by Willi Heidelbach. Licensed under CC BY 2.5](./movable-type.jpg)\n\n*Movable metal type, and composing stick, descended from Gutenberg's press. Photo by Willi Heidelbach. Licensed under CC BY 2.5*\n\nGutenberg's technique of making movable type remains unclear. In the following decades, punches and copper matrices became standardized in the rapidly disseminating printing presses across Europe. Whether Gutenberg used this sophisticated technique or a somewhat primitive version has been the subject of considerable debate.\n\nIn the standard process of making type, a hard metal punch (made by punchcutting, with the letter carved back to front) is hammered into a softer copper bar, creating a matrix. This is then placed into a hand-held mould and a piece of type, or \"sort\", is cast by filling the mould with molten type-metal; this cools almost at once, and the resulting piece of type can be removed from the mould. The matrix can be reused to create hundreds, or thousands, of identical sorts so that the same character appearing anywhere within the book will appear very uniform, giving rise, over time, to the development of distinct styles of typefaces or fonts. After casting, the sorts are arranged into type-cases, and used to make up pages which are inked and printed, a procedure which can be repeated hundreds, or thousands, of times. The sorts can be reused in any combination, earning the process the name of “movable type”.\n\nThe invention of the making of types with punch, matrix and mold has been widely attributed to Gutenberg. However, recent evidence suggests that Gutenberg's process was somewhat different. If he used the punch and matrix approach, all his letters should have been nearly identical, with some variations due to miscasting and inking. However, the type used in Gutenberg's earliest work shows other variations.\n\n<figure>\n\t<blockquote>\n\t\t<p>It is a press, certainly, but a press from which shall flow in inexhaustible streams… Through it, god will spread his word.</p>\n\t\t<footer>\n\t\t\t<cite>—Johannes Gutenberg</cite>\n\t\t</footer>\n\t</blockquote>\n</figure>\n\nIn 2001, the physicist Blaise Agüera y Arcas and Princeton librarian Paul Needham, used digital scans of a Papal bull in the Scheide Library, Princeton, to carefully compare the same letters (types) appearing in different parts of the printed text. The irregularities in Gutenberg's type, particularly in simple characters such as the hyphen, suggested that the variations could not have come from either ink smear or from wear and damage on the pieces of metal on the types themselves. While some identical types are clearly used on other pages, other variations, subjected to detailed image analysis, suggested that they could not have been produced from the same matrix. Transmitted light pictures of the page also appeared to reveal substructures in the type that could not arise from traditional punchcutting techniques. They hypothesized that the method may have involved impressing simple shapes to create alphabets in “cuneiform” style in a matrix made of some soft material, perhaps sand. Casting the type would destroy the mould, and the matrix would need to be recreated to make each additional sort. This could explain the variations in the type, as well as the substructures observed in the printed images.\n\nThus, they feel that “the decisive factor for the birth of typography”, the use of reusable moulds for casting type, might have been a more progressive process than was previously thought. They suggest that the additional step of using the punch to create a mould that could be reused many times was not taken until twenty years later, in the 1470s. Others have not accepted some or all of their suggestions, and have interpreted the evidence in other ways, and the truth of the matter remains very uncertain.\n\nA 1568 history by Hadrianus Junius of Holland claims that the basic idea of the movable type came to Gutenberg from Laurens Janszoon Coster via Fust, who was apprenticed to Coster in the 1430s and may have brought some of his equipment from Haarlem to Mainz. While Coster appears to have experimented with moulds and castable metal type, there is no evidence that he had actually printed anything with this technology. He was an inventor and a goldsmith. However, there is one indirect supporter of the claim that Coster might be the inventor. The author of the Cologne Chronicle of 1499 quotes Ulrich Zell, the first printer of Cologne, that printing was performed in Mainz in 1450, but that some type of printing of lower quality had previously occurred in the Netherlands. However, the chronicle does not mention the name of Coster, while it actually credits Gutenberg as the \"first inventor of printing\" in the very same passage (fol. 312). The first securely dated book by Dutch printers is from 1471, and the Coster connection is today regarded as a mere legend.\n\nThe 19th century printer and typefounder Fournier Le Jeune suggested that Gutenberg might not have been using type cast with a reusable matrix, but possibly wooden types that were carved individually. A similar suggestion was made by Nash in 2004. This remains possible, albeit entirely unproven.\n\nIt has also been questioned whether Gutenberg used movable types at all. In 2004, Italian professor Bruno Fabbiani claimed that examination of the 42-line Bible revealed an overlapping of letters, suggesting that Gutenberg did not in fact use movable type (individual cast characters) but rather used whole plates made from a system somewhat like a modern typewriter, whereby the letters were stamped successively into the plate and then printed. However, most specialists regard the occasional overlapping of type as caused by paper movement over pieces of type of slightly unequal height.",
-        "contentDigest": "a2371b7db72b73efdd62225c6bb0c9af",
-        "type": "MarkdownRemark",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin",
-          "tagSlugs": "default-site-plugin",
-          "categorySlug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "Johannes Gutenberg: The Birth of Movable Type",
-        "date": "2017-08-18T22:12:03.284Z",
-        "layout": "post",
-        "draft": false,
-        "path": "/posts/the-birth-of-movable-type/",
-        "category": "Typography",
-        "tags": [
-          "Open source",
-          "Gatsby",
-          "Typography"
-        ],
-        "description": "German inventor Johannes Gutenberg developed a method of movable type and used it to create one of the western world’s first major printed books, the “Forty–Two–Line” Bible.",
-        "_PARENT": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-18-08---The-Birth-of-Movable-Type/index.md absPath of file",
-        "parent": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-18-08---The-Birth-of-Movable-Type/index.md absPath of file"
-      },
-      "excerpt": "",
-      "fileAbsolutePath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-18-08---The-Birth-of-Movable-Type/index.md",
-      "fields": {
-        "slug": "/posts/the-birth-of-movable-type/",
-        "tagSlugs": [
-          "/tags/open-source/",
-          "/tags/gatsby/",
-          "/tags/typography/"
         ],
         "categorySlug": "/categories/typography/"
       }
@@ -3334,10 +3358,10 @@
       "extension": "jpg",
       "size": 671242,
       "prettySize": "671 kB",
-      "modifiedTime": "2018-02-07T05:47:09.863Z",
-      "accessTime": "2018-02-07T07:26:20.478Z",
-      "changeTime": "2018-02-07T06:56:37.927Z",
-      "birthTime": "2018-02-07T05:47:09.854Z",
+      "modifiedTime": "2018-02-07T05:48:06.000Z",
+      "accessTime": "2018-02-08T07:32:03.759Z",
+      "changeTime": "2018-02-07T08:19:53.512Z",
+      "birthTime": "2018-02-07T05:48:06.000Z",
       "root": "/",
       "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-19-08---Humane-Typography-in-the-Digital-Age",
       "base": "42-line-bible.jpg",
@@ -3345,22 +3369,22 @@
       "name": "42-line-bible",
       "relativeDirectory": "articles/2017-19-08---Humane-Typography-in-the-Digital-Age",
       "dev": 16777220,
-      "mode": 33188,
+      "mode": 33261,
       "nlink": 1,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8592223514,
+      "ino": 8592385676,
       "blocks": 1312,
-      "atimeMs": 1517988380477.7986,
-      "mtimeMs": 1517982429862.5737,
-      "ctimeMs": 1517986597927.3875,
-      "birthtimeMs": 1517982429854.4524,
-      "atime": "2018-02-07T07:26:20.478Z",
-      "mtime": "2018-02-07T05:47:09.863Z",
-      "ctime": "2018-02-07T06:56:37.927Z",
-      "birthtime": "2018-02-07T05:47:09.854Z",
+      "atimeMs": 1518075123758.7722,
+      "mtimeMs": 1517982486000,
+      "ctimeMs": 1517991593511.7695,
+      "birthtimeMs": 1517982486000,
+      "atime": "2018-02-08T07:32:03.759Z",
+      "mtime": "2018-02-07T05:48:06.000Z",
+      "ctime": "2018-02-07T08:19:53.512Z",
+      "birthtime": "2018-02-07T05:48:06.000Z",
       "fields": {
         "slug": "/Humane-Typography-in-the-Digital-Age/"
       }
@@ -3386,10 +3410,10 @@
       "extension": "jpg",
       "size": 738279,
       "prettySize": "738 kB",
-      "modifiedTime": "2018-02-07T05:47:09.901Z",
-      "accessTime": "2018-02-07T07:26:20.476Z",
-      "changeTime": "2018-02-07T06:56:37.939Z",
-      "birthTime": "2018-02-07T05:47:09.895Z",
+      "modifiedTime": "2018-02-07T05:48:06.000Z",
+      "accessTime": "2018-02-08T07:32:03.759Z",
+      "changeTime": "2018-02-07T08:19:53.519Z",
+      "birthTime": "2018-02-07T05:48:06.000Z",
       "root": "/",
       "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/pages/2015-05-01---contact",
       "base": "1.jpg",
@@ -3397,24 +3421,34 @@
       "name": "1",
       "relativeDirectory": "pages/2015-05-01---contact",
       "dev": 16777220,
-      "mode": 33188,
+      "mode": 33261,
       "nlink": 1,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8592223526,
+      "ino": 8592385688,
       "blocks": 1448,
-      "atimeMs": 1517988380475.7683,
-      "mtimeMs": 1517982429901.1123,
-      "ctimeMs": 1517986597939.1118,
-      "birthtimeMs": 1517982429895.3984,
-      "atime": "2018-02-07T07:26:20.476Z",
-      "mtime": "2018-02-07T05:47:09.901Z",
-      "ctime": "2018-02-07T06:56:37.939Z",
-      "birthtime": "2018-02-07T05:47:09.895Z",
+      "atimeMs": 1518075123758.927,
+      "mtimeMs": 1517982486000,
+      "ctimeMs": 1517991593518.6323,
+      "birthtimeMs": 1517982486000,
+      "atime": "2018-02-08T07:32:03.759Z",
+      "mtime": "2018-02-07T05:48:06.000Z",
+      "ctime": "2018-02-07T08:19:53.519Z",
+      "birthtime": "2018-02-07T05:48:06.000Z",
       "fields": {
         "slug": "/contact/"
+      }
+    },
+    "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-19-08---Humane-Typography-in-the-Digital-Age/42-line-bible.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-19-08---Humane-Typography-in-the-Digital-Age/42-line-bible.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-19-08---Humane-Typography-in-the-Digital-Age/42-line-bible.jpg absPath of file",
+      "internal": {
+        "contentDigest": "6d93cbc4956a854d4c4369f0e281e7f3",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
       }
     },
     "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2016-01-09---Perfecting-the-Art-of-Perfection/1.jpg absPath of file": {
@@ -3438,10 +3472,10 @@
       "extension": "jpg",
       "size": 840478,
       "prettySize": "840 kB",
-      "modifiedTime": "2018-02-07T05:47:09.806Z",
-      "accessTime": "2018-02-07T07:26:20.476Z",
-      "changeTime": "2018-02-07T06:56:37.920Z",
-      "birthTime": "2018-02-07T05:47:09.792Z",
+      "modifiedTime": "2018-02-07T05:48:06.000Z",
+      "accessTime": "2018-02-07T10:23:23.857Z",
+      "changeTime": "2018-02-07T08:19:53.508Z",
+      "birthTime": "2018-02-07T05:48:06.000Z",
       "root": "/",
       "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2016-01-09---Perfecting-the-Art-of-Perfection",
       "base": "1.jpg",
@@ -3449,34 +3483,24 @@
       "name": "1",
       "relativeDirectory": "articles/2016-01-09---Perfecting-the-Art-of-Perfection",
       "dev": 16777220,
-      "mode": 33188,
+      "mode": 33261,
       "nlink": 1,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8592223507,
+      "ino": 8592385669,
       "blocks": 1648,
-      "atimeMs": 1517988380475.955,
-      "mtimeMs": 1517982429805.6135,
-      "ctimeMs": 1517986597920.197,
-      "birthtimeMs": 1517982429792.231,
-      "atime": "2018-02-07T07:26:20.476Z",
-      "mtime": "2018-02-07T05:47:09.806Z",
-      "ctime": "2018-02-07T06:56:37.920Z",
-      "birthtime": "2018-02-07T05:47:09.792Z",
+      "atimeMs": 1517999003856.978,
+      "mtimeMs": 1517982486000,
+      "ctimeMs": 1517991593507.7432,
+      "birthtimeMs": 1517982486000,
+      "atime": "2018-02-07T10:23:23.857Z",
+      "mtime": "2018-02-07T05:48:06.000Z",
+      "ctime": "2018-02-07T08:19:53.508Z",
+      "birthtime": "2018-02-07T05:48:06.000Z",
       "fields": {
         "slug": "/Perfecting-the-Art-of-Perfection/"
-      }
-    },
-    "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-19-08---Humane-Typography-in-the-Digital-Age/42-line-bible.jpg absPath of file >> ImageSharp": {
-      "id": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-19-08---Humane-Typography-in-the-Digital-Age/42-line-bible.jpg absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-19-08---Humane-Typography-in-the-Digital-Age/42-line-bible.jpg absPath of file",
-      "internal": {
-        "contentDigest": "6d93cbc4956a854d4c4369f0e281e7f3",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
       }
     },
     "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/pages/2015-05-01---contact/1.jpg absPath of file >> ImageSharp": {
@@ -3520,10 +3544,10 @@
       "extension": "jpg",
       "size": 970706,
       "prettySize": "971 kB",
-      "modifiedTime": "2018-02-07T05:47:09.815Z",
-      "accessTime": "2018-02-07T07:26:20.476Z",
-      "changeTime": "2018-02-07T06:56:37.917Z",
-      "birthTime": "2018-02-07T05:47:09.807Z",
+      "modifiedTime": "2018-02-07T05:48:06.000Z",
+      "accessTime": "2018-02-08T07:32:03.759Z",
+      "changeTime": "2018-02-07T08:19:53.506Z",
+      "birthTime": "2018-02-07T05:48:06.000Z",
       "root": "/",
       "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2016-01-12---The-Origins-of-Social-Stationery-Lettering",
       "base": "1.jpg",
@@ -3531,22 +3555,22 @@
       "name": "1",
       "relativeDirectory": "articles/2016-01-12---The-Origins-of-Social-Stationery-Lettering",
       "dev": 16777220,
-      "mode": 33188,
+      "mode": 33261,
       "nlink": 1,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8592223504,
+      "ino": 8592385666,
       "blocks": 1896,
-      "atimeMs": 1517988380476.1453,
-      "mtimeMs": 1517982429814.9182,
-      "ctimeMs": 1517986597917.4724,
-      "birthtimeMs": 1517982429806.9429,
-      "atime": "2018-02-07T07:26:20.476Z",
-      "mtime": "2018-02-07T05:47:09.815Z",
-      "ctime": "2018-02-07T06:56:37.917Z",
-      "birthtime": "2018-02-07T05:47:09.807Z",
+      "atimeMs": 1518075123758.5493,
+      "mtimeMs": 1517982486000,
+      "ctimeMs": 1517991593506.0796,
+      "birthtimeMs": 1517982486000,
+      "atime": "2018-02-08T07:32:03.759Z",
+      "mtime": "2018-02-07T05:48:06.000Z",
+      "ctime": "2018-02-07T08:19:53.506Z",
+      "birthtime": "2018-02-07T05:48:06.000Z",
       "fields": {
         "slug": "/The-Origins-of-Social-Stationery-Lettering/"
       }
@@ -3582,10 +3606,10 @@
       "extension": "jpg",
       "size": 1881547,
       "prettySize": "1.88 MB",
-      "modifiedTime": "2018-02-07T05:47:09.853Z",
-      "accessTime": "2018-02-07T07:26:20.478Z",
-      "changeTime": "2018-02-07T06:56:37.926Z",
-      "birthTime": "2018-02-07T05:47:09.845Z",
+      "modifiedTime": "2018-02-07T05:48:06.000Z",
+      "accessTime": "2018-02-08T07:32:03.759Z",
+      "changeTime": "2018-02-07T08:19:53.511Z",
+      "birthTime": "2018-02-07T05:48:06.000Z",
       "root": "/",
       "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-18-08---The-Birth-of-Movable-Type",
       "base": "movable-type.jpg",
@@ -3593,22 +3617,22 @@
       "name": "movable-type",
       "relativeDirectory": "articles/2017-18-08---The-Birth-of-Movable-Type",
       "dev": 16777220,
-      "mode": 33188,
+      "mode": 33261,
       "nlink": 1,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8592223512,
+      "ino": 8592385674,
       "blocks": 3680,
-      "atimeMs": 1517988380477.619,
-      "mtimeMs": 1517982429853.215,
-      "ctimeMs": 1517986597925.709,
-      "birthtimeMs": 1517982429845.2012,
-      "atime": "2018-02-07T07:26:20.478Z",
-      "mtime": "2018-02-07T05:47:09.853Z",
-      "ctime": "2018-02-07T06:56:37.926Z",
-      "birthtime": "2018-02-07T05:47:09.845Z",
+      "atimeMs": 1518075123758.7288,
+      "mtimeMs": 1517982486000,
+      "ctimeMs": 1517991593510.8936,
+      "birthtimeMs": 1517982486000,
+      "atime": "2018-02-08T07:32:03.759Z",
+      "mtime": "2018-02-07T05:48:06.000Z",
+      "ctime": "2018-02-07T08:19:53.511Z",
+      "birthtime": "2018-02-07T05:48:06.000Z",
       "fields": {
         "slug": "/The-Birth-of-Movable-Type/"
       }
@@ -3644,10 +3668,10 @@
       "extension": "jpg",
       "size": 2880631,
       "prettySize": "2.88 MB",
-      "modifiedTime": "2018-02-07T05:47:09.893Z",
-      "accessTime": "2018-02-07T07:26:20.476Z",
-      "changeTime": "2018-02-07T06:56:37.942Z",
-      "birthTime": "2018-02-07T05:47:09.867Z",
+      "modifiedTime": "2018-02-07T05:48:06.000Z",
+      "accessTime": "2018-02-08T07:32:03.759Z",
+      "changeTime": "2018-02-07T08:19:53.520Z",
+      "birthTime": "2018-02-07T05:48:06.000Z",
       "root": "/",
       "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/pages/2015-05-01---about",
       "base": "1.jpg",
@@ -3655,22 +3679,22 @@
       "name": "1",
       "relativeDirectory": "pages/2015-05-01---about",
       "dev": 16777220,
-      "mode": 33188,
+      "mode": 33261,
       "nlink": 1,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8592223529,
+      "ino": 8592385691,
       "blocks": 5632,
-      "atimeMs": 1517988380475.546,
-      "mtimeMs": 1517982429893.0571,
-      "ctimeMs": 1517986597941.8286,
-      "birthtimeMs": 1517982429867.4321,
-      "atime": "2018-02-07T07:26:20.476Z",
-      "mtime": "2018-02-07T05:47:09.893Z",
-      "ctime": "2018-02-07T06:56:37.942Z",
-      "birthtime": "2018-02-07T05:47:09.867Z",
+      "atimeMs": 1518075123758.8752,
+      "mtimeMs": 1517982486000,
+      "ctimeMs": 1517991593520.104,
+      "birthtimeMs": 1517982486000,
+      "atime": "2018-02-08T07:32:03.759Z",
+      "mtime": "2018-02-07T05:48:06.000Z",
+      "ctime": "2018-02-07T08:19:53.520Z",
+      "birthtime": "2018-02-07T05:48:06.000Z",
       "fields": {
         "slug": "/about/"
       }
@@ -3706,10 +3730,10 @@
       "extension": "jpg",
       "size": 3011570,
       "prettySize": "3.01 MB",
-      "modifiedTime": "2018-02-07T05:47:09.834Z",
-      "accessTime": "2018-02-07T07:26:20.477Z",
-      "changeTime": "2018-02-07T06:56:37.933Z",
-      "birthTime": "2018-02-07T05:47:09.817Z",
+      "modifiedTime": "2018-02-07T05:48:06.000Z",
+      "accessTime": "2018-02-07T10:23:23.857Z",
+      "changeTime": "2018-02-07T08:19:53.515Z",
+      "birthTime": "2018-02-07T05:48:06.000Z",
       "root": "/",
       "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2016-02-02---A-Brief-History-of-Typography",
       "base": "1.jpg",
@@ -3717,22 +3741,22 @@
       "name": "1",
       "relativeDirectory": "articles/2016-02-02---A-Brief-History-of-Typography",
       "dev": 16777220,
-      "mode": 33188,
+      "mode": 33261,
       "nlink": 1,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8592223519,
+      "ino": 8592385681,
       "blocks": 5888,
-      "atimeMs": 1517988380477.407,
-      "mtimeMs": 1517982429833.9824,
-      "ctimeMs": 1517986597932.553,
-      "birthtimeMs": 1517982429816.5435,
-      "atime": "2018-02-07T07:26:20.477Z",
-      "mtime": "2018-02-07T05:47:09.834Z",
-      "ctime": "2018-02-07T06:56:37.933Z",
-      "birthtime": "2018-02-07T05:47:09.817Z",
+      "atimeMs": 1517999003856.941,
+      "mtimeMs": 1517982486000,
+      "ctimeMs": 1517991593514.8972,
+      "birthtimeMs": 1517982486000,
+      "atime": "2018-02-07T10:23:23.857Z",
+      "mtime": "2018-02-07T05:48:06.000Z",
+      "ctime": "2018-02-07T08:19:53.515Z",
+      "birthtime": "2018-02-07T05:48:06.000Z",
       "fields": {
         "slug": "/A-Brief-History-of-Typography/"
       }
@@ -3747,27 +3771,6 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "SitePage /offline-plugin-app-shell-fallback/": {
-      "layout": "index",
-      "jsonName": "offline-plugin-app-shell-fallback.json",
-      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
-      "path": "/offline-plugin-app-shell-fallback/",
-      "component": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/node_modules/gatsby-plugin-offline/app-shell.js",
-      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
-      "context": {},
-      "updatedAt": 1517989506927,
-      "pluginCreator___NODE": "Plugin gatsby-plugin-offline",
-      "pluginCreatorId": "Plugin gatsby-plugin-offline",
-      "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/node_modules/gatsby-plugin-offline/app-shell.js",
-      "id": "SitePage /offline-plugin-app-shell-fallback/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "bb6ea7c51623fb8dc2e55fb7cfd220db",
-        "owner": "internal-data-bridge"
-      }
-    },
     "SitePage /posts/perfecting-the-art-of-perfection/": {
       "layout": "index",
       "jsonName": "posts-perfecting-the-art-of-perfection.json",
@@ -3778,7 +3781,7 @@
       "context": {
         "slug": "/posts/perfecting-the-art-of-perfection/"
       },
-      "updatedAt": 1517989506948,
+      "updatedAt": 1518082656422,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/post-template.jsx",
@@ -3787,7 +3790,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "89e6d76333da7915a9406d8ce9a44965",
+        "contentDigest": "1dbd695515d3937df1d06b8fe2786779",
         "owner": "internal-data-bridge"
       }
     },
@@ -3801,7 +3804,7 @@
       "context": {
         "tag": "Handwriting"
       },
-      "updatedAt": 1517989506948,
+      "updatedAt": 1518082656424,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
@@ -3810,7 +3813,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "02cde79d375d131e9d8f06fbacb1b82f",
+        "contentDigest": "c516f6920c138283081f534b302d8afb",
         "owner": "internal-data-bridge"
       }
     },
@@ -3824,7 +3827,7 @@
       "context": {
         "tag": "Learning to write"
       },
-      "updatedAt": 1517989506949,
+      "updatedAt": 1518082656424,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
@@ -3833,7 +3836,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "09fcc80e99bec12319a550400939d7e8",
+        "contentDigest": "ce069aae3019dc30635aa258e3e7b1bd",
         "owner": "internal-data-bridge"
       }
     },
@@ -3847,7 +3850,7 @@
       "context": {
         "category": "Design Inspiration"
       },
-      "updatedAt": 1517989506951,
+      "updatedAt": 1518082656428,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/category-template.jsx",
@@ -3856,122 +3859,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b08d8d218d8efee6026629ed8a5cac84",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /posts/a-brief-history-of-typography/": {
-      "layout": "index",
-      "jsonName": "posts-a-brief-history-of-typography.json",
-      "internalComponentName": "ComponentPostsABriefHistoryOfTypography",
-      "path": "/posts/a-brief-history-of-typography/",
-      "component": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/post-template.jsx",
-      "componentChunkName": "component---src-templates-post-template-jsx",
-      "context": {
-        "slug": "/posts/a-brief-history-of-typography/"
-      },
-      "updatedAt": 1517989506949,
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/post-template.jsx",
-      "id": "SitePage /posts/a-brief-history-of-typography/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "c4d2709cd53af7b6697d5e39719b1222",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /tags/linotype/": {
-      "layout": "index",
-      "jsonName": "tags-linotype.json",
-      "internalComponentName": "ComponentTagsLinotype",
-      "path": "/tags/linotype/",
-      "component": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
-      "componentChunkName": "component---src-templates-tag-template-jsx",
-      "context": {
-        "tag": "Linotype"
-      },
-      "updatedAt": 1517989506950,
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
-      "id": "SitePage /tags/linotype/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "de159799826b9ffa602bebaeda5b2048",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /tags/monotype/": {
-      "layout": "index",
-      "jsonName": "tags-monotype.json",
-      "internalComponentName": "ComponentTagsMonotype",
-      "path": "/tags/monotype/",
-      "component": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
-      "componentChunkName": "component---src-templates-tag-template-jsx",
-      "context": {
-        "tag": "Monotype"
-      },
-      "updatedAt": 1517989506950,
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
-      "id": "SitePage /tags/monotype/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "b62539db32cd11cdab25c5ea8b2bfd5d",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /tags/history-of-typography/": {
-      "layout": "index",
-      "jsonName": "tags-history-of-typography.json",
-      "internalComponentName": "ComponentTagsHistoryOfTypography",
-      "path": "/tags/history-of-typography/",
-      "component": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
-      "componentChunkName": "component---src-templates-tag-template-jsx",
-      "context": {
-        "tag": "History of typography"
-      },
-      "updatedAt": 1517989506950,
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
-      "id": "SitePage /tags/history-of-typography/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "074443d574a8e761b113ef5d285a55ee",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /tags/helvetica/": {
-      "layout": "index",
-      "jsonName": "tags-helvetica.json",
-      "internalComponentName": "ComponentTagsHelvetica",
-      "path": "/tags/helvetica/",
-      "component": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
-      "componentChunkName": "component---src-templates-tag-template-jsx",
-      "context": {
-        "tag": "Helvetica"
-      },
-      "updatedAt": 1517989506951,
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
-      "id": "SitePage /tags/helvetica/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "70e86c545f2a682776f2e713b320a685",
+        "contentDigest": "ada6ec7317c7c340b2f228b1ee97ce9b",
         "owner": "internal-data-bridge"
       }
     },
@@ -3985,7 +3873,7 @@
       "context": {
         "slug": "/posts/the-origins-of-social-stationery-lettering"
       },
-      "updatedAt": 1517989506951,
+      "updatedAt": 1518082656425,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/post-template.jsx",
@@ -3994,7 +3882,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "cec3587f670b4c76f1662a6a91a22361",
+        "contentDigest": "15f571d95bf5d064b3304255f09bd724",
         "owner": "internal-data-bridge"
       }
     },
@@ -4008,7 +3896,7 @@
       "context": {
         "tag": "Typefaces"
       },
-      "updatedAt": 1517989506952,
+      "updatedAt": 1518082656425,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
@@ -4017,7 +3905,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "27d323deb13f75a54cee70a101963daf",
+        "contentDigest": "6d1df998b52bab0479eb8a402b25d7dd",
         "owner": "internal-data-bridge"
       }
     },
@@ -4031,7 +3919,7 @@
       "context": {
         "tag": "Lettering"
       },
-      "updatedAt": 1517989506952,
+      "updatedAt": 1518082656425,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
@@ -4040,7 +3928,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1f971f787c0d1be6e5aa5eded76d0935",
+        "contentDigest": "f172b87b88ca4cc215aa5406c8ea1c7b",
         "owner": "internal-data-bridge"
       }
     },
@@ -4054,7 +3942,7 @@
       "context": {
         "tag": "History"
       },
-      "updatedAt": 1517989506952,
+      "updatedAt": 1518082656426,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
@@ -4063,7 +3951,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "7041f654a8baef82261a04bfc4e74147",
+        "contentDigest": "76aab4951c2ebf1cb9df113d5713e9b4",
         "owner": "internal-data-bridge"
       }
     },
@@ -4077,7 +3965,7 @@
       "context": {
         "category": "Design Culture"
       },
-      "updatedAt": 1517989506952,
+      "updatedAt": 1518082656426,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/category-template.jsx",
@@ -4086,122 +3974,122 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d21da9597e25d0dded7081c8828c9510",
+        "contentDigest": "f24c07e1c7c723686b014c092643afa6",
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /posts/humane-typography-in-the-digital-age/": {
+    "SitePage /posts/a-brief-history-of-typography/": {
       "layout": "index",
-      "jsonName": "posts-humane-typography-in-the-digital-age.json",
-      "internalComponentName": "ComponentPostsHumaneTypographyInTheDigitalAge",
-      "path": "/posts/humane-typography-in-the-digital-age/",
+      "jsonName": "posts-a-brief-history-of-typography.json",
+      "internalComponentName": "ComponentPostsABriefHistoryOfTypography",
+      "path": "/posts/a-brief-history-of-typography/",
       "component": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/post-template.jsx",
       "componentChunkName": "component---src-templates-post-template-jsx",
       "context": {
-        "slug": "/posts/humane-typography-in-the-digital-age/"
+        "slug": "/posts/a-brief-history-of-typography/"
       },
-      "updatedAt": 1517989506953,
+      "updatedAt": 1518082656426,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/post-template.jsx",
-      "id": "SitePage /posts/humane-typography-in-the-digital-age/",
+      "id": "SitePage /posts/a-brief-history-of-typography/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9c0939b80dc680ade50273d841637826",
+        "contentDigest": "a0f6bf06be8de6bc558fab07c6144ce4",
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /tags/design/": {
+    "SitePage /tags/linotype/": {
       "layout": "index",
-      "jsonName": "tags-design.json",
-      "internalComponentName": "ComponentTagsDesign",
-      "path": "/tags/design/",
+      "jsonName": "tags-linotype.json",
+      "internalComponentName": "ComponentTagsLinotype",
+      "path": "/tags/linotype/",
       "component": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
       "componentChunkName": "component---src-templates-tag-template-jsx",
       "context": {
-        "tag": "Design"
+        "tag": "Linotype"
       },
-      "updatedAt": 1517989506954,
+      "updatedAt": 1518082656427,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
-      "id": "SitePage /tags/design/",
+      "id": "SitePage /tags/linotype/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9b66fac43a0a33e00ba124c37e093c7e",
+        "contentDigest": "164517df5a832db540be4af78c879fab",
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /tags/typography/": {
+    "SitePage /tags/monotype/": {
       "layout": "index",
-      "jsonName": "tags-typography.json",
-      "internalComponentName": "ComponentTagsTypography",
-      "path": "/tags/typography/",
+      "jsonName": "tags-monotype.json",
+      "internalComponentName": "ComponentTagsMonotype",
+      "path": "/tags/monotype/",
       "component": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
       "componentChunkName": "component---src-templates-tag-template-jsx",
       "context": {
-        "tag": "Typography"
+        "tag": "Monotype"
       },
-      "updatedAt": 1517989506960,
+      "updatedAt": 1518082656427,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
-      "id": "SitePage /tags/typography/",
+      "id": "SitePage /tags/monotype/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f7b474c0723573cb0f9ce384b26a170e",
+        "contentDigest": "6d91a1cedb8c5cdb439b48f287ea3327",
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /tags/web-development/": {
+    "SitePage /tags/history-of-typography/": {
       "layout": "index",
-      "jsonName": "tags-web-development.json",
-      "internalComponentName": "ComponentTagsWebDevelopment",
-      "path": "/tags/web-development/",
+      "jsonName": "tags-history-of-typography.json",
+      "internalComponentName": "ComponentTagsHistoryOfTypography",
+      "path": "/tags/history-of-typography/",
       "component": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
       "componentChunkName": "component---src-templates-tag-template-jsx",
       "context": {
-        "tag": "Web Development"
+        "tag": "History of typography"
       },
-      "updatedAt": 1517989506955,
+      "updatedAt": 1518082656427,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
-      "id": "SitePage /tags/web-development/",
+      "id": "SitePage /tags/history-of-typography/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "8f1fe248f653489ce0bfa11aac0bed8a",
+        "contentDigest": "a4761a62ff92b5c83c43f3cf26812236",
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /categories/typography/": {
+    "SitePage /tags/helvetica/": {
       "layout": "index",
-      "jsonName": "categories-typography.json",
-      "internalComponentName": "ComponentCategoriesTypography",
-      "path": "/categories/typography/",
-      "component": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/category-template.jsx",
-      "componentChunkName": "component---src-templates-category-template-jsx",
+      "jsonName": "tags-helvetica.json",
+      "internalComponentName": "ComponentTagsHelvetica",
+      "path": "/tags/helvetica/",
+      "component": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
+      "componentChunkName": "component---src-templates-tag-template-jsx",
       "context": {
-        "category": "Typography"
+        "tag": "Helvetica"
       },
-      "updatedAt": 1517989506960,
+      "updatedAt": 1518082656428,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/category-template.jsx",
-      "id": "SitePage /categories/typography/",
+      "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
+      "id": "SitePage /tags/helvetica/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b5db0689a0976a1664760296650acf53",
+        "contentDigest": "6b83d85b967b002dccd0f70432560a9a",
         "owner": "internal-data-bridge"
       }
     },
@@ -4215,7 +4103,7 @@
       "context": {
         "slug": "/posts/the-birth-of-movable-type/"
       },
-      "updatedAt": 1517989506958,
+      "updatedAt": 1518082656429,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/post-template.jsx",
@@ -4224,7 +4112,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ea2a8d7ce5c0285c23958b9d0206ea52",
+        "contentDigest": "7f20c2cfb0b65bf533eaf7513a649e2e",
         "owner": "internal-data-bridge"
       }
     },
@@ -4238,7 +4126,7 @@
       "context": {
         "tag": "Open source"
       },
-      "updatedAt": 1517989506959,
+      "updatedAt": 1518082656429,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
@@ -4247,7 +4135,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "35f085cc13254b5f97e2ff5a67b83ded",
+        "contentDigest": "21a781b0afe97423fd30394b80386b06",
         "owner": "internal-data-bridge"
       }
     },
@@ -4261,7 +4149,7 @@
       "context": {
         "tag": "Gatsby"
       },
-      "updatedAt": 1517989506959,
+      "updatedAt": 1518082656429,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
@@ -4270,7 +4158,122 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b719fef6e8ceca81e163321a04f8f353",
+        "contentDigest": "e9d49f272f2e6e7e2a1f412d154ba017",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tags/typography/": {
+      "layout": "index",
+      "jsonName": "tags-typography.json",
+      "internalComponentName": "ComponentTagsTypography",
+      "path": "/tags/typography/",
+      "component": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
+      "componentChunkName": "component---src-templates-tag-template-jsx",
+      "context": {
+        "tag": "Typography"
+      },
+      "updatedAt": 1518082656431,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
+      "id": "SitePage /tags/typography/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a0335ffeb796aa42c0366c2b14add15b",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /categories/typography/": {
+      "layout": "index",
+      "jsonName": "categories-typography.json",
+      "internalComponentName": "ComponentCategoriesTypography",
+      "path": "/categories/typography/",
+      "component": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/category-template.jsx",
+      "componentChunkName": "component---src-templates-category-template-jsx",
+      "context": {
+        "category": "Typography"
+      },
+      "updatedAt": 1518082656431,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/category-template.jsx",
+      "id": "SitePage /categories/typography/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "150508fb732eafa022f3f1d7a89da965",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /posts/humane-typography-in-the-digital-age/": {
+      "layout": "index",
+      "jsonName": "posts-humane-typography-in-the-digital-age.json",
+      "internalComponentName": "ComponentPostsHumaneTypographyInTheDigitalAge",
+      "path": "/posts/humane-typography-in-the-digital-age/",
+      "component": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/post-template.jsx",
+      "componentChunkName": "component---src-templates-post-template-jsx",
+      "context": {
+        "slug": "/posts/humane-typography-in-the-digital-age/"
+      },
+      "updatedAt": 1518082656430,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/post-template.jsx",
+      "id": "SitePage /posts/humane-typography-in-the-digital-age/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "987afbb22ed8816ca1e833d9f9952028",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tags/design/": {
+      "layout": "index",
+      "jsonName": "tags-design.json",
+      "internalComponentName": "ComponentTagsDesign",
+      "path": "/tags/design/",
+      "component": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
+      "componentChunkName": "component---src-templates-tag-template-jsx",
+      "context": {
+        "tag": "Design"
+      },
+      "updatedAt": 1518082656430,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
+      "id": "SitePage /tags/design/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "04d781f1caa9b7b0ee489dc372642bb1",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tags/web-development/": {
+      "layout": "index",
+      "jsonName": "tags-web-development.json",
+      "internalComponentName": "ComponentTagsWebDevelopment",
+      "path": "/tags/web-development/",
+      "component": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
+      "componentChunkName": "component---src-templates-tag-template-jsx",
+      "context": {
+        "tag": "Web Development"
+      },
+      "updatedAt": 1518082656431,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
+      "id": "SitePage /tags/web-development/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "41daf44ffce1d2f948b8a2f701abc559",
         "owner": "internal-data-bridge"
       }
     },
@@ -4284,7 +4287,7 @@
       "context": {
         "slug": "/about"
       },
-      "updatedAt": 1517989506961,
+      "updatedAt": 1518082656432,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/page-template.jsx",
@@ -4293,7 +4296,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "8f21ec6078f65de005d4c85fb65afe2b",
+        "contentDigest": "89197f17e88ea9ac6db7dcf48cb89fd9",
         "owner": "internal-data-bridge"
       }
     },
@@ -4307,7 +4310,7 @@
       "context": {
         "slug": "/contact"
       },
-      "updatedAt": 1517989506961,
+      "updatedAt": 1518082656432,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/page-template.jsx",
@@ -4316,7 +4319,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f7aaaec4635a3a0461348dfda2613bea",
+        "contentDigest": "327f531a85f2e15e5c4115fb5555fd79",
         "owner": "internal-data-bridge"
       }
     },
@@ -4328,7 +4331,7 @@
       "component": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/404.jsx",
       "componentChunkName": "component---src-pages-404-jsx",
       "context": {},
-      "updatedAt": 1517989506993,
+      "updatedAt": 1518075124479,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/404.jsx",
@@ -4337,7 +4340,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4602e5fd03596ba6569ca27dd4f90c5b",
+        "contentDigest": "45b0300071f259258ede26e28650a81c",
         "owner": "internal-data-bridge"
       }
     },
@@ -4349,7 +4352,7 @@
       "component": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/categories.jsx",
       "componentChunkName": "component---src-pages-categories-jsx",
       "context": {},
-      "updatedAt": 1517989506994,
+      "updatedAt": 1518075124479,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/categories.jsx",
@@ -4358,7 +4361,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "78c09ce55ab65825211754c4da9a7228",
+        "contentDigest": "aa938cf2adb936c10a73c991cdedabe0",
         "owner": "internal-data-bridge"
       }
     },
@@ -4370,7 +4373,7 @@
       "component": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/index.jsx",
       "componentChunkName": "component---src-pages-index-jsx",
       "context": {},
-      "updatedAt": 1517989506994,
+      "updatedAt": 1518075124480,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/index.jsx",
@@ -4379,7 +4382,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "36108112d90ce0ba1fb07736fe2bbb84",
+        "contentDigest": "7e1d9e9b8300d4a68429736f3f0705aa",
         "owner": "internal-data-bridge"
       }
     },
@@ -4391,7 +4394,7 @@
       "component": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/tags.jsx",
       "componentChunkName": "component---src-pages-tags-jsx",
       "context": {},
-      "updatedAt": 1517989506994,
+      "updatedAt": 1518075124480,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/tags.jsx",
@@ -4400,7 +4403,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c7e2bac2aa60da2d27aab0ef26f71e94",
+        "contentDigest": "50de1b1a9ddb6122b85a484430cc9efa",
         "owner": "internal-data-bridge"
       }
     },
@@ -4412,7 +4415,7 @@
       "component": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/404.jsx",
       "componentChunkName": "component---src-pages-404-jsx",
       "context": {},
-      "updatedAt": 1517989506996,
+      "updatedAt": 1518075124482,
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/404.jsx",
@@ -4421,40 +4424,40 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "cbc67ddf1a6b8e20058bdc7d33f6c140",
+        "contentDigest": "16b639fe63e0bf6f95505e5a0f8b4b55",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "5b9a718d590503d0660279e2946ba11b"
+    "PLUGINS_HASH": "e2a9a184428666bf7c0c5a276dce4c24"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
+        "/tags/learning-to-write/",
         "/tags/handwriting/",
         "/posts/perfecting-the-art-of-perfection/",
-        "/tags/learning-to-write/",
         "/categories/design-inspiration/",
-        "/posts/a-brief-history-of-typography/",
-        "/tags/linotype/",
-        "/tags/monotype/",
-        "/tags/history-of-typography/",
-        "/tags/helvetica/",
         "/posts/the-origins-of-social-stationery-lettering",
         "/tags/typefaces/",
         "/tags/lettering/",
         "/tags/history/",
         "/categories/design-culture/",
-        "/posts/humane-typography-in-the-digital-age/",
-        "/tags/design/",
-        "/tags/typography/",
-        "/tags/web-development/",
-        "/categories/typography/",
+        "/posts/a-brief-history-of-typography/",
+        "/tags/linotype/",
+        "/tags/monotype/",
+        "/tags/history-of-typography/",
+        "/tags/helvetica/",
         "/posts/the-birth-of-movable-type/",
         "/tags/open-source/",
         "/tags/gatsby/",
+        "/tags/typography/",
+        "/categories/typography/",
+        "/posts/humane-typography-in-the-digital-age/",
+        "/tags/design/",
+        "/tags/web-development/",
         "/about",
         "/contact",
         "/404/",
@@ -4466,17 +4469,17 @@
       "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2016-01-09---Perfecting-the-Art-of-Perfection/index.md absPath of file >>> MarkdownRemark": [
         "/posts/perfecting-the-art-of-perfection/"
       ],
-      "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2016-02-02---A-Brief-History-of-Typography/index.md absPath of file >>> MarkdownRemark": [
-        "/posts/a-brief-history-of-typography/"
-      ],
       "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2016-01-12---The-Origins-of-Social-Stationery-Lettering/index.md absPath of file >>> MarkdownRemark": [
         "/posts/the-origins-of-social-stationery-lettering"
       ],
-      "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-19-08---Humane-Typography-in-the-Digital-Age/index.md absPath of file >>> MarkdownRemark": [
-        "/posts/humane-typography-in-the-digital-age/"
+      "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2016-02-02---A-Brief-History-of-Typography/index.md absPath of file >>> MarkdownRemark": [
+        "/posts/a-brief-history-of-typography/"
       ],
       "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-18-08---The-Birth-of-Movable-Type/index.md absPath of file >>> MarkdownRemark": [
         "/posts/the-birth-of-movable-type/"
+      ],
+      "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/articles/2017-19-08---Humane-Typography-in-the-Digital-Age/index.md absPath of file >>> MarkdownRemark": [
+        "/posts/humane-typography-in-the-digital-age/"
       ],
       "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/pages/2015-05-01---about/index.md absPath of file >>> MarkdownRemark": [
         "/about"
@@ -4487,26 +4490,29 @@
     },
     "connections": {
       "MarkdownRemark": [
-        "/tags/handwriting/",
         "/tags/learning-to-write/",
+        "/tags/handwriting/",
         "/categories/design-inspiration/",
-        "/tags/linotype/",
-        "/tags/monotype/",
-        "/tags/history-of-typography/",
-        "/tags/helvetica/",
         "/tags/typefaces/",
         "/tags/lettering/",
         "/tags/history/",
         "/categories/design-culture/",
-        "/tags/design/",
-        "/tags/typography/",
-        "/tags/web-development/",
-        "/categories/typography/",
+        "/tags/linotype/",
+        "/tags/monotype/",
+        "/tags/history-of-typography/",
+        "/tags/helvetica/",
         "/tags/open-source/",
         "/tags/gatsby/",
+        "/tags/typography/",
+        "/categories/typography/",
+        "/tags/design/",
+        "/tags/web-development/",
         "/categories/",
         "/",
         "/tags/"
+      ],
+      "SitePage": [
+        "/dev-404-page/"
       ]
     }
   }
