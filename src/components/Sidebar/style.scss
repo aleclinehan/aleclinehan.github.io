@@ -4,6 +4,7 @@
 .sidebar {
     float: left;
     width: 100%;
+
     &__inner {
         position: relative;
         padding: 0px 0px 0;
@@ -39,6 +40,8 @@
             @include line-height(1);
             @include margin-bottom(1);
             position: relative;
+            float: left;
+            width: 100%;
             bottom: 0;
             @include margin(10, 0, 5, 0);
         }
@@ -54,20 +57,21 @@
 
 @include breakpoint-sm {
     .sidebar {
-        lost-column: 12/12;
+        lost-column: 4/5;
         &__inner {
-            @include margin(.5, 0, .5, 0);
+            @include margin(0, 0, 0, 0);
             padding: 0px 0px 0;
             &:after {
                 background: $color-gray-border;
                 background: linear-gradient(to bottom, $color-gray-border 0%, $color-gray-border 48%, $color-white 100%);
-                position: absolute;
+                position: relative;
                 content: "";
-                width: 1px;
-                height: 540px;
+                width: 540px;
+                height: 1px;
                 top: 30px;
                 right: 0px;
                 bottom: 0;
+                opacity: 100;
             }
         }
     }
@@ -75,19 +79,20 @@
 
 @include breakpoint-md {
     .sidebar {
-        lost-column: 12/12;
+        lost-column: 4/5;
         &__inner {
             padding: 0px 0px 0;
             &:after {
                 background: $color-gray-border;
                 background: linear-gradient(to bottom, $color-gray-border 0%, $color-gray-border 48%, $color-white 100%);
-                position: absolute;
+                position: relative;
                 content: "";
-                width: 1px;
-                height: 540px;
+                width: 540px;
+                height: 1px;
                 top: 30px;
                 right: 0px;
                 bottom: 0;
+                opacity: 100;
             }
         }
     }

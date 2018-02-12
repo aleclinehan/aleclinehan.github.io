@@ -1,5 +1,5 @@
 ---
-title: Perfecting the Art of Perfection
+title: xxxxs
 date: "2016-09-01T23:46:37.121Z"
 layout: post
 draft: false

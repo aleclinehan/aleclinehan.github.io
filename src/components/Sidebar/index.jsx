@@ -3,6 +3,7 @@ import get from 'lodash/get';
 import Link from 'gatsby-link';
 import Menu from '../Menu';
 import Links from '../Links';
+import Headroom from 'react-headroom'
 
 import profilePic from '../../pages/photo.jpg';
 import './style.scss';
@@ -16,6 +17,13 @@ class Sidebar extends React.Component {
     /* eslint-disable jsx-a11y/img-redundant-alt */
     const authorBlock = (
       <div>
+        
+        <p className="sidebar__author-subtitle">Robot Brain Media helps brands explore, <br /> curate and fuel their virtual presence. 
+        <br /> 
+        <br /> <br /> <br /> <br /> You can see the future, we help you change it. <br /><br /><br /><br /><br /></p>
+        
+        <Menu data={menu} />
+        
         <Link to="/">
           <img
             src={profilePic}
@@ -34,9 +42,7 @@ class Sidebar extends React.Component {
             <Link className="sidebar__author-title-link" to="/">{author.name}</Link>
           </h2>
         }
-        <p className="sidebar__author-subtitle">Robot Brain Media helps brands explore, <br /> curate and fuel their virtual presence. 
-        <br /> 
-        <br /> <br /> <br /> <br /> Seeing the future ≠ changing the future.<br /><br /><br /><br /><br /></p>
+        
       </div>
     );
     /* eslint-enable jsx-a11y/img-redundant-alt */
@@ -48,7 +54,7 @@ class Sidebar extends React.Component {
             {authorBlock}
           </div>
           <div>
-            <Menu data={menu} />
+            
             <Links data={author} />
             <footer>
             <p className="sidebar__copyright">

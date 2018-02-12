@@ -1,5 +1,19 @@
 [
     {
+        "componentChunkName": "component---src-templates-page-template-jsx",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-jsx",
+        "jsonName": "about.json",
+        "path": "/about"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-template-jsx",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-jsx",
+        "jsonName": "contact.json",
+        "path": "/contact"
+    },
+    {
         "componentChunkName": "component---src-templates-post-template-jsx",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-jsx",
@@ -152,20 +166,6 @@
         "layoutComponentChunkName": "component---src-layouts-index-jsx",
         "jsonName": "tags-web-development.json",
         "path": "/tags/web-development/"
-    },
-    {
-        "componentChunkName": "component---src-templates-page-template-jsx",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-jsx",
-        "jsonName": "about.json",
-        "path": "/about"
-    },
-    {
-        "componentChunkName": "component---src-templates-page-template-jsx",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-jsx",
-        "jsonName": "contact.json",
-        "path": "/contact"
     },
     {
         "componentChunkName": "component---cache-dev-404-page-js",

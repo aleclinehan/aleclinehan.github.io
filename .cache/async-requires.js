@@ -2,10 +2,10 @@
 const preferDefault = m => m && m.default || m
 
 exports.components = {
+  "component---src-templates-page-template-jsx": require("gatsby-module-loader?name=component---src-templates-page-template-jsx!/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/page-template.jsx"),
   "component---src-templates-post-template-jsx": require("gatsby-module-loader?name=component---src-templates-post-template-jsx!/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/post-template.jsx"),
   "component---src-templates-tag-template-jsx": require("gatsby-module-loader?name=component---src-templates-tag-template-jsx!/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx"),
   "component---src-templates-category-template-jsx": require("gatsby-module-loader?name=component---src-templates-category-template-jsx!/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/category-template.jsx"),
-  "component---src-templates-page-template-jsx": require("gatsby-module-loader?name=component---src-templates-page-template-jsx!/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/page-template.jsx"),
   "component---cache-dev-404-page-js": require("gatsby-module-loader?name=component---cache-dev-404-page-js!/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/.cache/dev-404-page.js"),
   "component---src-pages-404-jsx": require("gatsby-module-loader?name=component---src-pages-404-jsx!/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/404.jsx"),
   "component---src-pages-categories-jsx": require("gatsby-module-loader?name=component---src-pages-categories-jsx!/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/categories.jsx"),
@@ -14,6 +14,10 @@ exports.components = {
 }
 
 exports.json = {
+  "layout-index.json": require("gatsby-module-loader?name=path---!/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/.cache/json/layout-index.json"),
+  "about.json": require("gatsby-module-loader?name=path---about!/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/.cache/json/about.json"),
+  "layout-index.json": require("gatsby-module-loader?name=path---!/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/.cache/json/layout-index.json"),
+  "contact.json": require("gatsby-module-loader?name=path---contact!/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/.cache/json/contact.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/.cache/json/layout-index.json"),
   "posts-perfecting-the-art-of-perfection.json": require("gatsby-module-loader?name=path---posts-perfecting-the-art-of-perfection!/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/.cache/json/posts-perfecting-the-art-of-perfection.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/.cache/json/layout-index.json"),
@@ -58,10 +62,6 @@ exports.json = {
   "tags-design.json": require("gatsby-module-loader?name=path---tags-design!/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/.cache/json/tags-design.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/.cache/json/layout-index.json"),
   "tags-web-development.json": require("gatsby-module-loader?name=path---tags-web-development!/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/.cache/json/tags-web-development.json"),
-  "layout-index.json": require("gatsby-module-loader?name=path---!/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/.cache/json/layout-index.json"),
-  "about.json": require("gatsby-module-loader?name=path---about!/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/.cache/json/about.json"),
-  "layout-index.json": require("gatsby-module-loader?name=path---!/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/.cache/json/layout-index.json"),
-  "contact.json": require("gatsby-module-loader?name=path---contact!/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/.cache/json/contact.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/.cache/json/layout-index.json"),
   "dev-404-page.json": require("gatsby-module-loader?name=path---dev-404-page!/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/.cache/json/dev-404-page.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/.cache/json/layout-index.json"),

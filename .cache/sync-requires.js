@@ -7,10 +7,10 @@ exports.layouts = {
 }
 
 exports.components = {
+  "component---src-templates-page-template-jsx": preferDefault(require("/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/page-template.jsx")),
   "component---src-templates-post-template-jsx": preferDefault(require("/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/post-template.jsx")),
   "component---src-templates-tag-template-jsx": preferDefault(require("/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx")),
   "component---src-templates-category-template-jsx": preferDefault(require("/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/category-template.jsx")),
-  "component---src-templates-page-template-jsx": preferDefault(require("/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/page-template.jsx")),
   "component---cache-dev-404-page-js": preferDefault(require("/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/.cache/dev-404-page.js")),
   "component---src-pages-404-jsx": preferDefault(require("/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/404.jsx")),
   "component---src-pages-categories-jsx": preferDefault(require("/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/categories.jsx")),
@@ -19,6 +19,10 @@ exports.components = {
 }
 
 exports.json = {
+  "layout-index.json": require("/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/.cache/json/layout-index.json"),
+  "about.json": require("/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/.cache/json/about.json"),
+  "layout-index.json": require("/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/.cache/json/layout-index.json"),
+  "contact.json": require("/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/.cache/json/contact.json"),
   "layout-index.json": require("/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/.cache/json/layout-index.json"),
   "posts-perfecting-the-art-of-perfection.json": require("/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/.cache/json/posts-perfecting-the-art-of-perfection.json"),
   "layout-index.json": require("/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/.cache/json/layout-index.json"),
@@ -63,10 +67,6 @@ exports.json = {
   "tags-design.json": require("/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/.cache/json/tags-design.json"),
   "layout-index.json": require("/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/.cache/json/layout-index.json"),
   "tags-web-development.json": require("/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/.cache/json/tags-web-development.json"),
-  "layout-index.json": require("/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/.cache/json/layout-index.json"),
-  "about.json": require("/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/.cache/json/about.json"),
-  "layout-index.json": require("/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/.cache/json/layout-index.json"),
-  "contact.json": require("/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/.cache/json/contact.json"),
   "layout-index.json": require("/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/.cache/json/layout-index.json"),
   "dev-404-page.json": require("/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/.cache/json/dev-404-page.json"),
   "layout-index.json": require("/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/.cache/json/layout-index.json"),

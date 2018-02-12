@@ -18,6 +18,7 @@ class IndexRoute extends React.Component {
         <Helmet>
           <title>{title}</title>
           <meta name="description" content={subtitle} />
+          <Icosa {...this.props} />
         </Helmet>
         <Sidebar {...this.props} />
         <Icosa {...this.props} />
