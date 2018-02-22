@@ -5,6 +5,7 @@
     @include margin-top(2.25);
     @include margin-bottom(.1);
     float: left;
+    opacity: 0;
     width: 100%;
     &__list {
         list-style: none;

@@ -1810,12 +1810,20 @@
       },
       "pathPrefix": "",
       "polyfill": true,
+<<<<<<< HEAD
       "buildTime": "2018-02-22T21:46:32.025Z",
+=======
+      "buildTime": "2018-02-22T21:25:24.664Z",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
+<<<<<<< HEAD
         "contentDigest": "b633ff4c1d09cb696137b11a4ffb8c3c",
+=======
+        "contentDigest": "de3bd12e6bee5a548f0f29f744a561ca",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1825,7 +1833,11 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
+<<<<<<< HEAD
         "contentDigest": "984e335dcf2effdfc640d6ba113427ca",
+=======
+        "contentDigest": "828a5c40d430b5aaf3aa17d623b87826",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1836,7 +1848,11 @@
       "size": 288,
       "prettySize": "288 B",
       "modifiedTime": "2018-02-12T09:18:05.648Z",
+<<<<<<< HEAD
       "accessTime": "2018-02-22T21:46:36.300Z",
+=======
+      "accessTime": "2018-02-22T21:25:29.233Z",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "changeTime": "2018-02-12T09:18:05.648Z",
       "birthTime": "2018-02-07T05:48:06.000Z",
       "root": "/",
@@ -1854,11 +1870,19 @@
       "blksize": 4194304,
       "ino": 8592385660,
       "blocks": 0,
+<<<<<<< HEAD
       "atimeMs": 1519335996300.3945,
       "mtimeMs": 1518427085647.8328,
       "ctimeMs": 1518427085647.8328,
       "birthtimeMs": 1517982486000,
       "atime": "2018-02-22T21:46:36.300Z",
+=======
+      "atimeMs": 1519334729233.3953,
+      "mtimeMs": 1518427085647.8328,
+      "ctimeMs": 1518427085647.8328,
+      "birthtimeMs": 1517982486000,
+      "atime": "2018-02-22T21:25:29.233Z",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "mtime": "2018-02-12T09:18:05.648Z",
       "ctime": "2018-02-12T09:18:05.648Z",
       "birthtime": "2018-02-07T05:48:06.000Z"
@@ -1868,7 +1892,11 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
+<<<<<<< HEAD
         "contentDigest": "e5bed12e08887be9d873728d5a1a22a2",
+=======
+        "contentDigest": "bcb1f16f774db511905a552fc9643e41",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1879,7 +1907,11 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-02-07T05:48:06.000Z",
+<<<<<<< HEAD
       "accessTime": "2018-02-22T21:46:36.302Z",
+=======
+      "accessTime": "2018-02-22T21:25:29.236Z",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "changeTime": "2018-02-07T08:19:53.520Z",
       "birthTime": "2018-02-07T05:48:06.000Z",
       "root": "/",
@@ -1897,11 +1929,19 @@
       "blksize": 4194304,
       "ino": 8592385685,
       "blocks": 0,
+<<<<<<< HEAD
       "atimeMs": 1519335996302.4866,
       "mtimeMs": 1517982486000,
       "ctimeMs": 1517991593520.3777,
       "birthtimeMs": 1517982486000,
       "atime": "2018-02-22T21:46:36.302Z",
+=======
+      "atimeMs": 1519334729236.0955,
+      "mtimeMs": 1517982486000,
+      "ctimeMs": 1517991593520.3777,
+      "birthtimeMs": 1517982486000,
+      "atime": "2018-02-22T21:25:29.236Z",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "mtime": "2018-02-07T05:48:06.000Z",
       "ctime": "2018-02-07T08:19:53.520Z",
       "birthtime": "2018-02-07T05:48:06.000Z"
@@ -1911,7 +1951,11 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
+<<<<<<< HEAD
         "contentDigest": "580371eeb64a730c2dad0416f4bbb5b9",
+=======
+        "contentDigest": "500d9eaf4b41410ac4ce36e0dfa6aab3",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1922,7 +1966,11 @@
       "size": 224,
       "prettySize": "224 B",
       "modifiedTime": "2018-02-22T21:15:51.637Z",
+<<<<<<< HEAD
       "accessTime": "2018-02-22T21:46:36.303Z",
+=======
+      "accessTime": "2018-02-22T21:25:29.236Z",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "changeTime": "2018-02-22T21:15:51.637Z",
       "birthTime": "2018-02-07T05:48:06.000Z",
       "root": "/",
@@ -1940,11 +1988,19 @@
       "blksize": 4194304,
       "ino": 8592385663,
       "blocks": 0,
+<<<<<<< HEAD
       "atimeMs": 1519335996302.5083,
       "mtimeMs": 1519334151637.3838,
       "ctimeMs": 1519334151637.3838,
       "birthtimeMs": 1517982486000,
       "atime": "2018-02-22T21:46:36.303Z",
+=======
+      "atimeMs": 1519334729236.1199,
+      "mtimeMs": 1519334151637.3838,
+      "ctimeMs": 1519334151637.3838,
+      "birthtimeMs": 1517982486000,
+      "atime": "2018-02-22T21:25:29.236Z",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "mtime": "2018-02-22T21:15:51.637Z",
       "ctime": "2018-02-22T21:15:51.637Z",
       "birthtime": "2018-02-07T05:48:06.000Z"
@@ -1954,7 +2010,11 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
+<<<<<<< HEAD
         "contentDigest": "789db2b3667b37081459be50046f7e89",
+=======
+        "contentDigest": "d85c335f8f853430710d92568c1de998",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1965,7 +2025,11 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-02-07T05:48:06.000Z",
+<<<<<<< HEAD
       "accessTime": "2018-02-22T21:46:36.307Z",
+=======
+      "accessTime": "2018-02-22T21:25:29.239Z",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "changeTime": "2018-02-07T08:19:53.520Z",
       "birthTime": "2018-02-07T05:48:06.000Z",
       "root": "/",
@@ -1983,11 +2047,19 @@
       "blksize": 4194304,
       "ino": 8592385689,
       "blocks": 0,
+<<<<<<< HEAD
       "atimeMs": 1519335996306.5103,
       "mtimeMs": 1517982486000,
       "ctimeMs": 1517991593520.2622,
       "birthtimeMs": 1517982486000,
       "atime": "2018-02-22T21:46:36.307Z",
+=======
+      "atimeMs": 1519334729238.633,
+      "mtimeMs": 1517982486000,
+      "ctimeMs": 1517991593520.2622,
+      "birthtimeMs": 1517982486000,
+      "atime": "2018-02-22T21:25:29.239Z",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "mtime": "2018-02-07T05:48:06.000Z",
       "ctime": "2018-02-07T08:19:53.520Z",
       "birthtime": "2018-02-07T05:48:06.000Z"
@@ -1997,7 +2069,11 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
+<<<<<<< HEAD
         "contentDigest": "fd82bcb53d7925ae071dbed88430a276",
+=======
+        "contentDigest": "a06bc9521d8883fde86dbf7a487084c8",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -2008,7 +2084,11 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-02-07T05:48:06.000Z",
+<<<<<<< HEAD
       "accessTime": "2018-02-22T21:46:36.307Z",
+=======
+      "accessTime": "2018-02-22T21:25:29.239Z",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "changeTime": "2018-02-07T08:19:53.519Z",
       "birthTime": "2018-02-07T05:48:06.000Z",
       "root": "/",
@@ -2026,11 +2106,19 @@
       "blksize": 4194304,
       "ino": 8592385686,
       "blocks": 0,
+<<<<<<< HEAD
       "atimeMs": 1519335996306.5586,
       "mtimeMs": 1517982486000,
       "ctimeMs": 1517991593518.7742,
       "birthtimeMs": 1517982486000,
       "atime": "2018-02-22T21:46:36.307Z",
+=======
+      "atimeMs": 1519334729238.5957,
+      "mtimeMs": 1517982486000,
+      "ctimeMs": 1517991593518.7742,
+      "birthtimeMs": 1517982486000,
+      "atime": "2018-02-22T21:25:29.239Z",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "mtime": "2018-02-07T05:48:06.000Z",
       "ctime": "2018-02-07T08:19:53.519Z",
       "birthtime": "2018-02-07T05:48:06.000Z"
@@ -2040,7 +2128,11 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
+<<<<<<< HEAD
         "contentDigest": "7350a6fedfe1f0166eebc063e47aa870",
+=======
+        "contentDigest": "b387e8889981d668c3632dbab31b98ac",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -2051,7 +2143,11 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-02-22T21:15:51.585Z",
+<<<<<<< HEAD
       "accessTime": "2018-02-22T21:46:36.307Z",
+=======
+      "accessTime": "2018-02-22T21:25:29.239Z",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "changeTime": "2018-02-22T21:15:51.585Z",
       "birthTime": "2018-02-22T21:15:51.575Z",
       "root": "/",
@@ -2069,11 +2165,19 @@
       "blksize": 4194304,
       "ino": 8593089986,
       "blocks": 0,
+<<<<<<< HEAD
       "atimeMs": 1519335996306.6038,
       "mtimeMs": 1519334151584.5388,
       "ctimeMs": 1519334151584.5388,
       "birthtimeMs": 1519334151575.432,
       "atime": "2018-02-22T21:46:36.307Z",
+=======
+      "atimeMs": 1519334729238.6582,
+      "mtimeMs": 1519334151584.5388,
+      "ctimeMs": 1519334151584.5388,
+      "birthtimeMs": 1519334151575.432,
+      "atime": "2018-02-22T21:25:29.239Z",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "mtime": "2018-02-22T21:15:51.585Z",
       "ctime": "2018-02-22T21:15:51.585Z",
       "birthtime": "2018-02-22T21:15:51.575Z"
@@ -2083,7 +2187,11 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
+<<<<<<< HEAD
         "contentDigest": "1899791771fe7cf729a3a4c01e021b88",
+=======
+        "contentDigest": "2d931532df351718b42063560227f143",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -2094,7 +2202,11 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-02-22T21:15:51.595Z",
+<<<<<<< HEAD
       "accessTime": "2018-02-22T21:46:36.307Z",
+=======
+      "accessTime": "2018-02-22T21:25:29.239Z",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "changeTime": "2018-02-22T21:15:51.595Z",
       "birthTime": "2018-02-07T05:48:06.000Z",
       "root": "/",
@@ -2112,11 +2224,19 @@
       "blksize": 4194304,
       "ino": 8592385664,
       "blocks": 0,
+<<<<<<< HEAD
       "atimeMs": 1519335996306.649,
       "mtimeMs": 1519334151595.3235,
       "ctimeMs": 1519334151595.3235,
       "birthtimeMs": 1517982486000,
       "atime": "2018-02-22T21:46:36.307Z",
+=======
+      "atimeMs": 1519334729238.7048,
+      "mtimeMs": 1519334151595.3235,
+      "ctimeMs": 1519334151595.3235,
+      "birthtimeMs": 1517982486000,
+      "atime": "2018-02-22T21:25:29.239Z",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "mtime": "2018-02-22T21:15:51.595Z",
       "ctime": "2018-02-22T21:15:51.595Z",
       "birthtime": "2018-02-07T05:48:06.000Z"
@@ -2126,7 +2246,11 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
+<<<<<<< HEAD
         "contentDigest": "832bacc396580ad38cff8fac16e3bee3",
+=======
+        "contentDigest": "b6a3ae20abbca723fd541b7395443f18",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -2137,7 +2261,11 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-02-22T21:15:51.620Z",
+<<<<<<< HEAD
       "accessTime": "2018-02-22T21:46:36.307Z",
+=======
+      "accessTime": "2018-02-22T21:25:29.239Z",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "changeTime": "2018-02-22T21:15:51.620Z",
       "birthTime": "2018-02-22T21:15:51.596Z",
       "root": "/",
@@ -2155,11 +2283,19 @@
       "blksize": 4194304,
       "ino": 8593089991,
       "blocks": 0,
+<<<<<<< HEAD
       "atimeMs": 1519335996306.693,
       "mtimeMs": 1519334151619.837,
       "ctimeMs": 1519334151619.837,
       "birthtimeMs": 1519334151595.6929,
       "atime": "2018-02-22T21:46:36.307Z",
+=======
+      "atimeMs": 1519334729238.6682,
+      "mtimeMs": 1519334151619.837,
+      "ctimeMs": 1519334151619.837,
+      "birthtimeMs": 1519334151595.6929,
+      "atime": "2018-02-22T21:25:29.239Z",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "mtime": "2018-02-22T21:15:51.620Z",
       "ctime": "2018-02-22T21:15:51.620Z",
       "birthtime": "2018-02-22T21:15:51.596Z"
@@ -2169,7 +2305,11 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
+<<<<<<< HEAD
         "contentDigest": "1bb75b4f7e5e8b5f1101a72ce29f156d",
+=======
+        "contentDigest": "ea6ea0bb70059131b5621b8ade23a8ba",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -2180,7 +2320,11 @@
       "size": 192,
       "prettySize": "192 B",
       "modifiedTime": "2018-02-22T21:15:51.625Z",
+<<<<<<< HEAD
       "accessTime": "2018-02-22T21:46:36.307Z",
+=======
+      "accessTime": "2018-02-22T21:25:29.239Z",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "changeTime": "2018-02-22T21:15:51.625Z",
       "birthTime": "2018-02-22T21:15:51.620Z",
       "root": "/",
@@ -2198,11 +2342,19 @@
       "blksize": 4194304,
       "ino": 8593089994,
       "blocks": 0,
+<<<<<<< HEAD
       "atimeMs": 1519335996306.7366,
       "mtimeMs": 1519334151625.301,
       "ctimeMs": 1519334151625.301,
       "birthtimeMs": 1519334151620.2344,
       "atime": "2018-02-22T21:46:36.307Z",
+=======
+      "atimeMs": 1519334729238.712,
+      "mtimeMs": 1519334151625.301,
+      "ctimeMs": 1519334151625.301,
+      "birthtimeMs": 1519334151620.2344,
+      "atime": "2018-02-22T21:25:29.239Z",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "mtime": "2018-02-22T21:15:51.625Z",
       "ctime": "2018-02-22T21:15:51.625Z",
       "birthtime": "2018-02-22T21:15:51.620Z"
@@ -2212,7 +2364,11 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
+<<<<<<< HEAD
         "contentDigest": "31d6af5ab94381698320c4a9ad3e9bf8",
+=======
+        "contentDigest": "45887352649ec63f0d4c4ed3f5a2bf78",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -2223,7 +2379,11 @@
       "size": 160,
       "prettySize": "160 B",
       "modifiedTime": "2018-02-22T21:15:51.645Z",
+<<<<<<< HEAD
       "accessTime": "2018-02-22T21:46:36.307Z",
+=======
+      "accessTime": "2018-02-22T21:25:29.239Z",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "changeTime": "2018-02-22T21:15:51.645Z",
       "birthTime": "2018-02-22T21:15:51.637Z",
       "root": "/",
@@ -2241,11 +2401,19 @@
       "blksize": 4194304,
       "ino": 8593089999,
       "blocks": 0,
+<<<<<<< HEAD
       "atimeMs": 1519335996306.7812,
       "mtimeMs": 1519334151645.1565,
       "ctimeMs": 1519334151645.1565,
       "birthtimeMs": 1519334151637.3562,
       "atime": "2018-02-22T21:46:36.307Z",
+=======
+      "atimeMs": 1519334729238.7878,
+      "mtimeMs": 1519334151645.1565,
+      "ctimeMs": 1519334151645.1565,
+      "birthtimeMs": 1519334151637.3562,
+      "atime": "2018-02-22T21:25:29.239Z",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "mtime": "2018-02-22T21:15:51.645Z",
       "ctime": "2018-02-22T21:15:51.645Z",
       "birthtime": "2018-02-22T21:15:51.637Z"
@@ -3771,7 +3939,11 @@
       "component": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/node_modules/gatsby-plugin-offline/app-shell.js",
       "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
       "context": {},
+<<<<<<< HEAD
       "updatedAt": 1519335996714,
+=======
+      "updatedAt": 1519334729806,
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "pluginCreator___NODE": "Plugin gatsby-plugin-offline",
       "pluginCreatorId": "Plugin gatsby-plugin-offline",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/node_modules/gatsby-plugin-offline/app-shell.js",
@@ -3780,7 +3952,11 @@
       "children": [],
       "internal": {
         "type": "SitePage",
+<<<<<<< HEAD
         "contentDigest": "030b68fe14d4c1f51f002791a8786ec9",
+=======
+        "contentDigest": "7bfd7d24a16fa1937bbefe4cef21e671",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
         "owner": "internal-data-bridge"
       }
     },
@@ -3794,7 +3970,11 @@
       "context": {
         "slug": "/about"
       },
+<<<<<<< HEAD
       "updatedAt": 1519335996734,
+=======
+      "updatedAt": 1519334729826,
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/page-template.jsx",
@@ -3803,7 +3983,11 @@
       "children": [],
       "internal": {
         "type": "SitePage",
+<<<<<<< HEAD
         "contentDigest": "e7da5e6c264b35a48854790b899d30c1",
+=======
+        "contentDigest": "fdf8ef9f3e867afa39cf9c92b6b7f8d4",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
         "owner": "internal-data-bridge"
       }
     },
@@ -3817,7 +4001,11 @@
       "context": {
         "slug": "/contact"
       },
+<<<<<<< HEAD
       "updatedAt": 1519335996735,
+=======
+      "updatedAt": 1519334729827,
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/page-template.jsx",
@@ -3826,7 +4014,11 @@
       "children": [],
       "internal": {
         "type": "SitePage",
+<<<<<<< HEAD
         "contentDigest": "161ba29d90e08a6c678448bd0e99c391",
+=======
+        "contentDigest": "0902d8bd88632ae30aef504910a927d7",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
         "owner": "internal-data-bridge"
       }
     },
@@ -3840,7 +4032,11 @@
       "context": {
         "slug": "/posts/perfecting-the-art-of-perfection/"
       },
+<<<<<<< HEAD
       "updatedAt": 1519335996735,
+=======
+      "updatedAt": 1519334729827,
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/post-template.jsx",
@@ -3849,7 +4045,11 @@
       "children": [],
       "internal": {
         "type": "SitePage",
+<<<<<<< HEAD
         "contentDigest": "2ea206e66d4ec5dcded4c2e45c1b53f6",
+=======
+        "contentDigest": "62732b03e0a58d7cea54fe741ec8efae",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
         "owner": "internal-data-bridge"
       }
     },
@@ -3863,7 +4063,11 @@
       "context": {
         "tag": "Handwriting"
       },
+<<<<<<< HEAD
       "updatedAt": 1519335996735,
+=======
+      "updatedAt": 1519334729827,
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
@@ -3872,7 +4076,11 @@
       "children": [],
       "internal": {
         "type": "SitePage",
+<<<<<<< HEAD
         "contentDigest": "afe2baf6ba23de64ff30f84d2fac57b9",
+=======
+        "contentDigest": "08ff99cedbb3d67c19d5a709a9b2f3e8",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
         "owner": "internal-data-bridge"
       }
     },
@@ -3886,7 +4094,11 @@
       "context": {
         "tag": "Learning to write"
       },
+<<<<<<< HEAD
       "updatedAt": 1519335996736,
+=======
+      "updatedAt": 1519334729828,
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
@@ -3895,7 +4107,11 @@
       "children": [],
       "internal": {
         "type": "SitePage",
+<<<<<<< HEAD
         "contentDigest": "8641c5a284a1475090e029db1284bd91",
+=======
+        "contentDigest": "694b9e21310d318a5ceffd62ca204b39",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
         "owner": "internal-data-bridge"
       }
     },
@@ -3909,7 +4125,11 @@
       "context": {
         "category": "Design Inspiration"
       },
+<<<<<<< HEAD
       "updatedAt": 1519335996741,
+=======
+      "updatedAt": 1519334729832,
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/category-template.jsx",
@@ -3918,7 +4138,11 @@
       "children": [],
       "internal": {
         "type": "SitePage",
+<<<<<<< HEAD
         "contentDigest": "31a871480ee36f7761c2797ade064501",
+=======
+        "contentDigest": "0a64621feb32bfb10c0e49f96253df29",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
         "owner": "internal-data-bridge"
       }
     },
@@ -3932,7 +4156,11 @@
       "context": {
         "slug": "/posts/the-origins-of-social-stationery-lettering"
       },
+<<<<<<< HEAD
       "updatedAt": 1519335996737,
+=======
+      "updatedAt": 1519334729828,
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/post-template.jsx",
@@ -3941,7 +4169,11 @@
       "children": [],
       "internal": {
         "type": "SitePage",
+<<<<<<< HEAD
         "contentDigest": "6e10626a74a0cc7c02a7fc48afecb5b5",
+=======
+        "contentDigest": "34ef35ac80ba880dbaf68bddcb1d2fc1",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
         "owner": "internal-data-bridge"
       }
     },
@@ -3955,7 +4187,11 @@
       "context": {
         "tag": "Typefaces"
       },
+<<<<<<< HEAD
       "updatedAt": 1519335996737,
+=======
+      "updatedAt": 1519334729829,
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
@@ -3964,7 +4200,11 @@
       "children": [],
       "internal": {
         "type": "SitePage",
+<<<<<<< HEAD
         "contentDigest": "50aac8d9dcbf59377575f55bf434b6c3",
+=======
+        "contentDigest": "949c53e7d72fe15abc3f059b939ea68b",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
         "owner": "internal-data-bridge"
       }
     },
@@ -3978,7 +4218,11 @@
       "context": {
         "tag": "Lettering"
       },
+<<<<<<< HEAD
       "updatedAt": 1519335996737,
+=======
+      "updatedAt": 1519334729829,
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
@@ -3987,7 +4231,11 @@
       "children": [],
       "internal": {
         "type": "SitePage",
+<<<<<<< HEAD
         "contentDigest": "c0a4e9d67a0731dabca214b2491bc5d3",
+=======
+        "contentDigest": "e1594cea07070f68b630c9e3dba15713",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
         "owner": "internal-data-bridge"
       }
     },
@@ -4001,7 +4249,11 @@
       "context": {
         "tag": "History"
       },
+<<<<<<< HEAD
       "updatedAt": 1519335996738,
+=======
+      "updatedAt": 1519334729829,
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
@@ -4010,7 +4262,11 @@
       "children": [],
       "internal": {
         "type": "SitePage",
+<<<<<<< HEAD
         "contentDigest": "9d824d2556da50e71a27e76bfc554798",
+=======
+        "contentDigest": "d6eea211efc61c8ecaa370096eb22379",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
         "owner": "internal-data-bridge"
       }
     },
@@ -4024,7 +4280,11 @@
       "context": {
         "category": "Design Culture"
       },
+<<<<<<< HEAD
       "updatedAt": 1519335996738,
+=======
+      "updatedAt": 1519334729830,
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/category-template.jsx",
@@ -4033,7 +4293,11 @@
       "children": [],
       "internal": {
         "type": "SitePage",
+<<<<<<< HEAD
         "contentDigest": "693dc9f0849f9ac40ea972fd1d1ef7ec",
+=======
+        "contentDigest": "78fc5a1244a4cccaa552be5b19499086",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
         "owner": "internal-data-bridge"
       }
     },
@@ -4047,7 +4311,11 @@
       "context": {
         "slug": "/posts/a-brief-history-of-typography/"
       },
+<<<<<<< HEAD
       "updatedAt": 1519335996738,
+=======
+      "updatedAt": 1519334729830,
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/post-template.jsx",
@@ -4056,7 +4324,11 @@
       "children": [],
       "internal": {
         "type": "SitePage",
+<<<<<<< HEAD
         "contentDigest": "04479f952fe9c4016972410b03920ff3",
+=======
+        "contentDigest": "7b1695b955656c0db8c91d7e24cb434e",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
         "owner": "internal-data-bridge"
       }
     },
@@ -4070,7 +4342,11 @@
       "context": {
         "tag": "Linotype"
       },
+<<<<<<< HEAD
       "updatedAt": 1519335996739,
+=======
+      "updatedAt": 1519334729830,
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
@@ -4079,7 +4355,11 @@
       "children": [],
       "internal": {
         "type": "SitePage",
+<<<<<<< HEAD
         "contentDigest": "4411e10d98ff260e050eded590163d5a",
+=======
+        "contentDigest": "65b84d1fdd79ab97452419a6f450fac7",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
         "owner": "internal-data-bridge"
       }
     },
@@ -4093,7 +4373,11 @@
       "context": {
         "tag": "Monotype"
       },
+<<<<<<< HEAD
       "updatedAt": 1519335996739,
+=======
+      "updatedAt": 1519334729831,
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
@@ -4102,7 +4386,11 @@
       "children": [],
       "internal": {
         "type": "SitePage",
+<<<<<<< HEAD
         "contentDigest": "ce3e8b15e08a36309443e21dfc6ab5c9",
+=======
+        "contentDigest": "28cb550826607867d9c119a29d7e4d13",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
         "owner": "internal-data-bridge"
       }
     },
@@ -4116,7 +4404,11 @@
       "context": {
         "tag": "History of typography"
       },
+<<<<<<< HEAD
       "updatedAt": 1519335996739,
+=======
+      "updatedAt": 1519334729831,
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
@@ -4125,7 +4417,11 @@
       "children": [],
       "internal": {
         "type": "SitePage",
+<<<<<<< HEAD
         "contentDigest": "07eb86e274e12714ae372fce1a5b9576",
+=======
+        "contentDigest": "e2f653c1be556dc2031752c542c2e89e",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
         "owner": "internal-data-bridge"
       }
     },
@@ -4139,7 +4435,11 @@
       "context": {
         "tag": "Helvetica"
       },
+<<<<<<< HEAD
       "updatedAt": 1519335996740,
+=======
+      "updatedAt": 1519334729831,
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
@@ -4148,7 +4448,11 @@
       "children": [],
       "internal": {
         "type": "SitePage",
+<<<<<<< HEAD
         "contentDigest": "56578228bae77a257b66dd7288900dfc",
+=======
+        "contentDigest": "2114d8ccc11e7351e9dd39d90cbb079d",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
         "owner": "internal-data-bridge"
       }
     },
@@ -4162,7 +4466,11 @@
       "context": {
         "slug": "/posts/the-birth-of-movable-type/"
       },
+<<<<<<< HEAD
       "updatedAt": 1519335996742,
+=======
+      "updatedAt": 1519334729832,
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/post-template.jsx",
@@ -4171,7 +4479,11 @@
       "children": [],
       "internal": {
         "type": "SitePage",
+<<<<<<< HEAD
         "contentDigest": "6a468ce15e150465addb6a27c7703f44",
+=======
+        "contentDigest": "720d58aa72e5e7d2f21438968fc13036",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
         "owner": "internal-data-bridge"
       }
     },
@@ -4185,7 +4497,11 @@
       "context": {
         "tag": "Open source"
       },
+<<<<<<< HEAD
       "updatedAt": 1519335996742,
+=======
+      "updatedAt": 1519334729833,
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
@@ -4194,7 +4510,11 @@
       "children": [],
       "internal": {
         "type": "SitePage",
+<<<<<<< HEAD
         "contentDigest": "2e6e7104cc7f0dc5ca7c069b691c74a3",
+=======
+        "contentDigest": "48907f97b6c7176fa81e1d954c07c12d",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
         "owner": "internal-data-bridge"
       }
     },
@@ -4208,7 +4528,11 @@
       "context": {
         "tag": "Gatsby"
       },
+<<<<<<< HEAD
       "updatedAt": 1519335996743,
+=======
+      "updatedAt": 1519334729833,
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
@@ -4217,7 +4541,11 @@
       "children": [],
       "internal": {
         "type": "SitePage",
+<<<<<<< HEAD
         "contentDigest": "a157b6795349898f029dabb26f9aa794",
+=======
+        "contentDigest": "f46779f2032bdb772c98009ae5f54589",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
         "owner": "internal-data-bridge"
       }
     },
@@ -4231,7 +4559,11 @@
       "context": {
         "tag": "Typography"
       },
+<<<<<<< HEAD
       "updatedAt": 1519335996745,
+=======
+      "updatedAt": 1519334729836,
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
@@ -4240,7 +4572,11 @@
       "children": [],
       "internal": {
         "type": "SitePage",
+<<<<<<< HEAD
         "contentDigest": "525067255bde9b91bc6576476dc87ef4",
+=======
+        "contentDigest": "5a055f7764f769d72ad0ba1a89b4817f",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
         "owner": "internal-data-bridge"
       }
     },
@@ -4254,7 +4590,11 @@
       "context": {
         "category": "Typography"
       },
+<<<<<<< HEAD
       "updatedAt": 1519335996745,
+=======
+      "updatedAt": 1519334729837,
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/category-template.jsx",
@@ -4263,7 +4603,11 @@
       "children": [],
       "internal": {
         "type": "SitePage",
+<<<<<<< HEAD
         "contentDigest": "db8f54c5ffc2c7f343640f7cbb7677ff",
+=======
+        "contentDigest": "96738a3ff8e1da651e9eda5f0bd1c1e0",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
         "owner": "internal-data-bridge"
       }
     },
@@ -4277,7 +4621,11 @@
       "context": {
         "slug": "/posts/humane-typography-in-the-digital-age/"
       },
+<<<<<<< HEAD
       "updatedAt": 1519335996744,
+=======
+      "updatedAt": 1519334729835,
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/post-template.jsx",
@@ -4286,7 +4634,11 @@
       "children": [],
       "internal": {
         "type": "SitePage",
+<<<<<<< HEAD
         "contentDigest": "af274151befabc6e84b2b374636dc161",
+=======
+        "contentDigest": "7d0965d3e55975d18311b455a6c446b0",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
         "owner": "internal-data-bridge"
       }
     },
@@ -4300,7 +4652,11 @@
       "context": {
         "tag": "Design"
       },
+<<<<<<< HEAD
       "updatedAt": 1519335996744,
+=======
+      "updatedAt": 1519334729836,
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
@@ -4309,7 +4665,11 @@
       "children": [],
       "internal": {
         "type": "SitePage",
+<<<<<<< HEAD
         "contentDigest": "763bb8fb6dc970e0058f7ba4f285143b",
+=======
+        "contentDigest": "ca92ef76b97b6fd4a3d3680b38345548",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
         "owner": "internal-data-bridge"
       }
     },
@@ -4323,7 +4683,11 @@
       "context": {
         "tag": "Web Development"
       },
+<<<<<<< HEAD
       "updatedAt": 1519335996745,
+=======
+      "updatedAt": 1519334729837,
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
@@ -4332,7 +4696,11 @@
       "children": [],
       "internal": {
         "type": "SitePage",
+<<<<<<< HEAD
         "contentDigest": "6773ba2a497e87ef971f88ef27302d65",
+=======
+        "contentDigest": "1782d7e7f3c765d06aeceffce1c1eb8d",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
         "owner": "internal-data-bridge"
       }
     },
@@ -4344,7 +4712,11 @@
       "component": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/404.jsx",
       "componentChunkName": "component---src-pages-404-jsx",
       "context": {},
+<<<<<<< HEAD
       "updatedAt": 1519335996778,
+=======
+      "updatedAt": 1519334729865,
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/404.jsx",
@@ -4353,7 +4725,11 @@
       "children": [],
       "internal": {
         "type": "SitePage",
+<<<<<<< HEAD
         "contentDigest": "af855785537b1a09cc0d3de671eda6c7",
+=======
+        "contentDigest": "3017dde938287756209334d548cf2a36",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
         "owner": "internal-data-bridge"
       }
     },
@@ -4365,7 +4741,11 @@
       "component": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/categories.jsx",
       "componentChunkName": "component---src-pages-categories-jsx",
       "context": {},
+<<<<<<< HEAD
       "updatedAt": 1519335996778,
+=======
+      "updatedAt": 1519334729865,
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/categories.jsx",
@@ -4374,7 +4754,11 @@
       "children": [],
       "internal": {
         "type": "SitePage",
+<<<<<<< HEAD
         "contentDigest": "97c704ac435f15b2ac96209bbf9291c7",
+=======
+        "contentDigest": "ab1fab99b27b6ef4886712fd857ef2f5",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
         "owner": "internal-data-bridge"
       }
     },
@@ -4386,7 +4770,11 @@
       "component": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/index.jsx",
       "componentChunkName": "component---src-pages-index-jsx",
       "context": {},
+<<<<<<< HEAD
       "updatedAt": 1519335996779,
+=======
+      "updatedAt": 1519334729866,
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/index.jsx",
@@ -4395,7 +4783,11 @@
       "children": [],
       "internal": {
         "type": "SitePage",
+<<<<<<< HEAD
         "contentDigest": "0ef1ecefb3b8f94e9366b627e47b7bb4",
+=======
+        "contentDigest": "c530efca72b0a0d89621b842eb3b6f60",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
         "owner": "internal-data-bridge"
       }
     },
@@ -4407,7 +4799,11 @@
       "component": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/tags.jsx",
       "componentChunkName": "component---src-pages-tags-jsx",
       "context": {},
+<<<<<<< HEAD
       "updatedAt": 1519335996779,
+=======
+      "updatedAt": 1519334729866,
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/tags.jsx",
@@ -4416,7 +4812,11 @@
       "children": [],
       "internal": {
         "type": "SitePage",
+<<<<<<< HEAD
         "contentDigest": "87467ff03ec2200d5a358170dd176830",
+=======
+        "contentDigest": "47d4a8ca164dfbfd80e7f4c1569d79c0",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
         "owner": "internal-data-bridge"
       }
     },
@@ -4428,7 +4828,11 @@
       "component": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/404.jsx",
       "componentChunkName": "component---src-pages-404-jsx",
       "context": {},
+<<<<<<< HEAD
       "updatedAt": 1519335996781,
+=======
+      "updatedAt": 1519334729869,
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/404.jsx",
@@ -4437,7 +4841,11 @@
       "children": [],
       "internal": {
         "type": "SitePage",
+<<<<<<< HEAD
         "contentDigest": "2add12a73adbab30cb680d10e2aab77c",
+=======
+        "contentDigest": "9543a82cb87d6ab84b520aa92af4909e",
+>>>>>>> 701ba6a6f6dde8d1840c3a62c99b31c2f5ab5cdf
         "owner": "internal-data-bridge"
       }
     }
