@@ -4,6 +4,7 @@
 .post {
     @include margin-top(2);
     @include margin-bottom(1.25);
+    opacity: 0;
     
     &:last-child {
         @include margin-bottom(.5);
@@ -15,6 +16,7 @@
         @include line-height(1);
         @include margin-top(.25);
         @include margin-bottom(0);
+
         &-link {
             color: $color-gray;
             &:hover,

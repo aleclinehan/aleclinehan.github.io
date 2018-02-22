@@ -1,5 +1,12 @@
 [
     {
+        "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-jsx",
+        "jsonName": "offline-plugin-app-shell-fallback.json",
+        "path": "/offline-plugin-app-shell-fallback/"
+    },
+    {
         "componentChunkName": "component---src-templates-page-template-jsx",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-jsx",
@@ -166,13 +173,6 @@
         "layoutComponentChunkName": "component---src-layouts-index-jsx",
         "jsonName": "tags-web-development.json",
         "path": "/tags/web-development/"
-    },
-    {
-        "componentChunkName": "component---cache-dev-404-page-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-jsx",
-        "jsonName": "dev-404-page.json",
-        "path": "/dev-404-page/"
     },
     {
         "componentChunkName": "component---src-pages-404-jsx",
