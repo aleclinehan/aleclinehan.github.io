@@ -1,23 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "layout": "index",
-      "jsonName": "dev-404-page.json",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "updatedAt": 1518427895888,
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4cb921ea66a2d5d8d436ffe034b33ee7",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -1818,16 +1808,14 @@
           "vk": "#"
         }
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-02-12T09:31:29.146Z",
+      "buildTime": "2018-02-22T21:46:32.025Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "7e2cfac672ccff12d81caee7ed9ceb75",
+        "contentDigest": "b633ff4c1d09cb696137b11a4ffb8c3c",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1837,7 +1825,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "96de4caf5bac10a7d272cbf337c97ba6",
+        "contentDigest": "984e335dcf2effdfc640d6ba113427ca",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1848,7 +1836,7 @@
       "size": 288,
       "prettySize": "288 B",
       "modifiedTime": "2018-02-12T09:18:05.648Z",
-      "accessTime": "2018-02-12T09:31:35.203Z",
+      "accessTime": "2018-02-22T21:46:36.300Z",
       "changeTime": "2018-02-12T09:18:05.648Z",
       "birthTime": "2018-02-07T05:48:06.000Z",
       "root": "/",
@@ -1857,7 +1845,7 @@
       "ext": "",
       "name": "pages",
       "relativeDirectory": "..",
-      "dev": 16777220,
+      "dev": 16777221,
       "mode": 16877,
       "nlink": 9,
       "uid": 501,
@@ -1866,11 +1854,11 @@
       "blksize": 4194304,
       "ino": 8592385660,
       "blocks": 0,
-      "atimeMs": 1518427895202.7607,
+      "atimeMs": 1519335996300.3945,
       "mtimeMs": 1518427085647.8328,
       "ctimeMs": 1518427085647.8328,
       "birthtimeMs": 1517982486000,
-      "atime": "2018-02-12T09:31:35.203Z",
+      "atime": "2018-02-22T21:46:36.300Z",
       "mtime": "2018-02-12T09:18:05.648Z",
       "ctime": "2018-02-12T09:18:05.648Z",
       "birthtime": "2018-02-07T05:48:06.000Z"
@@ -1880,7 +1868,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "8bedadc350a745b56ff207fdfd4b66fe",
+        "contentDigest": "e5bed12e08887be9d873728d5a1a22a2",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1891,7 +1879,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-02-07T05:48:06.000Z",
-      "accessTime": "2018-02-12T09:31:35.205Z",
+      "accessTime": "2018-02-22T21:46:36.302Z",
       "changeTime": "2018-02-07T08:19:53.520Z",
       "birthTime": "2018-02-07T05:48:06.000Z",
       "root": "/",
@@ -1900,7 +1888,7 @@
       "ext": "",
       "name": "pages",
       "relativeDirectory": "",
-      "dev": 16777220,
+      "dev": 16777221,
       "mode": 16877,
       "nlink": 4,
       "uid": 501,
@@ -1909,11 +1897,11 @@
       "blksize": 4194304,
       "ino": 8592385685,
       "blocks": 0,
-      "atimeMs": 1518427895204.9514,
+      "atimeMs": 1519335996302.4866,
       "mtimeMs": 1517982486000,
       "ctimeMs": 1517991593520.3777,
       "birthtimeMs": 1517982486000,
-      "atime": "2018-02-12T09:31:35.205Z",
+      "atime": "2018-02-22T21:46:36.302Z",
       "mtime": "2018-02-07T05:48:06.000Z",
       "ctime": "2018-02-07T08:19:53.520Z",
       "birthtime": "2018-02-07T05:48:06.000Z"
@@ -1923,7 +1911,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "ff8a5ea9c019181727d29e925e782126",
+        "contentDigest": "580371eeb64a730c2dad0416f4bbb5b9",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1933,9 +1921,9 @@
       "extension": "",
       "size": 224,
       "prettySize": "224 B",
-      "modifiedTime": "2018-02-07T05:48:06.000Z",
-      "accessTime": "2018-02-12T09:31:35.205Z",
-      "changeTime": "2018-02-12T09:18:05.648Z",
+      "modifiedTime": "2018-02-22T21:15:51.637Z",
+      "accessTime": "2018-02-22T21:46:36.303Z",
+      "changeTime": "2018-02-22T21:15:51.637Z",
       "birthTime": "2018-02-07T05:48:06.000Z",
       "root": "/",
       "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages",
@@ -1943,7 +1931,7 @@
       "ext": "",
       "name": "projects",
       "relativeDirectory": "",
-      "dev": 16777220,
+      "dev": 16777221,
       "mode": 16877,
       "nlink": 7,
       "uid": 501,
@@ -1952,13 +1940,13 @@
       "blksize": 4194304,
       "ino": 8592385663,
       "blocks": 0,
-      "atimeMs": 1518427895204.9524,
-      "mtimeMs": 1517982486000,
-      "ctimeMs": 1518427085647.8328,
+      "atimeMs": 1519335996302.5083,
+      "mtimeMs": 1519334151637.3838,
+      "ctimeMs": 1519334151637.3838,
       "birthtimeMs": 1517982486000,
-      "atime": "2018-02-12T09:31:35.205Z",
-      "mtime": "2018-02-07T05:48:06.000Z",
-      "ctime": "2018-02-12T09:18:05.648Z",
+      "atime": "2018-02-22T21:46:36.303Z",
+      "mtime": "2018-02-22T21:15:51.637Z",
+      "ctime": "2018-02-22T21:15:51.637Z",
       "birthtime": "2018-02-07T05:48:06.000Z"
     },
     "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/pages/2015-05-01---about absPath of file": {
@@ -1966,7 +1954,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "91000a33094ae8ff69dbed889f8763b6",
+        "contentDigest": "789db2b3667b37081459be50046f7e89",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1977,7 +1965,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-02-07T05:48:06.000Z",
-      "accessTime": "2018-02-12T09:31:35.208Z",
+      "accessTime": "2018-02-22T21:46:36.307Z",
       "changeTime": "2018-02-07T08:19:53.520Z",
       "birthTime": "2018-02-07T05:48:06.000Z",
       "root": "/",
@@ -1986,7 +1974,7 @@
       "ext": "",
       "name": "2015-05-01---about",
       "relativeDirectory": "pages",
-      "dev": 16777220,
+      "dev": 16777221,
       "mode": 16877,
       "nlink": 4,
       "uid": 501,
@@ -1995,11 +1983,11 @@
       "blksize": 4194304,
       "ino": 8592385689,
       "blocks": 0,
-      "atimeMs": 1518427895207.5632,
+      "atimeMs": 1519335996306.5103,
       "mtimeMs": 1517982486000,
       "ctimeMs": 1517991593520.2622,
       "birthtimeMs": 1517982486000,
-      "atime": "2018-02-12T09:31:35.208Z",
+      "atime": "2018-02-22T21:46:36.307Z",
       "mtime": "2018-02-07T05:48:06.000Z",
       "ctime": "2018-02-07T08:19:53.520Z",
       "birthtime": "2018-02-07T05:48:06.000Z"
@@ -2009,7 +1997,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "c0c8e9f77996a12560646beda9472ea5",
+        "contentDigest": "fd82bcb53d7925ae071dbed88430a276",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -2020,7 +2008,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-02-07T05:48:06.000Z",
-      "accessTime": "2018-02-12T09:31:35.208Z",
+      "accessTime": "2018-02-22T21:46:36.307Z",
       "changeTime": "2018-02-07T08:19:53.519Z",
       "birthTime": "2018-02-07T05:48:06.000Z",
       "root": "/",
@@ -2029,7 +2017,7 @@
       "ext": "",
       "name": "2015-05-01---contact",
       "relativeDirectory": "pages",
-      "dev": 16777220,
+      "dev": 16777221,
       "mode": 16877,
       "nlink": 4,
       "uid": 501,
@@ -2038,11 +2026,11 @@
       "blksize": 4194304,
       "ino": 8592385686,
       "blocks": 0,
-      "atimeMs": 1518427895207.6167,
+      "atimeMs": 1519335996306.5586,
       "mtimeMs": 1517982486000,
       "ctimeMs": 1517991593518.7742,
       "birthtimeMs": 1517982486000,
-      "atime": "2018-02-12T09:31:35.208Z",
+      "atime": "2018-02-22T21:46:36.307Z",
       "mtime": "2018-02-07T05:48:06.000Z",
       "ctime": "2018-02-07T08:19:53.519Z",
       "birthtime": "2018-02-07T05:48:06.000Z"
@@ -2052,7 +2040,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "79077eac7f52af9595afef6f6c2cfe60",
+        "contentDigest": "7350a6fedfe1f0166eebc063e47aa870",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -2062,40 +2050,40 @@
       "extension": "",
       "size": 128,
       "prettySize": "128 B",
-      "modifiedTime": "2018-02-07T05:48:06.000Z",
-      "accessTime": "2018-02-12T09:31:35.208Z",
-      "changeTime": "2018-02-07T08:19:53.508Z",
-      "birthTime": "2018-02-07T05:48:06.000Z",
+      "modifiedTime": "2018-02-22T21:15:51.585Z",
+      "accessTime": "2018-02-22T21:46:36.307Z",
+      "changeTime": "2018-02-22T21:15:51.585Z",
+      "birthTime": "2018-02-22T21:15:51.575Z",
       "root": "/",
       "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/projects",
       "base": "2016-01-09---Perfecting-the-Art-of-Perfection",
       "ext": "",
       "name": "2016-01-09---Perfecting-the-Art-of-Perfection",
       "relativeDirectory": "projects",
-      "dev": 16777220,
+      "dev": 16777221,
       "mode": 16877,
       "nlink": 4,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8592385667,
+      "ino": 8593089986,
       "blocks": 0,
-      "atimeMs": 1518427895207.618,
-      "mtimeMs": 1517982486000,
-      "ctimeMs": 1517991593507.8625,
-      "birthtimeMs": 1517982486000,
-      "atime": "2018-02-12T09:31:35.208Z",
-      "mtime": "2018-02-07T05:48:06.000Z",
-      "ctime": "2018-02-07T08:19:53.508Z",
-      "birthtime": "2018-02-07T05:48:06.000Z"
+      "atimeMs": 1519335996306.6038,
+      "mtimeMs": 1519334151584.5388,
+      "ctimeMs": 1519334151584.5388,
+      "birthtimeMs": 1519334151575.432,
+      "atime": "2018-02-22T21:46:36.307Z",
+      "mtime": "2018-02-22T21:15:51.585Z",
+      "ctime": "2018-02-22T21:15:51.585Z",
+      "birthtime": "2018-02-22T21:15:51.575Z"
     },
     "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/projects/2016-01-12---The-Origins-of-Social-Stationery-Lettering absPath of file": {
       "id": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/projects/2016-01-12---The-Origins-of-Social-Stationery-Lettering absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "57598f21fe8346f25446dd0d8de682ac",
+        "contentDigest": "1899791771fe7cf729a3a4c01e021b88",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -2105,9 +2093,9 @@
       "extension": "",
       "size": 128,
       "prettySize": "128 B",
-      "modifiedTime": "2018-02-07T05:48:06.000Z",
-      "accessTime": "2018-02-12T09:31:35.208Z",
-      "changeTime": "2018-02-07T08:19:53.506Z",
+      "modifiedTime": "2018-02-22T21:15:51.595Z",
+      "accessTime": "2018-02-22T21:46:36.307Z",
+      "changeTime": "2018-02-22T21:15:51.595Z",
       "birthTime": "2018-02-07T05:48:06.000Z",
       "root": "/",
       "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/projects",
@@ -2115,7 +2103,7 @@
       "ext": "",
       "name": "2016-01-12---The-Origins-of-Social-Stationery-Lettering",
       "relativeDirectory": "projects",
-      "dev": 16777220,
+      "dev": 16777221,
       "mode": 16877,
       "nlink": 4,
       "uid": 501,
@@ -2124,13 +2112,13 @@
       "blksize": 4194304,
       "ino": 8592385664,
       "blocks": 0,
-      "atimeMs": 1518427895207.7043,
-      "mtimeMs": 1517982486000,
-      "ctimeMs": 1517991593506.2268,
+      "atimeMs": 1519335996306.649,
+      "mtimeMs": 1519334151595.3235,
+      "ctimeMs": 1519334151595.3235,
       "birthtimeMs": 1517982486000,
-      "atime": "2018-02-12T09:31:35.208Z",
-      "mtime": "2018-02-07T05:48:06.000Z",
-      "ctime": "2018-02-07T08:19:53.506Z",
+      "atime": "2018-02-22T21:46:36.307Z",
+      "mtime": "2018-02-22T21:15:51.595Z",
+      "ctime": "2018-02-22T21:15:51.595Z",
       "birthtime": "2018-02-07T05:48:06.000Z"
     },
     "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/projects/2016-02-02---A-Brief-History-of-Typography absPath of file": {
@@ -2138,7 +2126,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "63c80318b5a93dde52ad82970524c86f",
+        "contentDigest": "832bacc396580ad38cff8fac16e3bee3",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -2148,40 +2136,40 @@
       "extension": "",
       "size": 128,
       "prettySize": "128 B",
-      "modifiedTime": "2018-02-07T05:48:06.000Z",
-      "accessTime": "2018-02-12T09:31:35.208Z",
-      "changeTime": "2018-02-07T08:19:53.515Z",
-      "birthTime": "2018-02-07T05:48:06.000Z",
+      "modifiedTime": "2018-02-22T21:15:51.620Z",
+      "accessTime": "2018-02-22T21:46:36.307Z",
+      "changeTime": "2018-02-22T21:15:51.620Z",
+      "birthTime": "2018-02-22T21:15:51.596Z",
       "root": "/",
       "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/projects",
       "base": "2016-02-02---A-Brief-History-of-Typography",
       "ext": "",
       "name": "2016-02-02---A-Brief-History-of-Typography",
       "relativeDirectory": "projects",
-      "dev": 16777220,
+      "dev": 16777221,
       "mode": 16877,
       "nlink": 4,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8592385679,
+      "ino": 8593089991,
       "blocks": 0,
-      "atimeMs": 1518427895207.7065,
-      "mtimeMs": 1517982486000,
-      "ctimeMs": 1517991593515.1228,
-      "birthtimeMs": 1517982486000,
-      "atime": "2018-02-12T09:31:35.208Z",
-      "mtime": "2018-02-07T05:48:06.000Z",
-      "ctime": "2018-02-07T08:19:53.515Z",
-      "birthtime": "2018-02-07T05:48:06.000Z"
+      "atimeMs": 1519335996306.693,
+      "mtimeMs": 1519334151619.837,
+      "ctimeMs": 1519334151619.837,
+      "birthtimeMs": 1519334151595.6929,
+      "atime": "2018-02-22T21:46:36.307Z",
+      "mtime": "2018-02-22T21:15:51.620Z",
+      "ctime": "2018-02-22T21:15:51.620Z",
+      "birthtime": "2018-02-22T21:15:51.596Z"
     },
     "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/projects/2017-18-08---The-Birth-of-Movable-Type absPath of file": {
       "id": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/projects/2017-18-08---The-Birth-of-Movable-Type absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "88245a66e1e8787fd3ccaf79685e24c5",
+        "contentDigest": "1bb75b4f7e5e8b5f1101a72ce29f156d",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -2191,40 +2179,40 @@
       "extension": "",
       "size": 192,
       "prettySize": "192 B",
-      "modifiedTime": "2018-02-07T05:48:06.000Z",
-      "accessTime": "2018-02-12T09:31:35.208Z",
-      "changeTime": "2018-02-07T08:19:53.511Z",
-      "birthTime": "2018-02-07T05:48:06.000Z",
+      "modifiedTime": "2018-02-22T21:15:51.625Z",
+      "accessTime": "2018-02-22T21:46:36.307Z",
+      "changeTime": "2018-02-22T21:15:51.625Z",
+      "birthTime": "2018-02-22T21:15:51.620Z",
       "root": "/",
       "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/projects",
       "base": "2017-18-08---The-Birth-of-Movable-Type",
       "ext": "",
       "name": "2017-18-08---The-Birth-of-Movable-Type",
       "relativeDirectory": "projects",
-      "dev": 16777220,
+      "dev": 16777221,
       "mode": 16877,
       "nlink": 6,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8592385670,
+      "ino": 8593089994,
       "blocks": 0,
-      "atimeMs": 1518427895207.7388,
-      "mtimeMs": 1517982486000,
-      "ctimeMs": 1517991593510.9827,
-      "birthtimeMs": 1517982486000,
-      "atime": "2018-02-12T09:31:35.208Z",
-      "mtime": "2018-02-07T05:48:06.000Z",
-      "ctime": "2018-02-07T08:19:53.511Z",
-      "birthtime": "2018-02-07T05:48:06.000Z"
+      "atimeMs": 1519335996306.7366,
+      "mtimeMs": 1519334151625.301,
+      "ctimeMs": 1519334151625.301,
+      "birthtimeMs": 1519334151620.2344,
+      "atime": "2018-02-22T21:46:36.307Z",
+      "mtime": "2018-02-22T21:15:51.625Z",
+      "ctime": "2018-02-22T21:15:51.625Z",
+      "birthtime": "2018-02-22T21:15:51.620Z"
     },
     "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/projects/2017-19-08---Humane-Typography-in-the-Digital-Age absPath of file": {
       "id": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/projects/2017-19-08---Humane-Typography-in-the-Digital-Age absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "b8932a44f4fad7f662f47b93471e7de8",
+        "contentDigest": "31d6af5ab94381698320c4a9ad3e9bf8",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -2234,33 +2222,33 @@
       "extension": "",
       "size": 160,
       "prettySize": "160 B",
-      "modifiedTime": "2018-02-07T05:48:06.000Z",
-      "accessTime": "2018-02-12T09:31:35.208Z",
-      "changeTime": "2018-02-07T08:19:53.513Z",
-      "birthTime": "2018-02-07T05:48:06.000Z",
+      "modifiedTime": "2018-02-22T21:15:51.645Z",
+      "accessTime": "2018-02-22T21:46:36.307Z",
+      "changeTime": "2018-02-22T21:15:51.645Z",
+      "birthTime": "2018-02-22T21:15:51.637Z",
       "root": "/",
       "dir": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/projects",
       "base": "2017-19-08---Humane-Typography-in-the-Digital-Age",
       "ext": "",
       "name": "2017-19-08---Humane-Typography-in-the-Digital-Age",
       "relativeDirectory": "projects",
-      "dev": 16777220,
+      "dev": 16777221,
       "mode": 16877,
       "nlink": 5,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8592385675,
+      "ino": 8593089999,
       "blocks": 0,
-      "atimeMs": 1518427895207.7637,
-      "mtimeMs": 1517982486000,
-      "ctimeMs": 1517991593513.1052,
-      "birthtimeMs": 1517982486000,
-      "atime": "2018-02-12T09:31:35.208Z",
-      "mtime": "2018-02-07T05:48:06.000Z",
-      "ctime": "2018-02-07T08:19:53.513Z",
-      "birthtime": "2018-02-07T05:48:06.000Z"
+      "atimeMs": 1519335996306.7812,
+      "mtimeMs": 1519334151645.1565,
+      "ctimeMs": 1519334151645.1565,
+      "birthtimeMs": 1519334151637.3562,
+      "atime": "2018-02-22T21:46:36.307Z",
+      "mtime": "2018-02-22T21:15:51.645Z",
+      "ctime": "2018-02-22T21:15:51.645Z",
+      "birthtime": "2018-02-22T21:15:51.637Z"
     },
     "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/categories.jsx absPath of file": {
       "id": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/categories.jsx absPath of file",
@@ -3775,6 +3763,27 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
+    "SitePage /offline-plugin-app-shell-fallback/": {
+      "layout": "index",
+      "jsonName": "offline-plugin-app-shell-fallback.json",
+      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
+      "path": "/offline-plugin-app-shell-fallback/",
+      "component": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/node_modules/gatsby-plugin-offline/app-shell.js",
+      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
+      "context": {},
+      "updatedAt": 1519335996714,
+      "pluginCreator___NODE": "Plugin gatsby-plugin-offline",
+      "pluginCreatorId": "Plugin gatsby-plugin-offline",
+      "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/node_modules/gatsby-plugin-offline/app-shell.js",
+      "id": "SitePage /offline-plugin-app-shell-fallback/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "030b68fe14d4c1f51f002791a8786ec9",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /about": {
       "layout": "index",
       "jsonName": "about.json",
@@ -3785,7 +3794,7 @@
       "context": {
         "slug": "/about"
       },
-      "updatedAt": 1518427895839,
+      "updatedAt": 1519335996734,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/page-template.jsx",
@@ -3794,7 +3803,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4e14d9755a069bf4f10d6029c308a2f2",
+        "contentDigest": "e7da5e6c264b35a48854790b899d30c1",
         "owner": "internal-data-bridge"
       }
     },
@@ -3808,7 +3817,7 @@
       "context": {
         "slug": "/contact"
       },
-      "updatedAt": 1518427895840,
+      "updatedAt": 1519335996735,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/page-template.jsx",
@@ -3817,7 +3826,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "8801aa93665e941ba53c6cdb46add8fa",
+        "contentDigest": "161ba29d90e08a6c678448bd0e99c391",
         "owner": "internal-data-bridge"
       }
     },
@@ -3831,7 +3840,7 @@
       "context": {
         "slug": "/posts/perfecting-the-art-of-perfection/"
       },
-      "updatedAt": 1518427895840,
+      "updatedAt": 1519335996735,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/post-template.jsx",
@@ -3840,7 +3849,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a8431edab40de09faaa0cf855bbc3610",
+        "contentDigest": "2ea206e66d4ec5dcded4c2e45c1b53f6",
         "owner": "internal-data-bridge"
       }
     },
@@ -3854,7 +3863,7 @@
       "context": {
         "tag": "Handwriting"
       },
-      "updatedAt": 1518427895841,
+      "updatedAt": 1519335996735,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
@@ -3863,7 +3872,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "09b4b02fd63160431d9135fd2b32b88b",
+        "contentDigest": "afe2baf6ba23de64ff30f84d2fac57b9",
         "owner": "internal-data-bridge"
       }
     },
@@ -3877,7 +3886,7 @@
       "context": {
         "tag": "Learning to write"
       },
-      "updatedAt": 1518427895841,
+      "updatedAt": 1519335996736,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
@@ -3886,7 +3895,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2989e7c5763ff414c8e1981cb9f52e97",
+        "contentDigest": "8641c5a284a1475090e029db1284bd91",
         "owner": "internal-data-bridge"
       }
     },
@@ -3900,7 +3909,7 @@
       "context": {
         "category": "Design Inspiration"
       },
-      "updatedAt": 1518427895849,
+      "updatedAt": 1519335996741,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/category-template.jsx",
@@ -3909,7 +3918,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ae0eed8aaa278c04c54046a4abc0456a",
+        "contentDigest": "31a871480ee36f7761c2797ade064501",
         "owner": "internal-data-bridge"
       }
     },
@@ -3923,7 +3932,7 @@
       "context": {
         "slug": "/posts/the-origins-of-social-stationery-lettering"
       },
-      "updatedAt": 1518427895842,
+      "updatedAt": 1519335996737,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/post-template.jsx",
@@ -3932,7 +3941,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "8c380c82976028c48a7a693832eddd4d",
+        "contentDigest": "6e10626a74a0cc7c02a7fc48afecb5b5",
         "owner": "internal-data-bridge"
       }
     },
@@ -3946,7 +3955,7 @@
       "context": {
         "tag": "Typefaces"
       },
-      "updatedAt": 1518427895842,
+      "updatedAt": 1519335996737,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
@@ -3955,7 +3964,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "543ca66bc05b623a80529ea44c7625fb",
+        "contentDigest": "50aac8d9dcbf59377575f55bf434b6c3",
         "owner": "internal-data-bridge"
       }
     },
@@ -3969,7 +3978,7 @@
       "context": {
         "tag": "Lettering"
       },
-      "updatedAt": 1518427895843,
+      "updatedAt": 1519335996737,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
@@ -3978,7 +3987,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "29c7f432a71b79d2ef94a94322d5a14f",
+        "contentDigest": "c0a4e9d67a0731dabca214b2491bc5d3",
         "owner": "internal-data-bridge"
       }
     },
@@ -3992,7 +4001,7 @@
       "context": {
         "tag": "History"
       },
-      "updatedAt": 1518427895843,
+      "updatedAt": 1519335996738,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
@@ -4001,7 +4010,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9fb5c27bca2f3cb7a6b87cc71102ef1f",
+        "contentDigest": "9d824d2556da50e71a27e76bfc554798",
         "owner": "internal-data-bridge"
       }
     },
@@ -4015,7 +4024,7 @@
       "context": {
         "category": "Design Culture"
       },
-      "updatedAt": 1518427895844,
+      "updatedAt": 1519335996738,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/category-template.jsx",
@@ -4024,7 +4033,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "77a183643f6fd821c3643d09c60431a9",
+        "contentDigest": "693dc9f0849f9ac40ea972fd1d1ef7ec",
         "owner": "internal-data-bridge"
       }
     },
@@ -4038,7 +4047,7 @@
       "context": {
         "slug": "/posts/a-brief-history-of-typography/"
       },
-      "updatedAt": 1518427895844,
+      "updatedAt": 1519335996738,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/post-template.jsx",
@@ -4047,7 +4056,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9c9fd2f5d9d5ab1cc69ac490d0060674",
+        "contentDigest": "04479f952fe9c4016972410b03920ff3",
         "owner": "internal-data-bridge"
       }
     },
@@ -4061,7 +4070,7 @@
       "context": {
         "tag": "Linotype"
       },
-      "updatedAt": 1518427895845,
+      "updatedAt": 1519335996739,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
@@ -4070,7 +4079,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "61d77ebbe34a85844df772fb692e46e3",
+        "contentDigest": "4411e10d98ff260e050eded590163d5a",
         "owner": "internal-data-bridge"
       }
     },
@@ -4084,7 +4093,7 @@
       "context": {
         "tag": "Monotype"
       },
-      "updatedAt": 1518427895846,
+      "updatedAt": 1519335996739,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
@@ -4093,7 +4102,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "09f9452bdd81ab8dca504fba735178a9",
+        "contentDigest": "ce3e8b15e08a36309443e21dfc6ab5c9",
         "owner": "internal-data-bridge"
       }
     },
@@ -4107,7 +4116,7 @@
       "context": {
         "tag": "History of typography"
       },
-      "updatedAt": 1518427895846,
+      "updatedAt": 1519335996739,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
@@ -4116,7 +4125,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "62ea1455743c26c72c2fa6a7fab3c5c5",
+        "contentDigest": "07eb86e274e12714ae372fce1a5b9576",
         "owner": "internal-data-bridge"
       }
     },
@@ -4130,7 +4139,7 @@
       "context": {
         "tag": "Helvetica"
       },
-      "updatedAt": 1518427895847,
+      "updatedAt": 1519335996740,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
@@ -4139,7 +4148,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4af6a9bc33f46eaef0c4aad94ee2688b",
+        "contentDigest": "56578228bae77a257b66dd7288900dfc",
         "owner": "internal-data-bridge"
       }
     },
@@ -4153,7 +4162,7 @@
       "context": {
         "slug": "/posts/the-birth-of-movable-type/"
       },
-      "updatedAt": 1518427895849,
+      "updatedAt": 1519335996742,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/post-template.jsx",
@@ -4162,7 +4171,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c94613b6b7195b651a7ce1eac56f0e13",
+        "contentDigest": "6a468ce15e150465addb6a27c7703f44",
         "owner": "internal-data-bridge"
       }
     },
@@ -4176,7 +4185,7 @@
       "context": {
         "tag": "Open source"
       },
-      "updatedAt": 1518427895850,
+      "updatedAt": 1519335996742,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
@@ -4185,7 +4194,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c29cb878fbe7fabf9a5f7ef1c7116c24",
+        "contentDigest": "2e6e7104cc7f0dc5ca7c069b691c74a3",
         "owner": "internal-data-bridge"
       }
     },
@@ -4199,7 +4208,7 @@
       "context": {
         "tag": "Gatsby"
       },
-      "updatedAt": 1518427895850,
+      "updatedAt": 1519335996743,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
@@ -4208,7 +4217,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6bdc4a1f6846c46e4d5a5b20f52c6993",
+        "contentDigest": "a157b6795349898f029dabb26f9aa794",
         "owner": "internal-data-bridge"
       }
     },
@@ -4222,7 +4231,7 @@
       "context": {
         "tag": "Typography"
       },
-      "updatedAt": 1518427895852,
+      "updatedAt": 1519335996745,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
@@ -4231,7 +4240,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "7d5899a59073053b32b46f08dd05b570",
+        "contentDigest": "525067255bde9b91bc6576476dc87ef4",
         "owner": "internal-data-bridge"
       }
     },
@@ -4245,7 +4254,7 @@
       "context": {
         "category": "Typography"
       },
-      "updatedAt": 1518427895852,
+      "updatedAt": 1519335996745,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/category-template.jsx",
@@ -4254,7 +4263,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "8990bfe639baa8bbb4b7c84549e4e1fb",
+        "contentDigest": "db8f54c5ffc2c7f343640f7cbb7677ff",
         "owner": "internal-data-bridge"
       }
     },
@@ -4268,7 +4277,7 @@
       "context": {
         "slug": "/posts/humane-typography-in-the-digital-age/"
       },
-      "updatedAt": 1518427895851,
+      "updatedAt": 1519335996744,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/post-template.jsx",
@@ -4277,7 +4286,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b2ec6568bfefbe190c9fba514c711a6c",
+        "contentDigest": "af274151befabc6e84b2b374636dc161",
         "owner": "internal-data-bridge"
       }
     },
@@ -4291,7 +4300,7 @@
       "context": {
         "tag": "Design"
       },
-      "updatedAt": 1518427895851,
+      "updatedAt": 1519335996744,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
@@ -4300,7 +4309,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ebe073a532c6bd442e788a3dfb4b4da1",
+        "contentDigest": "763bb8fb6dc970e0058f7ba4f285143b",
         "owner": "internal-data-bridge"
       }
     },
@@ -4314,7 +4323,7 @@
       "context": {
         "tag": "Web Development"
       },
-      "updatedAt": 1518427895852,
+      "updatedAt": 1519335996745,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/templates/tag-template.jsx",
@@ -4323,7 +4332,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "309f55ef2fc5573bd16a2b0c1eac49e8",
+        "contentDigest": "6773ba2a497e87ef971f88ef27302d65",
         "owner": "internal-data-bridge"
       }
     },
@@ -4335,7 +4344,7 @@
       "component": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/404.jsx",
       "componentChunkName": "component---src-pages-404-jsx",
       "context": {},
-      "updatedAt": 1518427895894,
+      "updatedAt": 1519335996778,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/404.jsx",
@@ -4344,7 +4353,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f3393c4d22a7350bc75a18c69c909b3e",
+        "contentDigest": "af855785537b1a09cc0d3de671eda6c7",
         "owner": "internal-data-bridge"
       }
     },
@@ -4356,7 +4365,7 @@
       "component": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/categories.jsx",
       "componentChunkName": "component---src-pages-categories-jsx",
       "context": {},
-      "updatedAt": 1518427895895,
+      "updatedAt": 1519335996778,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/categories.jsx",
@@ -4365,7 +4374,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5ec86e9f508efbc929260c86b4d0db93",
+        "contentDigest": "97c704ac435f15b2ac96209bbf9291c7",
         "owner": "internal-data-bridge"
       }
     },
@@ -4377,7 +4386,7 @@
       "component": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/index.jsx",
       "componentChunkName": "component---src-pages-index-jsx",
       "context": {},
-      "updatedAt": 1518427895895,
+      "updatedAt": 1519335996779,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/index.jsx",
@@ -4386,7 +4395,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f36a56d993daa1989beaa7f272ddc1cc",
+        "contentDigest": "0ef1ecefb3b8f94e9366b627e47b7bb4",
         "owner": "internal-data-bridge"
       }
     },
@@ -4398,7 +4407,7 @@
       "component": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/tags.jsx",
       "componentChunkName": "component---src-pages-tags-jsx",
       "context": {},
-      "updatedAt": 1518427895895,
+      "updatedAt": 1519335996779,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/tags.jsx",
@@ -4407,7 +4416,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "755e8ec4d3b1faede7789eebb26c5239",
+        "contentDigest": "87467ff03ec2200d5a358170dd176830",
         "owner": "internal-data-bridge"
       }
     },
@@ -4419,7 +4428,7 @@
       "component": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/404.jsx",
       "componentChunkName": "component---src-pages-404-jsx",
       "context": {},
-      "updatedAt": 1518427895897,
+      "updatedAt": 1519335996781,
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
       "componentPath": "/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/src/pages/404.jsx",
@@ -4428,7 +4437,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "cbd6a30d389647c4c99e80ac07830549",
+        "contentDigest": "2add12a73adbab30cb680d10e2aab77c",
         "owner": "internal-data-bridge"
       }
     }

@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom';
 
 import './style.scss';
 
+
 class Icosa extends React.Component {
   constructor(props, context) {
     super(props, context);
@@ -53,7 +54,7 @@ class Icosa extends React.Component {
   
 
 
-  render() {
+  componentDidMount() {
     const width = window.innerWidth; // canvas width
     const height = window.innerHeight; // canvas height
 
