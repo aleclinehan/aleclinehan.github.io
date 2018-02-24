@@ -2,10 +2,16 @@ var plugins = [{
       plugin: require('/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/node_modules/gatsby-plugin-google-analytics/gatsby-browser.js'),
       options: {"plugins":[],"trackingId":""},
     },{
+      plugin: require('/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/node_modules/gatsby-plugin-catch-links/gatsby-browser.js'),
+      options: {"plugins":[]},
+    },{
       plugin: require('/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/node_modules/gatsby-plugin-offline/gatsby-browser.js'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/node_modules/gatsby-plugin-catch-links/gatsby-browser.js'),
+      plugin: require('/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/node_modules/gatsby-plugin-react-next/gatsby-browser.js'),
+      options: {"plugins":[]},
+    },{
+      plugin: require('/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/node_modules/gatsby-plugin-twitter/gatsby-browser.js'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks

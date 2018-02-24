@@ -1,17 +1,17 @@
 var plugins = [{
-      plugin: require('/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/node_modules/gatsby-plugin-feed/gatsby-ssr.js'),
-      options: {"plugins":[],"query":"\n          {\n            site {\n              siteMetadata {\n                url\n                title\n                subtitle\n              }\n            }\n          }\n        ","feeds":[{"query":"\n              {\n                allMarkdownRemark(\n                  limit: 1000,\n                  sort: { order: DESC, fields: [frontmatter___date] },\n                  filter: { frontmatter: { layout: { eq: \"post\" }, draft: { ne: true } } }\n                ) {\n                  edges {\n                    node {\n                      html\n                      fields {\n                        slug\n                      }\n                      frontmatter {\n                        title\n                        date\n                        layout\n                        draft\n                        description\n                      }\n                    }\n                  }\n                }\n              }\n            ","output":"/rss.xml"}]},
+      plugin: require('/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/node_modules/gatsby-plugin-manifest/gatsby-ssr.js'),
+      options: {"plugins":[],"name":"Gatstrap","short_name":"Gatstrap","start_url":"/","background_color":"#fff","theme_color":"#673ab7","display":"minimal-ui","icons":[{"src":"/img/android-chrome-192x192.png","sizes":"192x192","type":"image/png"},{"src":"/img/android-chrome-512x512.png","sizes":"512x512","type":"image/png"}]},
     },{
       plugin: require('/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/node_modules/gatsby-plugin-google-analytics/gatsby-ssr.js'),
       options: {"plugins":[],"trackingId":""},
     },{
-      plugin: require('/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/node_modules/gatsby-plugin-google-fonts/gatsby-ssr.js'),
-      options: {"plugins":[],"fonts":["roboto:400,400i,500,700"]},
+      plugin: require('/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/node_modules/gatsby-plugin-react-helmet/gatsby-ssr.js'),
+      options: {"plugins":[]},
     },{
       plugin: require('/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/node_modules/gatsby-plugin-sitemap/gatsby-ssr.js'),
-      options: {"plugins":[],"query":"\n            {\n              site {\n                siteMetadata {\n                  url\n                }\n              }\n              allSitePage(\n                filter: {\n                  path: { regex: \"/^(?!/404/|/404.html|/dev-404-page/)/\" }\n                }\n              ) {\n                edges {\n                  node {\n                    path\n                  }\n                }\n              }\n          }","output":"/sitemap.xml"},
+      options: {"plugins":[]},
     },{
-      plugin: require('/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/node_modules/gatsby-plugin-react-helmet/gatsby-ssr.js'),
+      plugin: require('/Users/alec/Documents/GitHub/aleclinehan.github.io/aleclinehan.github.io/node_modules/gatsby-plugin-twitter/gatsby-ssr.js'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:

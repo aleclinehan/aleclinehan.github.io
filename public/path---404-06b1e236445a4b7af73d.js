@@ -1,2 +1,0 @@
-webpackJsonp([0xe70826b53c04],{417:function(t,e){t.exports={data:{site:{siteMetadata:{title:"Robot Brain Media",subtitle:"Robot Brain Media helps established brands fuel, curate and explore their virtual presence ",copyright:"© All rights reserved.",menu:[{label:"Articles",path:"/"},{label:"About me",path:"/about/"},{label:"Contact me",path:"/contact/"}],author:{name:"",email:"#",telegram:"#",twitter:"#",github:"#",rss:"#",vk:"#"}}}},pathContext:{}}}});
-//# sourceMappingURL=path---404-06b1e236445a4b7af73d.js.map
