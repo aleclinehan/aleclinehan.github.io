@@ -43,6 +43,7 @@
 
 html,
 body {
+  text-align: left;
   margin: 0;
   padding: 0;
 }
@@ -59,7 +60,6 @@ html {
 }
 
 body {
-  text-align: left;
   color: #515151;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
