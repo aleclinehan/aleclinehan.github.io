@@ -9,7 +9,7 @@ permalink:           pretty
 title:               Robot Brain Media
 tagline:             'A Digital Consulting Agnecy'
 description:         'Robot Brain Media helps companies curate, build and explore their digital presence. </br></br> We are not robots.'
-url:                 http://www.robotbrain.media
+url:                 'http://www.robotbrain.media'
 baseurl:             '/'
 paginate:            5
 
