@@ -11,7 +11,7 @@ plugins: [jekyll-paginate]
 title:               ROBOT BRAIN MEDIA
 tagline:             'A Digital Consulting Agnecy'
 description:         'Robot Brain Media helps companies curate, build and explore their digital presence. </br></br> We are not robots.'
-url:                 'http://www.robotbrain.media'
+url:                 'www.robotbrain.media'
 baseurl:             '/'
 paginate:            5
 
